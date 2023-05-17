@@ -1,0 +1,459 @@
+/********** global values  *************/
+:root{
+    --white:  #FFFFFF;
+    --black: #000000;
+
+    --neutral_25: #FCFCFD;
+    --neutral_50: #FAFBFC;
+    --neutral_100: #F8F9FB;
+    --neutral_200: #F9F9F9;
+    --neutral_300: #F7F7F8;
+    --neutral_400: #F5F5F5;
+    --neutral_500: #EFEFF1;
+    --neutral_600: #EAECF0;
+    --neutral_700: #DDDFE4;
+    --neutral_800: #A5ACBA;
+    --neutral_900: #878D97;
+    --neutral_950: #6B7B8F;
+
+    --gray_25: #5F6D7E;
+    --gray_50: #5F6D7E;
+    --gray_100: #49556D;
+    --gray_200: #384255;
+    --gray_300: #2E3545;
+    --gray_400: #333B48;
+    --gray_500: #2E3646;
+    --gray_600: #2C3444;
+    --gray_700: #272D37;
+    --gray_800: #252D3C;
+    --gray_900: #1C2534;
+    --gray_950: #151B28;
+
+    --primary_blue_25: #F5FAFF;
+    --primary_blue_50: #F5F8FE;
+    --primary_blue_100: #E8EFFD;
+    --primary_blue_200: #B1CCFB;
+    --primary_blue_300: #AEC9FE;
+    --primary_blue_400: #648EF7;
+    --primary_blue_500: #5390F8;
+    --primary_blue_600: #437EF7;
+    --primary_blue_700: #3971E7;
+    --primary_blue_800: #3E67E3;
+    --primary_blue_900: #2B63D9;
+    --primary_blue_950: #1B4397;
+
+    --error_25: #FEF6F6;
+    --error_50: #FEF6F6;
+    --error_100: #FFF2F0;
+    --error_200: #FFDBD7;
+    --error_300: #FEB8AE;
+    --error_400: #FD5E49;
+    --error_450: #F15146;
+    --error_500: #F04438;
+    --error_600: #E2341D;
+    --error_700: #B02817;
+    --error_900: #3E2026;
+    --error_950: #3E2026;
+
+    --warning_25: #FBFAF8;
+    --warning_50: #fff8eb;
+    --warning_100: #ffe4c0;
+    --warning_200: #ffdda1;
+    --warning_300: #ffd08a;
+    --warning_400: #ffc772;
+    --warning_500: #ffae43;
+    --warning_600: #eea23e;
+    --warning_700: #d78100;
+    --warning_800: #a15c00;
+    --warning_900: #6b3d00;
+    --warning_950: #4D2C00;
+
+    --success_25: #FBFAF8;
+    --success_50: #f0faf0;
+    --success_100: #c9ebcb;
+    --success_200: #a6e1a8;
+    --success_300: #93d698;
+    --success_400: #7fd184;
+    --success_500: #5dc264;
+    --success_600: #41ae49;
+    --success_700: #2d8a39;
+    --success_800: #27682c;
+    --success_900: #1a451d;
+    --success_950: #0D3510;
+
+    --purple_25: #F9F8FB;
+    --purple_50: #ecebff;
+    --purple_100: #c7c4fd;
+    --purple_200: #aba7fd;
+    --purple_300: #8f89fc;
+    --purple_400: #736cfb;
+    --purple_500: #5d55f6;
+    --purple_600: #574efa;
+    --purple_700: #463ee3;
+    --purple_800: #352dc8;
+    --purple_900: #33059f;
+    --purple_950: #33059f;
+
+    /* gradients */
+    --gradient_100_400: linear-gradient(90deg, #B2CCFF 0%, #528BFF 100%);
+    --gradient_800_400: linear-gradient(25deg, #0040C1 12.38%, #528BFF 87.62%);
+    --gradient_900_600: linear-gradient(45deg, #0848AF 14.64%, #3971E7 85.36%);
+    --gradient_25_900: conic-gradient(from 225deg at 50% 50%, #F5F8FF 0deg, #00359E 360deg);
+    --gradient_600_100: linear-gradient(225deg, #B2CCFF 14.64%, #1058E8 85.36%);
+    --gradient_overlay_dark: rgba(15, 23, 36, 0.85);
+    
+    --gradient_400_900: linear-gradient(90deg, #F2F4F7 0%, #98A2B3 100%);
+    --gradient_800_800: linear-gradient(25deg, #1D2939 12.38%, #98A2B3 87.62%);
+    --gradient_50_900: conic-gradient(from 225deg at 50% 50%, #FCFCFD 0deg, #101828 360deg);
+    --gradient_purple_blue: linear-gradient(225deg, #0046D1 14.64%, #A48AFB 85.36%);
+
+    --font_1rem: 1rem;
+    --font_1-5rem:1.5rem;
+    --font_2rem: 2rem;
+
+
+    --width_400px: 25rem;
+    --width_768px: 48rem;
+    --width_800px: 50rem;
+    --width_1216px: 76rem; 
+    --width_1280px: 80rem; 
+
+}
+.pb-6{
+    padding-bottom: 2rem;
+}
+.pt-6{
+    padding-top: 2rem;
+}
+
+.pt-64{
+    padding-top: 64px;
+}
+
+.pb-64{
+    padding-bottom: 64px;
+}
+
+.mb-6{
+    margin-bottom: 2rem;
+}
+.mt-6{
+    margin-top: 2rem;
+}
+
+.mx-80{
+    margin-left:80px;
+    margin-right:80px;
+}
+
+.mt-80{
+    margin-top:80px;
+}
+
+.mb-80{
+    margin-bottom:80px;
+}
+
+.ms-64{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.mt-64{
+    margin-top: 64px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+    color: var(--gray_700);
+    font-weight: 700;
+}
+
+a{
+    text-transform: capitalize;
+}
+
+p,span{
+    color: var(--gray_50);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+button{
+    text-transform: capitalize;
+    font-size: var(--font_1rem);
+    font-weight: 600;
+    line-height: 22px;
+}
+
+
+/********** global values  *************/
+
+
+
+/********************* writing css with DEFAULT WIDTH GIVEN BY PROJECT AS 1440px  ***************/
+
+/****************************** landing page 3 *********************************/
+
+/********** landing3 page header  *************/
+.landing3-header{
+    background-color: var(--primary_blue_900);
+}
+
+.land3-signup{
+    color: white;
+
+}
+
+.land3-navbar{
+    border-bottom: 1px solid var(--primary_blue_400);
+    padding: 20px 100px;
+}
+
+/********** landing3 hero base  *************/
+.land3-hero{
+    display: grid;
+    place-items: center;
+}
+
+.land3-head{
+    width: 40rem;
+    padding: 80px 0 92px 0; 
+    text-align: left;
+}
+
+.land3-head h1{
+    color: white;
+    font-size: 3.25rem;
+    font-weight: bold;
+    padding: 0 0 24px 0;
+}
+
+.hero-img{
+    background-image: url(../resources/land3-img1.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 620px;
+
+}
+
+.hero-img img{
+    position: relative;
+    left: 9rem;
+    top: 9rem;
+}
+
+.land3-head p{
+    color: var(--primary_blue_200);
+    font-size: 1.125rem;
+  
+}
+/********** landing3 hero base  *************/
+
+/********** landing3 page header  *************/
+
+/********** landing6 Work Easier Today *************/
+
+.land3-eaiserCards{
+    width: var(--width_1216px);
+}
+
+.land3-eaiserCard{
+    padding: 0 3rem;
+}
+
+.land3-eaiserCard h4{
+    color: var(--gray_700);
+    padding: 12px 0;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.learn-more-land3 {
+    font-size: var(--font_1rem);
+    font-weight: 500;
+    text-decoration: none;
+}
+/********** landing3 Work Easier Today *************/
+
+/********** landing3 demonstrate branding *************/
+
+.land3-demonstrate-section {
+    display: grid;
+    place-items: center;
+    background-color: var(--gray_950);
+    padding: 64px 0;
+}
+
+.land3-demonstrate-h2 {
+    color: white;
+    font-size: 22px;
+    line-height: 42px;
+}
+
+.land3-demonstrate-p {
+    color: var(--neutral_800);
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.land3-msg {
+    text-align: center;
+    width: 850px;
+}
+
+.land3-thank-msg{
+    text-transform: none;
+    padding: 32px 0;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+.avatar-msg{
+    display: grid;
+    place-items: center;
+}
+
+.avatar-del p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.avatar-del h6{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+/********** landing3 demonstrate branding *************/
+
+
+/********** landing3 latest blog posts *************/
+
+.land3-avatar-card{
+    width: 24rem;
+    border: none;
+}
+
+.land3-avatar-bg-img{
+    object-fit: cover;
+    height: 248px;
+    border-radius: 0.8rem;
+}
+
+
+/********** landing3 latest blog posts *************/
+
+/********** landing3 proud to be used by *************/
+.cp-img{
+ width: 1216px;
+}
+
+.land3-logo-img{
+    object-fit: cover;
+
+}
+/********** landing3 proud to be used by *************/
+
+/********** landing2  email submition  *************/
+.land3-email-section{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: var(--neutral_50);
+    padding: 64px 0;
+}
+
+.land3-email-head{
+    text-align: center;
+    width: 47rem;
+    /* margin-right: 80px; */
+}
+
+.land3-email-head h1{
+    color: var(--gray_700);
+    font-size: var(--font_2rem);
+    font-weight: 600;
+    line-height: 42px;
+    margin-bottom: 24px;
+}
+
+.land3-email-submit{
+    text-align: center;
+}
+
+
+.land3-email-submit input{
+    padding: 20px;
+    width: 26.25rem;
+    height: 46px;
+    border: 1px solid var(--neutral_700);
+    border-radius: 6px 0px 0px 6px;
+}
+
+.land3-email-submit button{
+    width: 5.5rem;
+    padding: 12px 18px;
+    margin: 0;
+    gap: 0;
+    height: 46px;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: -5px;
+    margin-bottom: 5px;
+}
+
+.land3-trust{
+    color: var(--gray_700);
+    font-size: var(--font_1rem);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+
+.land3-email-submit2 input{
+    color: var(--neutral_800);
+    padding: 20px;
+    width: 214px;
+    height: 45.2px;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    background-color: var(--gray_600);
+}
+/********** landing2  email submition  *************/
+
+/********** landing2  footer section  *************/
+.email-submit-btn{
+    width: 5rem;
+    padding: 12px 18px;
+    margin: 0;
+    gap: 0;
+    height: 45.5px;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: -5px;
+    margin-bottom: 5px;
+}
+
+.land3-footer-copyright{
+    text-align: left;
+}
+
+.land3-copyright-div{
+    width: var(--width_1280px);
+    border-top: 1px solid var(--gray_300);
+}
+
+.land3-media-links{
+    text-align: end;
+}
+/********** landing2  footer section  *************/
+
+/****************************** landing page 3 *********************************/
