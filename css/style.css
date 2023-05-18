@@ -3468,6 +3468,24 @@ border-radius: 6px;
         border-radius: 5px;
     }
     /****************************** career page 1 *********************************/
+    
+    /****************************** career page 2 *********************************/
+    .career2-description-div {
+        margin: 0 32px;
+    }
+
+    .career2-form-div {
+        margin: 0 32px;
+    }
+
+    .full-name, .email-input {
+        width: 308px;
+    }
+
+    .input-group .resume-input{
+        width: 220px;
+    }
+    /****************************** career page 2 *********************************/
 }
 
 @media screen and (max-width:391px){
@@ -4334,6 +4352,48 @@ border-radius: 6px;
 
     }
     /****************************** career page 1 *********************************/
+
+    /****************************** career page 2 *********************************/
+    .career2-form-section {
+       padding: 40px 0;
+    }
+
+    .career2-description-section{
+        padding: 32px 0;
+    }
+
+    .career2-description-div {
+        margin: 0 16px;
+    }
+
+    .career2-form-div {
+        margin: 0 16px;
+    }
+
+    .full-name, .email-input {
+        width: 295px;
+    }
+
+    .input-group .resume-input{
+        width: 207px;
+    }
+
+    .career2-contact-form {
+        padding: 16px;
+    }
+
+    .career2-submit-div{
+        padding: 0;
+        display: grid;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .career2-form-btn{
+        width: 295px;
+        margin-bottom: 16px;
+    }
+    /****************************** career page 2 *********************************/
 }
 
 
