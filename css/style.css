@@ -1888,7 +1888,7 @@ button{
 
 /********** about page hero base  *************/
 .abt2-head {
-    margin: 80px 340px 92px 340px;
+    margin: 80px 341px 92px 341px;
     text-align: center;
 }
 
@@ -2859,6 +2859,39 @@ border-radius: 6px;
 }
 /****************************** career page 2 *********************************/
 
+/****************************** blog page 1 *********************************/
+.blog-pg-section{
+    padding: 64px 0;
+}
+
+.blogs-pg-card-img{
+    object-fit: cover;
+    width: 24rem;
+    height: 285px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.blogs-pg-avatar-title{
+    margin: 0;
+    width: 90%;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--gray_700);
+    margin-top: 8;
+}
+
+.blogs-pg-learn{
+    margin-top: 16px ;
+}
+
+/****************************** blog page 1 *********************************/
+
+/****************************** blog page 2 *********************************/
+
+/****************************** blog page 2 *********************************/
+
 /************************ @media Queries **************************/
 @media screen and (max-width:768px){
     /********** landing page 1 *************/
@@ -3487,6 +3520,14 @@ border-radius: 6px;
     }
     /****************************** career page 2 *********************************/
 }
+
+/****************************** blog page 1 *********************************/
+
+.blogs-pg-card-img{
+    width: 336px;
+}
+
+/****************************** blog page 1 *********************************/
 
 @media screen and (max-width:391px){
     /********** landing page 1 *************/
@@ -4394,6 +4435,15 @@ border-radius: 6px;
         margin-bottom: 16px;
     }
     /****************************** career page 2 *********************************/
+
+    /****************************** blog page 1 *********************************/
+
+    .blogs-pg-card-img{
+        width: 343px;
+        height: 185px;
+    }
+
+    /****************************** blog page 1 *********************************/
 }
 
 
