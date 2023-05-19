@@ -2713,10 +2713,156 @@ border-radius: 6px;
 
 /****************************** career page 1 *********************************/
 
+/****************************** career page 2 *********************************/
+.career2-description-section{
+    padding: 48px 0;
+    background-color: var(--neutral_50);
+}
+
+.career2-description-div{
+    margin: 0 300px;
+}
+
+.description-head{
+    margin: 0;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px; 
+}
+.description-short-p{
+    margin: 0;
+    margin-bottom: 16px;
+}
+.description-lg-p{
+    margin: 0;
+}
+
+.description-quote{
+    margin: 48px 0;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px; 
+}
+
+.description-md-p{
+    margin-bottom: 48px;
+}
+
+.description-li{
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.career2-form-section{
+    background-color: var(--neutral_100);
+    padding-top: 64px ;
+    padding-bottom: 128px;
+}
+.career2-form-div{
+    margin: 0 300px;
+}
+
+.career2-form-head{
+    margin: 0;
+    margin-bottom: 48px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+/********** career page 2 careers form *************/
+.career2-contact-form{
+    background-color: white;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.form-input-labels{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 8px;
+    display: block;
+    color: var(--gray_700);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.full-name,.email-input{
+    padding: 12px 16px;
+    width: 376px;
+    height: 46px;
+    border: 1px solid var(--neutral_700);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.input-group .resume-input{
+    padding: 10px 16px;
+    width: 288px;
+    height: 46px;
+    background-color: white;
+    border: 1px solid var(--neutral_700);
+    margin: 0;
+    margin-bottom: 24px;
+    border-radius: 6px 0 0 6px;
+    flex: none;
+    color: var(--gray_25);
+}
+.resume-input::file-selector-button{
+    display: none;
+}
+
+.upload-btn{
+    padding: 12px 18px;
+    height: 46px;
+    background-color: var(--neutral_300);
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: var(--neutral_700);
+    border-radius: 0 6px 6px 0;
+} 
+
+.descript-input{
+    padding: 12px 16px;
+    width: 776px;
+    height: 145px;
+    border: 1px solid var(--neutral_700);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+}
+
+.career2-submit-div{
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.career2-form-btn{
+    width: 88px;
+    padding: 12px 18px;
+    background-color: var(--primary_blue_600);
+    color: white;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+}
+
+.submit-direction{
+    align-self: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+/****************************** career page 2 *********************************/
 
 /************************ @media Queries **************************/
 @media screen and (max-width:768px){
     /********** landing page 1 *************/
+
     /********** navigation bar *************/
     .nav-bar {
         padding: 20px 0;
@@ -3322,6 +3468,24 @@ border-radius: 6px;
         border-radius: 5px;
     }
     /****************************** career page 1 *********************************/
+    
+    /****************************** career page 2 *********************************/
+    .career2-description-div {
+        margin: 0 32px;
+    }
+
+    .career2-form-div {
+        margin: 0 32px;
+    }
+
+    .full-name, .email-input {
+        width: 308px;
+    }
+
+    .input-group .resume-input{
+        width: 220px;
+    }
+    /****************************** career page 2 *********************************/
 }
 
 @media screen and (max-width:391px){
@@ -4188,6 +4352,48 @@ border-radius: 6px;
 
     }
     /****************************** career page 1 *********************************/
+
+    /****************************** career page 2 *********************************/
+    .career2-form-section {
+       padding: 40px 0;
+    }
+
+    .career2-description-section{
+        padding: 32px 0;
+    }
+
+    .career2-description-div {
+        margin: 0 16px;
+    }
+
+    .career2-form-div {
+        margin: 0 16px;
+    }
+
+    .full-name, .email-input {
+        width: 295px;
+    }
+
+    .input-group .resume-input{
+        width: 207px;
+    }
+
+    .career2-contact-form {
+        padding: 16px;
+    }
+
+    .career2-submit-div{
+        padding: 0;
+        display: grid;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .career2-form-btn{
+        width: 295px;
+        margin-bottom: 16px;
+    }
+    /****************************** career page 2 *********************************/
 }
 
 
