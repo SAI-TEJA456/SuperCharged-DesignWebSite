@@ -2889,6 +2889,83 @@ border-radius: 6px;
 /****************************** blog page 1 *********************************/
 
 /****************************** blog page 2 *********************************/
+.blog-post-center{
+    display: grid;
+    justify-content: center;
+}
+
+.blogs-tag{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray_700);
+    margin-right: 16px;
+}
+
+.blogs-search-btn{
+    width: 75px;
+    padding: 4px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: var(--neutral_300);
+    border-radius: 5px;
+    color: var(--gray_700);
+    margin-right: 16px;
+}
+
+
+.blog-post-search{
+    padding: 32px 0;
+    width: var(--width_1216px);
+}
+
+.blog-search-col{
+    text-align: end;
+}
+
+.blog-search-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.blogs-search-icon {
+    position: relative;
+  }
+  
+  .blogs-search-icon:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("../resources/icons/blog-search-icon-gray.png") center / contain no-repeat;
+  }
+  
+  .blogs-input-search {
+    padding: 12px 12px 12px 38px;
+    border: 1px solid var(--neutral_700);
+    border-radius: 5px 0px 0px 5px;
+    width: 382px;
+    color: var(--gray_25);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .btn-search-primary{
+    width: 87px;
+    padding: 12px 18px;
+    background-color: var(--primary_blue_600);
+    color: white;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 0px 6px 6px 0px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+  }
 
 /****************************** blog page 2 *********************************/
 
@@ -3519,15 +3596,26 @@ border-radius: 6px;
         width: 220px;
     }
     /****************************** career page 2 *********************************/
+
+    /****************************** blog page 1 *********************************/
+    
+    .blogs-pg-card-img{
+        width: 336px;
+    }
+    
+    /****************************** blog page 1 *********************************/
+
+    /****************************** blog page 2  *********************************/
+    .blog-post-search{
+        width: 704px;
+    }
+
+    .blogs-input-search {
+        width: 240px;
+    }
+    /****************************** blog page 2  *********************************/
 }
 
-/****************************** blog page 1 *********************************/
-
-.blogs-pg-card-img{
-    width: 336px;
-}
-
-/****************************** blog page 1 *********************************/
 
 @media screen and (max-width:391px){
     /********** landing page 1 *************/
@@ -4444,6 +4532,22 @@ border-radius: 6px;
     }
 
     /****************************** blog page 1 *********************************/
+
+     /****************************** blog page 2  *********************************/
+     .blog-post-search{
+        padding: 16px 0;
+        width: 343px;
+    }
+
+    .blogs-input-search {
+        width: 256px;
+    }
+    
+    .blog-search-form{
+        margin: 24px 0 16px 0;
+
+    }
+    /****************************** blog page 2  *********************************/
 }
 
 
