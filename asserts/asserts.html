@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Commerce Electronic Store</title>
+
+    <!-- bootstrap external css file -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!--External CSS file-->
+    <link type="text/css" rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- <div class="container-fluid p-0"> -->
+        <!--begin::  Navigation bar-->
+        <header class="navigationBar">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary nav-bar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="../resources/Logo-clickup.png" alt="company logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-bar-items">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="landing_page_1.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">our products</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
+                                    resources
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu resources-submenu">
+                                    <!-- begin:: landing pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            landing pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="./landing_page_1.html">landing pages 1</a></li>
+                                            <li><a class="dropdown-item" href="./landing_page_2.html">landing pages 2</a></li>
+                                            <li><a class="dropdown-item" href="./landing_page_3.html">landing pages 3</a></li>
+                                            <li><a class="dropdown-item" href="./landing_page_4.html">landing pages 4</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end:: landing pages sub-menu -->
+                                    <!-- begin:: about pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            about pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../about-pages/about-page-1.html">about page 1</a></li>
+                                            <li><a class="dropdown-item" href="../about-pages/about-page-2.html">about pages 2</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <!-- end:: about pages sub-menu -->
+                                    <!-- begin:: pricing pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            pricing pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../pricing-pages/pricing-page1.html">pricing page 1</a></li>
+                                            <li><a class="dropdown-item" href="../pricing-pages/pricing-page2.html">pricing page 2</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <!-- end:: pricing pages sub-menu -->
+                                    <!-- begin:: help & support pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Help & Support
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../help-support/help-supp-page1.html">help & support page 1</a></li>
+                                            <li><a class="dropdown-item" href="../help-support/help-supp-page2.html">help & support page 2</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <!-- end:: help & support pages sub-menu -->
+                                     <!-- begin:: careers pages sub-menu -->
+                                     <li class="dropend landing-pages-link">
+                                        <a class="nav-link c-gray-700" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Career Pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../careers-pages/career-page1.html">career page 1</a></li>
+                                            <li><a class="dropdown-item" href="../careers-pages/career-page2.html">career page 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end:: careers pages sub-menu -->
+                                    <!-- begin:: blog pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link c-gray-700" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Blog Pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../blogs-pages/blog-page1.html">blog page 1</a></li>
+                                            <li><a class="dropdown-item" href="../blogs-pages/blog-page2.html">blog page 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end:: blog pages sub-menu -->
+                                    <!-- begin:: blog posts pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link c-gray-700" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Blog Posts Pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../blog-posts-pages/blog-post-page1.html">blog post page 1</a></li>
+                                            <li><a class="dropdown-item" href="../blog-posts-pages/blog-post-page2.html">blog post page 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end:: blog posts pages sub-menu -->
+                                    <!-- begin:: portfolio pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link c-gray-700" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Portfolio Pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../portfolio-pages/portfolio-page1.html">portfolio page 1</a></li>
+                                            <li><a class="dropdown-item" href="../portfolio-pages/portfolio-page2.html">portfolio page 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end:: portfolio pages sub-menu -->
+                                    <!-- begin:: contact us pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link c-gray-700" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Contact Us Pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../contact-pages/contact-page1.html">contact us page 1</a></li>
+                                            <li><a class="dropdown-item" href="../contact-pages/contact-page2.html">contact us page 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end:: contact us pages sub-menu -->
+                                    <!-- begin:: reset password pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link c-gray-700" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Reset Password Pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../reset-pass-pages/reset-page1.html">reset password page 1</a></li>
+                                            <li><a class="dropdown-item" href="../reset-pass-pages/reset-page2.html">reset password page 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end:: reset password pages sub-menu -->
+                                    <!-- begin:: sign up pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link c-gray-700" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Sign-Up Pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../sign-up-pages/signup-page1.html">sign-up page 1</a></li>
+                                            <li><a class="dropdown-item" href="../sign-up-pages/signup-page2.html">sign-up page 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end:: sign up pages sub-menu -->
+                                    <!-- begin:: login pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link c-gray-700" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Log-In Pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../log-in-pages/login-page1.html">log-in password page 1</a></li>
+                                            <li><a class="dropdown-item" href="../log-in-pages/login-page2.html">log-in page 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end:: login pages sub-menu -->
+                                    <!-- begin:: onboarding pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link c-gray-700" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Onboarding Pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../onboarding-pages/onboarding-page1.html">onboarding page 1</a></li>
+                                            <li><a class="dropdown-item" href="../onboarding-pages/onboarding-page2.html">onboarding page 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end:: onboarding pages sub-menu -->
+                                    <!-- begin:: error pages sub-menu -->
+                                    <li class="dropend landing-pages-link">
+                                        <a class="nav-link c-gray-700" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Error Pages
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </a>
+                                        <ul class="dropdown-menu landing-pages-submenu">
+                                            <li><a class="dropdown-item" href="../404-pages/error-pages.html">Error page 1</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- end:: error pages sub-menu -->
+                                </ul>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../help&support/help-supp-page2.html">contacts</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex btn-button">
+                            <button id="btn-1" class="btn btn-outline land4-signup" type="button">sign up</button>
+                            <button id="btn-2" class="btn btn-primary" type="button">log in</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--end:: Navigation bar-->
+
+
+        <!-- begin:: hero base -->
+        <div class="heroBaseOuter">
+            <div class="heroBaseHead">
+                <h1>your supercharged design workflow.</h1>
+                <p>We’ve been told it is possible to revolutionize the payment industry. We have not reinvented the wheel, we decided to build upon it - successfully.</p>
+                <button id="btn-3" class="btn btn-primary btn-getStarted">get started</button>
+                <button id="btn-4" class="btn btn-outline-secondary btn-contactUs">contact us</button>
+            </div>
+            <div class="channelsReview-img">
+                <img src="../resources/ourChannelsReview.png" class="ourChannel-img" alt="Our Channels Review Image">
+            </div>
+        </div>
+        <!-- end:: hero base -->
+
+        <!-- begin:: our channels review  -->
+        <div class="channels-section">
+            <!-- <div class="channelsOuter"> -->
+            <div class="allHeads">
+                <h2>our channels review</h2>
+                <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+            </div>
+            <!-- </div> -->
+            <div class="channelCards">
+                <div class="row m-0">
+                    <div class="col-lg-4 col-md-6 p-0">
+                        <div class="channelCard">
+                            <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d_4709_84444)">
+                                    <rect x="4.5" width="48" height="48" rx="24" fill="#F5FAFF" shape-rendering="crispEdges" />
+                                    <path d="M25.8332 36H31.1665M28.4998 16V12M33.8332 16V12M23.1665 16V12M40.2072 22.6459C39.0023 28.0003 34.2181 32 28.4998 32C22.7815 32 17.9974 28.0003 16.7925 22.6459C16.4691 21.209 17.6937 20 19.1665 20H37.8332C39.3059 20 40.5305 21.209 40.2072 22.6459Z" stroke="#437EF7" stroke-width="2" stroke-linecap="round" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_4709_84444" x="0.5" y="0" width="56" height="56" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feOffset dy="4" />
+                                        <feGaussianBlur stdDeviation="2" />
+                                        <feComposite in2="hardAlpha" operator="out" />
+                                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4709_84444" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_4709_84444" result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                            <button class="btn btn-outline-secondary btn-lg">show more</button>
+                            <h4>wireless</h4>
+                            <p>Enim nec rhoncus volutpat nullam eros sapien pharetra.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0">
+                        <div class="channelCard">
+                            <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" width="48" height="48" rx="24" fill="#F5FAFF" />
+                                <path d="M17.2842 27.7649L25.5807 11.1718C25.6437 11.046 25.8333 11.0907 25.8333 11.2314V20.3486C25.8333 20.8202 26.3097 21.1428 26.7476 20.9676L30.8719 19.3178C31.4411 19.0902 31.99 19.6867 31.7158 20.235L23.4192 36.8281C23.3563 36.954 23.1667 36.9092 23.1667 36.7685V27.6513C23.1667 27.1797 22.6903 26.8572 22.2524 27.0323L18.128 28.6821C17.5589 28.9097 17.01 28.3132 17.2842 27.7649Z" stroke="#437EF7" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                            <button class="btn btn-outline-secondary btn-lg">show more</button>
+                            <h4>synergistic</h4>
+                            <p>Enim nec rhoncus volutpat nullam eros sapien pharetra.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0">
+                        <div class="channelCard">
+                            <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" width="48" height="48" rx="24" fill="#F5FAFF" />
+                                <path d="M24.5002 26.6666C28.1821 26.6666 31.1668 23.6818 31.1668 19.9999C31.1668 16.318 28.1821 13.3333 24.5002 13.3333C20.8183 13.3333 17.8335 16.318 17.8335 19.9999C17.8335 23.6818 20.8183 26.6666 24.5002 26.6666ZM24.5002 26.6666C18.6091 26.6666 13.8335 30.2483 13.8335 34.6666M24.5002 26.6666C30.3912 26.6666 35.1668 30.2483 35.1668 34.6666" stroke="#437EF7" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                            <button class="btn btn-outline-secondary btn-lg">show more</button>
+                            <h4>distributed</h4>
+                            <p>Neque ut integer nulla tellus semper amet id scelerisque eros.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0">
+                        <div class="channelCard">
+                            <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" width="48" height="48" rx="24" fill="#F5FAFF" />
+                                <path d="M20.5 36H28.5M16.5 20C16.5 15.5817 20.0817 12 24.5 12C28.9183 12 32.5 15.5817 32.5 20C32.5 21.1862 32.2419 22.312 31.7787 23.3245C30.504 26.1108 28.5 28.8167 28.5 31.8808C28.5 31.9466 28.4466 32 28.3808 32H20.6192C20.5534 32 20.5 31.9466 20.5 31.8808C20.5 28.8167 18.496 26.1108 17.2213 23.3245C16.7581 22.312 16.5 21.1862 16.5 20Z" stroke="#437EF7" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                            <button class="btn btn-outline-secondary btn-lg">show more</button>
+                            <h4>seamless</h4>
+                            <p>Aliquet et cras nam sed mauris laoreet bibendum et.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0">
+                        <div class="channelCard">
+                            <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" width="48" height="48" rx="24" fill="#F5FAFF" />
+                                <path d="M28.3976 17.451L25.6477 12.664C25.1371 11.7752 23.8563 11.771 23.3398 12.6564L20.438 17.6309C20.0537 18.2898 19.4056 18.7525 18.6576 18.9021L14.6926 19.6951C13.6657 19.9005 13.2656 21.1553 13.984 21.9172L16.8518 24.9588C17.465 25.6092 17.7116 26.5236 17.5084 27.3941L16.2104 32.9572C15.9436 34.1007 17.1784 35.0058 18.1886 34.4072L23.1409 31.4725C23.9791 30.9758 25.0216 30.9758 25.8598 31.4725L30.8121 34.4072C31.8223 35.0058 33.0571 34.1007 32.7903 32.9572L31.4809 27.3454C31.2841 26.5018 31.5092 25.6152 32.0847 24.9678L34.956 21.7376C35.6401 20.9679 35.2307 19.7463 34.221 19.5443L30.1869 18.7375C29.4329 18.5867 28.7806 18.1178 28.3976 17.451Z" stroke="#437EF7" stroke-width="2" stroke-miterlimit="10" />
+                            </svg>
+                            <button class="btn btn-outline-secondary btn-lg">show more</button>
+                            <h4>revolutionary</h4>
+                            <p>Lacus vulputate vel metus massa platea ut pellentesque turpis.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 p-0">
+                        <div class="channelCard">
+                            <svg width="49" height="48" viewBox="0 0 49 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" width="48" height="48" rx="24" fill="#F5FAFF" />
+                                <path d="M24.5002 38.6666C32.6003 38.6666 39.1668 32.1001 39.1668 23.9999C39.1668 15.8997 32.6003 9.33325 24.5002 9.33325M24.5002 38.6666C16.4 38.6666 9.8335 32.1001 9.8335 23.9999C9.8335 15.8997 16.4 9.33325 24.5002 9.33325M24.5002 38.6666C27.4457 38.6666 29.8335 32.1001 29.8335 23.9999C29.8335 15.8997 27.4457 9.33325 24.5002 9.33325M24.5002 38.6666C21.5546 38.6666 19.1668 32.1001 19.1668 23.9999C19.1668 15.8997 21.5546 9.33325 24.5002 9.33325M11.1668 18.6666H37.8335M11.1668 27.9999H37.8335" stroke="#437EF7" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                            <button class="btn btn-outline-secondary btn-lg">show more</button>
+                            <h4>web-enabled</h4>
+                            <p>Mauris orci eget iaculis placerat euismod at urna posuere.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-reveal">
+                    <button class="btn btn-primary">reveal all channels</button>
+                </div>
+            </div>
+        </div>
+        <!-- end:: our channels review  -->
+
+        <!-- begin:: redefining product features  -->
+        <div class="redefining-section">
+            <div class="allHeads">
+                <h2>redefining product features</h2>
+                <p>Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+            </div>
+            <div class="content-div">
+                <div class="row m-0">
+                    <div class="col-lg-6 col-md-12 order-md-2 order-2 order-lg-1 p-0">
+                        <div class="des-body">
+                            <a class="redefining-a" href="#">1% of the industry</a>
+                            <h2 class="redefining-h2">Demonstrate branding consequently think outside the
+                                box and beyond.</h2>
+                            <p class="redefining-p">Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque a diam tincidunt. Aenean malesuada tellus tellus faucibus mauris quisque mauris in.</p>
+                            <button class="btn btn-primary btn-lg des-btn">start now <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.6665 10H15.4998M11.3332 5L15.7439 9.41074C16.0694 9.73618 16.0694 10.2638 15.7439 10.5893L11.3332 15" stroke="white" stroke-width="1.67" stroke-linecap="round" />
+                                    </svg></span></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 order-md-1 order-1 order-lg-2 p-0 land1-images-end">
+                        <img class="des-img" src="../resources/productFeatures.png" alt="transcationList">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end:: redefining product features  -->
+
+        <!-- begin:: demonstrate branding   -->
+        <div class="demonstrate-section">
+            <div class="content-div">
+                <div class="row m-0">
+                    <div class="col-lg-6 col-md-12 p-0 land1-images-center">
+                        <img class="des-img" src="../resources/productFeatures2.png" alt="demonstrate branding1">
+                    </div>
+                    <div class="col-lg-6 col-md-12 p-0">
+                        <div class="des-body">
+                            <a class="demonstrate-a" href="#">1% of the industry</a>
+                            <h2 class="demonstrate-h2">Demonstrate branding consequently think outside the
+                                box and beyond.</h2>
+                            <p class="demonstrate-p">Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque a diam tincidunt. Aenean malesuada tellus tellus faucibus mauris quisque mauris in.</p>
+                            <button class="btn btn-primary btn-lg des-btn">start now <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.6665 10H15.4998M11.3332 5L15.7439 9.41074C16.0694 9.73618 16.0694 10.2638 15.7439 10.5893L11.3332 15" stroke="white" stroke-width="1.67" stroke-linecap="round" />
+                                    </svg></span> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end::   demonstrate branding  -->
+
+        <!-- begin:: check us out  -->
+        <div class="check-section">
+            <div class="content-div">
+                <div class="row m-0">
+                    <div class="col-lg-6 col-md-12 order-md-2 order-2 order-lg-1 p-0">
+                        <div class="check-body">
+                            <!-- <a href="#">1% of the industry</a>  -->
+                            <h2 class="check-h2">Demonstrate branding consequently think outside </h2>
+                            <p class="check-p">Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque a diam tincidunt. Aenean malesuada tellus tellus faucibus mauris quisque mauris in.</p>
+                            <ul class="check-ul">
+                                <li><svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.5 5.25L7.78033 12.9697C7.48744 13.2626 7.01256 13.2626 6.71967 12.9697L3.5 9.75" stroke="#437EF7" stroke-width="2" stroke-linecap="round" />
+                                    </svg><span class="check-li"> Enterprise-grade security</span></li>
+                                <li><svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.5 5.25L7.78033 12.9697C7.48744 13.2626 7.01256 13.2626 6.71967 12.9697L3.5 9.75" stroke="#437EF7" stroke-width="2" stroke-linecap="round" />
+                                    </svg><span class="check-li"> 99.9% guaranteed uptime SLA</span></li>
+                                <li><svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.5 5.25L7.78033 12.9697C7.48744 13.2626 7.01256 13.2626 6.71967 12.9697L3.5 9.75" stroke="#437EF7" stroke-width="2" stroke-linecap="round" />
+                                    </svg><span class="check-li"> Designated customer success team </span></li>
+                            </ul>
+                            <button class="btn btn-primary btn-lg des-btn">start now<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.6665 10H15.4998M11.3332 5L15.7439 9.41074C16.0694 9.73618 16.0694 10.2638 15.7439 10.5893L11.3332 15" stroke="white" stroke-width="1.67" stroke-linecap="round" />
+                                </svg></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 order-md-1 order-1 order-lg-2 p-0 land1-images-end">
+                        <img class="des-img" src="../resources/checkUsOut.png" alt="check us out">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end::   check us out -->
+
+        <!-- bedin::   latest blog posts -->
+        <div class="blog-section">
+            <div class="allHeads">
+                <h2>latest blog posts</h2>
+                <p>Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas.</p>
+            </div>
+            <div class="avatar-blogs">
+                <div class="row m-0">
+                    <div class="col-lg-4 col-md-6 mb-5 p-0">
+                        <div class="card avatar-card">
+                            <img src="../resources/blog-img-1.png" class="avatar-bg-img" alt="blog image 1">
+                            <img src="../resources/Avatar-1.png" class="avatar-img" alt="avatar image">
+                            <div class="card-body avatar-body">
+                                <button class="btn btn-sm avatar-article-btn">article</button>
+                                <span class="article-span">25 Apr.2022</span>
+                                <h5 class="avatar-title">Organize your digital assets
+                                    with a new methodology.</h5>
+                                <p class="avatar-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate.</p>
+                            </div>
+
+                            <div class="card-body">
+                                <a href="#" class="card-link learn-more-link">learn more <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.875 10H16.5417M16.5417 10L11.5417 15M16.5417 10L11.5417 5" stroke="#437EF7" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg> </span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 p-0">
+                        <div class="card avatar-card">
+                            <img src="../resources/blog-img-2.png" class="avatar-bg-img" alt="blog image 1">
+                            <img src="../resources/Avatar-2.png" class="avatar-img" alt="avatar image">
+                            <div class="card-body avatar-body">
+                                <button class="btn btn-sm avatar-article-btn">article</button>
+                                <span class="article-span">25 Apr.2022</span>
+                                <h5 class="avatar-title">Organize your digital assets
+                                    with a new methodology.</h5>
+                                <p class="avatar-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate.</p>
+                            </div>
+
+                            <div class="card-body">
+                                <a href="#" class="card-link learn-more-link">learn more <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.875 10H16.5417M16.5417 10L11.5417 15M16.5417 10L11.5417 5" stroke="#437EF7" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg> </span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-5 p-0">
+                        <div class="card avatar-card">
+                            <img src="../resources/blog-img-3.png" class="avatar-bg-img" alt="blog image 1">
+                            <img src="../resources/Avatar-3.png" class="avatar-img" alt="avatar image">
+                            <div class="card-body avatar-body">
+                                <button class="btn btn-sm avatar-article-btn">article</button>
+                                <span class="article-span">25 Apr.2022</span>
+                                <h5 class="avatar-title">Organize your digital assets
+                                    with a new methodology.</h5>
+                                <p class="avatar-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate.</p>
+                            </div>
+
+                            <div class="card-body">
+                                <a href="#" class="card-link learn-more-link">learn more <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M4.875 10H16.5417M16.5417 10L11.5417 15M16.5417 10L11.5417 5" stroke="#437EF7" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg> </span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end::   latest blog posts -->
+
+        <!-- begin::   our customers say -->
+        <div class="customers-review-section">
+            <div class="allHeads">
+                <h2>What Our Customers Say</h2>
+                <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. Bring to the table win-win strategies to ensure domination.</p>
+            </div>
+            <div class="content-div">
+                <div class="row m-0">
+                    <div class="col-md-4">
+                        <div class="reviewer">
+                            <div class="review-img">
+                                <div class="avatar-group">
+                                    <span class="avatar-g-1">
+                                        <img src="../resources/Avatar-g-2.png" alt="Avatar group image">
+                                    </span>
+                                    <span class="avatar-g-1">
+                                        <img src="../resources/Avatar-g-3.png" alt="Avatar group image">
+                                    </span>
+                                    <span class="avatar-g-1">
+                                        <img src="../resources/Avatar-g-4.png" alt="Avatar group image">
+                                    </span>
+                                    <span class="avatar-g-1">
+                                        <img src="../resources/Avatar-g-5.png" alt="Avatar group image">
+                                    </span>
+                                </div>
+                            </div>
+                            <p class="common-review">Repurpose analytics with the possibility to come</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="reviewer">
+                            <div class="review-stars">
+                                <span class="star-icon">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9429 3.59124L17.8697 7.65793C18.1855 8.32367 18.7953 8.78506 19.5008 8.89193L23.8099 9.54414C25.5865 9.81296 26.296 12.0866 25.0103 13.3918L21.8912 16.5568C21.3808 17.0751 21.1479 17.8219 21.2683 18.5537L22.0044 23.0233C22.3082 24.8662 20.4506 26.2712 18.8621 25.4014L15.0078 23.2923C14.3768 22.9467 13.6228 22.9467 12.9917 23.2923L9.13747 25.4028C7.54891 26.2726 5.69138 24.866 5.99519 23.0247L6.73121 18.5551C6.85223 17.8229 6.61909 17.0755 6.10831 16.5568L2.99007 13.3914C1.70433 12.0862 2.41382 9.81261 4.19041 9.54378L8.49951 8.89157C9.20509 8.78469 9.81485 8.32326 10.1307 7.65757L12.0567 3.5913C12.8521 1.91402 15.1475 1.91397 15.9429 3.59124Z" fill="#FFAE43" />
+                                    </svg>
+                                </span>
+                                <span class="star-icon">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9429 3.59124L17.8697 7.65793C18.1855 8.32367 18.7953 8.78506 19.5008 8.89193L23.8099 9.54414C25.5865 9.81296 26.296 12.0866 25.0103 13.3918L21.8912 16.5568C21.3808 17.0751 21.1479 17.8219 21.2683 18.5537L22.0044 23.0233C22.3082 24.8662 20.4506 26.2712 18.8621 25.4014L15.0078 23.2923C14.3768 22.9467 13.6228 22.9467 12.9917 23.2923L9.13747 25.4028C7.54891 26.2726 5.69138 24.866 5.99519 23.0247L6.73121 18.5551C6.85223 17.8229 6.61909 17.0755 6.10831 16.5568L2.99007 13.3914C1.70433 12.0862 2.41382 9.81261 4.19041 9.54378L8.49951 8.89157C9.20509 8.78469 9.81485 8.32326 10.1307 7.65757L12.0567 3.5913C12.8521 1.91402 15.1475 1.91397 15.9429 3.59124Z" fill="#FFAE43" />
+                                    </svg>
+                                </span>
+                                <span class="star-icon">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9429 3.59124L17.8697 7.65793C18.1855 8.32367 18.7953 8.78506 19.5008 8.89193L23.8099 9.54414C25.5865 9.81296 26.296 12.0866 25.0103 13.3918L21.8912 16.5568C21.3808 17.0751 21.1479 17.8219 21.2683 18.5537L22.0044 23.0233C22.3082 24.8662 20.4506 26.2712 18.8621 25.4014L15.0078 23.2923C14.3768 22.9467 13.6228 22.9467 12.9917 23.2923L9.13747 25.4028C7.54891 26.2726 5.69138 24.866 5.99519 23.0247L6.73121 18.5551C6.85223 17.8229 6.61909 17.0755 6.10831 16.5568L2.99007 13.3914C1.70433 12.0862 2.41382 9.81261 4.19041 9.54378L8.49951 8.89157C9.20509 8.78469 9.81485 8.32326 10.1307 7.65757L12.0567 3.5913C12.8521 1.91402 15.1475 1.91397 15.9429 3.59124Z" fill="#FFAE43" />
+                                    </svg>
+                                </span>
+                                <span class="star-icon">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9429 3.59124L17.8697 7.65793C18.1855 8.32367 18.7953 8.78506 19.5008 8.89193L23.8099 9.54414C25.5865 9.81296 26.296 12.0866 25.0103 13.3918L21.8912 16.5568C21.3808 17.0751 21.1479 17.8219 21.2683 18.5537L22.0044 23.0233C22.3082 24.8662 20.4506 26.2712 18.8621 25.4014L15.0078 23.2923C14.3768 22.9467 13.6228 22.9467 12.9917 23.2923L9.13747 25.4028C7.54891 26.2726 5.69138 24.866 5.99519 23.0247L6.73121 18.5551C6.85223 17.8229 6.61909 17.0755 6.10831 16.5568L2.99007 13.3914C1.70433 12.0862 2.41382 9.81261 4.19041 9.54378L8.49951 8.89157C9.20509 8.78469 9.81485 8.32326 10.1307 7.65757L12.0567 3.5913C12.8521 1.91402 15.1475 1.91397 15.9429 3.59124Z" fill="#FFAE43" />
+                                    </svg>
+                                </span>
+                                <span class="star-icon">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.9429 3.59124L17.8697 7.65793C18.1855 8.32367 18.7953 8.78506 19.5008 8.89193L23.8099 9.54414C25.5865 9.81296 26.296 12.0866 25.0103 13.3918L21.8912 16.5568C21.3808 17.0751 21.1479 17.8219 21.2683 18.5537L22.0044 23.0233C22.3082 24.8662 20.4506 26.2712 18.8621 25.4014L15.0078 23.2923C14.3768 22.9467 13.6228 22.9467 12.9917 23.2923L9.13747 25.4028C7.54891 26.2726 5.69138 24.866 5.99519 23.0247L6.73121 18.5551C6.85223 17.8229 6.61909 17.0755 6.10831 16.5568L2.99007 13.3914C1.70433 12.0862 2.41382 9.81261 4.19041 9.54378L8.49951 8.89157C9.20509 8.78469 9.81485 8.32326 10.1307 7.65757L12.0567 3.5913C12.8521 1.91402 15.1475 1.91397 15.9429 3.59124Z" fill="#DAE0E6" />
+                                    </svg>
+
+                                </span>
+                            </div>
+                            <p class="common-review">5 out of 5 stars from 123 reviews from our users</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="reviewer">
+                            <div class="review-stars">
+                                <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_4709_84550)">
+                                        <path d="M3.15387 8.16666H26.4871C26.4862 7.01358 26.4715 6.40917 26.2328 5.94068C26.0091 5.50163 25.6522 5.14468 25.2131 4.92097C24.714 4.66666 24.0606 4.66666 22.7538 4.66666H6.88714C5.58035 4.66666 4.92696 4.66666 4.42783 4.92097C3.98879 5.14468 3.63183 5.50163 3.40813 5.94068C3.16942 6.40917 3.15477 7.01358 3.15387 8.16666Z" fill="#437EF7" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M26.4871 10.5H3.15381V19.6C3.15381 20.9068 3.15381 21.5602 3.40813 22.0593C3.63183 22.4983 3.98879 22.8553 4.42783 23.079C4.92696 23.3333 5.58035 23.3333 6.88714 23.3333H22.7538C24.0606 23.3333 24.714 23.3333 25.2131 23.079C25.6522 22.8553 26.0091 22.4983 26.2328 22.0593C26.4871 21.5602 26.4871 20.9068 26.4871 19.6V10.5ZM6.65381 18.6667C6.65381 18.0223 7.17614 17.5 7.82048 17.5H12.4871C13.1315 17.5 13.6538 18.0223 13.6538 18.6667C13.6538 19.311 13.1315 19.8333 12.4871 19.8333H7.82048C7.17614 19.8333 6.65381 19.311 6.65381 18.6667ZM17.1538 17.5C16.5095 17.5 15.9871 18.0223 15.9871 18.6667C15.9871 19.311 16.5095 19.8333 17.1538 19.8333H21.8205C22.4648 19.8333 22.9871 19.311 22.9871 18.6667C22.9871 18.0223 22.4648 17.5 21.8205 17.5H17.1538Z" fill="#437EF7" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_4709_84550">
+                                            <rect width="28" height="28" fill="white" transform="translate(0.820312)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                            </div>
+                            <p class="common-review">Repurpose analytics with the possibility to come up.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end::   our customers say -->
+
+        <!-- begin::   email submition -->
+        <div class="email-section">
+            <div class="email-content">
+                <div class="email-head">
+                    <a class="redefining-a" href="#">1% of the industry</a>
+                    <h1>Welcome to your new digital reality that will rock your world.</h1>
+                </div>
+                <form class="email-submit">
+                    <input type="email" placeholder="Enter your email">
+                    <button class="btn btn-primary">submit</button>
+                </form>
+            </div>
+        </div>
+        <!-- end::   email submition -->
+
+        <!-- begin::   footer section -->
+
+        <footer class="footer-section">
+            <div class="content-div land1-content-div">
+                <div class="footer-div row m-0">
+                    <div class="companyDes-div col-lg-3 col-md-10 col-12">
+                        <img src="../resources/Logo-clickup.png" alt="">
+                        <div class="social-media-links">
+                            <p class="footer-p">Generate outside the box thinking with the possibility to targtet the low.</p>
+                            <button class="btn"><a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_211_53408)">
+                                            <path d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 17.9895 4.3882 22.954 10.125 23.8542V15.4688H7.07812V12H10.125V9.35625C10.125 6.34875 11.9166 4.6875 14.6576 4.6875C15.9701 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8306C14.34 7.875 13.875 8.80008 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8542C19.6118 22.954 24 17.9895 24 12Z" fill="#272D37" />
+                                            <path d="M16.6711 15.4688L17.2031 12H13.875V9.75C13.875 8.80102 14.34 7.875 15.8306 7.875H17.3438V4.92188C17.3438 4.92188 15.9705 4.6875 14.6576 4.6875C11.9166 4.6875 10.125 6.34875 10.125 9.35625V12H7.07812V15.4688H10.125V23.8542C11.3674 24.0486 12.6326 24.0486 13.875 23.8542V15.4688H16.6711Z" fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_211_53408">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </a></button>
+                            <button class="btn"><a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_211_53412)">
+                                            <path d="M23.7628 12.276C23.7628 11.4603 23.6967 10.6401 23.5556 9.83765H12.2368V14.4586H18.7185C18.4496 15.949 17.5853 17.2674 16.3199 18.1051V21.1035H20.1869C22.4577 19.0135 23.7628 15.9269 23.7628 12.276Z" fill="#272D37" />
+                                            <path d="M12.2372 24.0002C15.4736 24.0002 18.203 22.9376 20.1916 21.1033L16.3246 18.1049C15.2487 18.8369 13.8598 19.2514 12.2416 19.2514C9.11095 19.2514 6.45654 17.1393 5.50412 14.2997H1.51367V17.3906C3.55078 21.4428 7.69997 24.0002 12.2372 24.0002V24.0002Z" fill="#272D37" />
+                                            <path d="M5.49984 14.3002C4.99718 12.8099 4.99718 11.196 5.49984 9.70569V6.61475H1.51381C-0.188196 10.0055 -0.188196 14.0004 1.51381 17.3912L5.49984 14.3002V14.3002Z" fill="#272D37" />
+                                            <path d="M12.2372 4.74954C13.948 4.72308 15.6015 5.36684 16.8405 6.54855L20.2666 3.12249C18.0972 1.08538 15.2179 -0.0345881 12.2372 0.000686596C7.69997 0.000686596 3.55078 2.5581 1.51367 6.61469L5.49971 9.70563C6.44772 6.86161 9.10654 4.74954 12.2372 4.74954V4.74954Z" fill="#272D37" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_211_53412">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </a></button>
+                            <button class="btn"><a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21.684 18.7033C21.3211 19.5418 20.8915 20.3136 20.3937 21.0232C19.7152 21.9906 19.1597 22.6602 18.7315 23.032C18.0679 23.6424 17.3568 23.955 16.5953 23.9728C16.0487 23.9728 15.3894 23.8172 14.622 23.5017C13.8521 23.1876 13.1446 23.032 12.4977 23.032C11.8192 23.032 11.0915 23.1876 10.3132 23.5017C9.53362 23.8172 8.90564 23.9816 8.42551 23.9979C7.69531 24.0291 6.96748 23.7076 6.24099 23.032C5.7773 22.6276 5.19732 21.9343 4.50252 20.9521C3.75707 19.9033 3.1442 18.687 2.66406 17.3004C2.14986 15.8026 1.89209 14.3523 1.89209 12.9482C1.89209 11.3398 2.23963 9.95259 2.93576 8.79011C3.48285 7.85636 4.21068 7.11979 5.12162 6.57906C6.03255 6.03834 7.01681 5.76279 8.07678 5.74516C8.65676 5.74516 9.41733 5.92456 10.3625 6.27715C11.305 6.63091 11.9101 6.81031 12.1755 6.81031C12.3738 6.81031 13.0461 6.60054 14.1858 6.18233C15.2635 5.79449 16.1731 5.63391 16.9183 5.69716C18.9375 5.86012 20.4545 6.6561 21.4633 8.09013C19.6574 9.18432 18.7641 10.7169 18.7819 12.6829C18.7982 14.2142 19.3537 15.4886 20.4456 16.5004C20.9404 16.97 21.4929 17.333 22.1077 17.5907C21.9744 17.9774 21.8337 18.3477 21.684 18.7033V18.7033ZM17.0531 0.480137C17.0531 1.68041 16.6146 2.8011 15.7405 3.8384C14.6858 5.07155 13.4099 5.78412 12.0264 5.67168C12.0088 5.52769 11.9986 5.37614 11.9986 5.21688C11.9986 4.06462 12.5002 2.83147 13.391 1.82321C13.8357 1.3127 14.4013 0.888228 15.0872 0.549615C15.7716 0.216055 16.419 0.031589 17.0279 0C17.0457 0.160458 17.0531 0.320926 17.0531 0.480121V0.480137Z" fill="#272D37" />
+                                    </svg>
+
+                                </a></button>
+                            <button class="btn"><a href="#">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_211_53420)">
+                                            <path d="M16.8503 0H7.14973C3.20735 0 0 3.20735 0 7.14973V16.8503C0 20.7926 3.20735 24 7.14973 24H16.8503C20.7926 24 24 20.7926 24 16.8503V7.14973C24 3.20735 20.7926 0 16.8503 0ZM21.5856 16.8503C21.5856 19.4655 19.4655 21.5856 16.8503 21.5856H7.14973C4.5345 21.5856 2.4144 19.4655 2.4144 16.8503V7.14973C2.4144 4.53446 4.5345 2.4144 7.14973 2.4144H16.8503C19.4655 2.4144 21.5856 4.53446 21.5856 7.14973V16.8503Z" fill="#272D37" />
+                                            <path d="M12.0002 5.79272C8.57754 5.79272 5.79297 8.57729 5.79297 11.9999C5.79297 15.4226 8.57754 18.2072 12.0002 18.2072C15.4229 18.2072 18.2075 15.4226 18.2075 11.9999C18.2075 8.57725 15.4229 5.79272 12.0002 5.79272ZM12.0002 15.7928C9.90547 15.7928 8.20737 14.0947 8.20737 12C8.20737 9.90523 9.90551 8.20712 12.0002 8.20712C14.095 8.20712 15.7931 9.90523 15.7931 12C15.7931 14.0947 14.0949 15.7928 12.0002 15.7928Z" fill="#272D37" />
+                                            <path d="M18.2188 7.32673C19.0402 7.32673 19.7061 6.66083 19.7061 5.83939C19.7061 5.01796 19.0402 4.35205 18.2188 4.35205C17.3974 4.35205 16.7314 5.01796 16.7314 5.83939C16.7314 6.66083 17.3974 7.32673 18.2188 7.32673Z" fill="#272D37" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_211_53420">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </a></button>
+                        </div>
+                    </div>
+                    <div class="product-div col-lg-1 col-md-2 col-5">
+                        <h6 class="product-main-h6">products</h6>
+                        <ul class="product-ul">
+                            <li class="product-li">features</li>
+                            <li class="product-li">solutions</li>
+                            <li class="product-li">integrations</li>
+                            <li class="product-li">enterprise</li>
+                            <li class="product-li">solutions</li>
+                        </ul>
+                    </div>
+                    <div class="resources-div col-lg-1 col-md-2 col-5">
+                        <h6 class="resources-main-h6">resources</h6>
+                        <ul class="resources-ul">
+                            <li class="resources-li">partners</li>
+                            <li class="resources-li">community</li>
+                            <li class="resources-li">developers</li>
+                            <li class="resources-li">app</li>
+                            <li class="resources-li">blog</li>
+                        </ul>
+                    </div>
+                    <div class="chooseUs-div col-lg-2 col-md-3 col-5">
+                        <h6 class="chooseUs-main-h6">why choose us?</h6>
+                        <ul class="chooseUs-ul">
+                            <li class="chooseUs-li">channels</li>
+                            <li class="chooseUs-li">scale</li>
+                            <li class="chooseUs-li">watch the demo</li>
+                            <li class="chooseUs-li">our competition</li>
+                        </ul>
+                    </div>
+                    <div class="company-div col-lg-1 col-md-2 col-5">
+                        <h6 class="company-main-h6">comapny</h6>
+                        <ul class="company-ul">
+                            <li class="company-li">about us</li>
+                            <li class="company-li">news</li>
+                            <li class="company-li">leadership</li>
+                            <li class="company-li">media kit</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-div">
+                <span class="footer-hex-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.12 3.75266C16.8229 2.94198 15.1771 2.94199 13.88 3.75266L5.88 8.75266C4.71048 9.48362 4 10.7655 4 12.1447V19.8553C4 21.2345 4.71048 22.5164 5.88 23.2473L13.88 28.2473C15.1771 29.058 16.8229 29.058 18.12 28.2473L26.12 23.2473C27.2895 22.5164 28 21.2345 28 19.8553V12.1447C28 10.7655 27.2895 9.48361 26.12 8.75266L18.12 3.75266Z" fill="#437EF7" />
+                    </svg>
+
+                </span>
+                <p class="footer-copyright">© 2023 Lookscout. All Rights Reserved.</p>
+            </div>
+        </footer>
+        <!-- end::   footer section -->
+    <!-- </div> -->
+
+
+    <button id="btn-1" class="btn btn-outline land4-signup" type="button">sign up</button>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/02fa547c1f.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery first-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+
+    <!-- bootstrap external javascript file -->
+    <script src="../script/bootstrapjs/bootstrap.bundle.min.js"></script>
+    <!--Bootstrap cdn javascript-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+    <!--External javascript file-->
+    <script src="../script/main.js"></script>
+
+    <!-- Internal javascript-->
+    <script></script>
+</body>
+
+</html>
