@@ -270,6 +270,10 @@ button{
     background-color: white !important;
 }
 
+.bg-gray-950{
+    background-color: var(--gray_950) !important;
+}
+
 .c-gray-700{
     color: var(--gray_700) !important;
 }
@@ -2901,6 +2905,10 @@ border-radius: 6px;
     margin-top: 16px ;
 }
 
+.blog-post1-head {
+    margin-bottom: 16px;
+}
+
 /****************************** blog page 1 *********************************/
 
 /****************************** blog page 2 *********************************/
@@ -3146,6 +3154,7 @@ border-radius: 6px;
 
 .protfolio1-col-gallery a{
     display: inline-block;
+    text-decoration: none;
 }
 
 .protfolio1-project1-img{
@@ -3233,6 +3242,49 @@ font-size: 14px;
 line-height: 20px;
 }
 /****************************** portfolio page 1 *********************************/
+
+/****************************** portfolio page 2 *********************************/
+.protfolio2-project-gallery {
+    margin: 0;
+    padding-top: 40px;
+}
+
+.protfolio2-projs-images{
+    object-fit: cover;
+    width: 384px;
+    height: 427px;
+}
+
+.portfolio2-project-des{
+    margin: 16px 0 8px 16px;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.portfolio2-project-title{
+    margin: 0;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.prot2-projs-images{
+    margin: 24px 16px 0 16px;
+}
+
+.potfolio2-section-in {
+    margin: 0 96px;
+}
+
+.portfolio2-more-projects-out {
+    padding: 32px 0;
+    text-align: center;
+}
+/****************************** portfolio page 2 *********************************/
 
 /************************ @media Queries **************************/
 @media screen and (max-width:768px){
@@ -3359,15 +3411,15 @@ line-height: 20px;
 
     /********** landing page 1 *************/
 
-  /****************************** landing page 2 *********************************/
+    /****************************** landing page 2 *********************************/
 
-  /********** landing 2 navigation bar *************/
+    /********** landing 2 navigation bar *************/
 
-  .land2-toggler-icon{
-    background-color: white;
-  }
+    .land2-toggler-icon{
+        background-color: white;
+    }
 
-  .landing2_navbar{
+    .landing2_navbar{
     padding: 20px 0;
     }
     /********** landing 2 navigation bar *************/
@@ -3384,49 +3436,49 @@ line-height: 20px;
 
     /********** landing2 Work Easier Today *************/
 
-  .land2-eaiserCards{
-    width: 100%;
-  }
+    .land2-eaiserCards{
+        width: 100%;
+    }
 
-  .land2-eaiserCard{
-    width: 20rem;
-    margin:0 0 0 2rem;
-  }
+    .land2-eaiserCard{
+        width: 20rem;
+        margin:0 0 0 2rem;
+    }
 
-  .pricing-cards{
-    width: 100%;
-  }
+    .pricing-cards{
+        width: 100%;
+    }
 
-  .pricing-section{
-    padding: 0;
-}
+    .pricing-section{
+        padding: 0;
+        }
 
-  .price-btn{
-    width: 276px;
-  }
-/********** landing2 Work Easier Today *************/
+    .price-btn{
+        width: 276px;
+    }
+    /********** landing2 Work Easier Today *************/
 
-/********** landing2 latest blog posts *************/
-.land2-blog-section{
-    padding-bottom: 16px;
-}
-.land2-card{
-    margin-left: 1.56rem;
-  }
+    /********** landing2 latest blog posts *************/
+    .land2-blog-section{
+        padding-bottom: 16px;
+    }
+    .land2-card{
+        margin-left: 1.56rem;
+    }
 
-  .land2-avatar-blogs{
-    margin: 0 12px;
-  } 
+    .land2-avatar-blogs{
+        margin: 0 12px;
+    } 
 
-  .land2-blog1{
-    margin-bottom: 2rem;
-  }
+    .land2-blog1{
+        margin-bottom: 2rem;
+    }
 
-  .land2-blog2{
-    margin-left: 39px;
-  }
+    .land2-blog2{
+        margin-left: 39px;
+    }
 
-/********** landing2 latest blog posts *************/
+    /********** landing2 latest blog posts *************/
 
  
     /********** landing2 email section *************/
@@ -3520,7 +3572,7 @@ line-height: 20px;
 
     .land3-email-submit2 input {
     width: 240px;
-}
+    }
     /********** landing3 footer section *************/
 
     /****************************** landing page 3 *********************************/
@@ -3599,8 +3651,6 @@ line-height: 20px;
     .abt1-btn-start{
         margin-bottom: 48px;
     }
-
-    
 
     /********** about page sign up section  *************/
     
@@ -3948,6 +3998,35 @@ line-height: 20px;
         padding: 24px 0 48px 0;
     }
     /****************************** portfolio page 1 *********************************/
+
+    /****************************** portfolio page 2 *********************************/
+    .potfolio2-section-in {
+        margin: 0 16px;
+    }
+
+    .protfolio2-projs-images{
+        width: 336px;
+        height: 348px;
+    }
+
+    .protfolio2-project-gallery {
+        padding: 0;
+    }
+
+    .prot2-projs-images{
+        margin: 48px 16px 0 16px;
+    }
+
+    .portfolio2-project-title{
+        margin-bottom: 16px;
+    }
+
+
+
+    .portfolio2-more-projects-out {
+        padding: 64px 0 32px 0;
+    }
+    /****************************** portfolio page 2 *********************************/
 }
 
 
@@ -4992,6 +5071,37 @@ line-height: 20px;
         margin: 0 79px;
     }
     /****************************** portfolio page 1 *********************************/
+
+    /****************************** portfolio page 2 *********************************/
+
+    .protfolio2-projs-images{
+        width: 343px;
+        height: 393px;
+    }
+
+    .protfolio2-project-gallery {
+        padding: 0;
+    }
+
+    .prot2-projs-images{
+        margin: 32px 0 0 0;
+    }
+
+    .portfolio2-project-des {
+        margin-left: 0;
+    }
+
+    .portfolio2-project-title{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+
+
+    .portfolio2-more-projects-out {
+        padding: 64px 0 32px 0;
+    }
+    /****************************** portfolio page 2 *********************************/
 }
 
 
