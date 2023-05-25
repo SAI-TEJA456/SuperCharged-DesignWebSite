@@ -246,6 +246,22 @@ button{
     height: 560px;
 }
 
+.neutral-bg-100{
+    background-color: var(--neutral_100) !important;
+}
+
+.neutral-200{
+    color: var(--neutral_200) !important;
+}
+
+.neutral-800{
+    color: var(--neutral_800) !important;
+}
+
+.gray-50{
+    color: var(--gray_50) !important;
+}
+
 .c-white{
     color: white !important;
 }
@@ -1934,8 +1950,7 @@ button{
 }
 
 .pricing1-option{
-    width: 384px;
-    height: 46px;
+    padding: 4px;
     background-color: var(--neutral_300);
     border: 1px solid var(--neutral_600);
     border-radius: 5px;
@@ -1953,7 +1968,6 @@ button{
     font-size: 14px;
     font-weight: 600;
     color: var(--gray_700);
-    margin-top: 4px;
 }
 
 .pricing1-plans-out{
@@ -2259,6 +2273,7 @@ border-radius: 6px;
 .land3-copyright-div {
     width: var(--width_1280px);
     border-top: 1px solid var(--gray_300);
+    padding-bottom: 64px;
 }
 
 .pricing2-email-section {
@@ -3091,6 +3106,134 @@ border-radius: 6px;
 
 /****************************** blog post page 2 *********************************/
 
+/****************************** portfolio page 1 *********************************/
+.potfolio1-section-in{
+    margin: 0 104px;
+}
+
+.portfolio1-option-out{
+    margin-top: 32px;
+}
+
+.portfolio1-hr-neu600{
+    border: 1px solid var(--neutral_600);
+    margin: 0;
+    margin-top: 48px;
+}
+
+.portfolio-copyright-div{
+    border-top: 1px solid var(--neutral_600);
+    margin: 0;
+}
+
+.btn-prot1-proj{
+    padding: 9px 18px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gray_700);
+    border-radius: 5px;
+}
+
+.protfolio1-project-gallery{
+    margin: 0;
+    padding-top: 56px;
+}
+
+.prot1-proj1-images{
+    margin: 8px;
+}
+
+.protfolio1-col-gallery a{
+    display: inline-block;
+}
+
+.protfolio1-project1-img{
+    object-fit: cover;
+    width: 395px;
+    height: 412px;
+}
+
+.protfolio1-project2-img{
+    object-fit: cover;
+    width: 395px;
+    height: 304px;
+}
+
+.protfolio1-project3-img{
+    object-fit: cover;
+    width: 395px;
+    height: 567px;
+}
+
+.protfolio1-project4-img{
+    object-fit: cover;
+    width: 395px;
+    height: 304px;
+}
+
+.protfolio1-project5-img{
+    object-fit: cover;
+    width: 395px;
+    height: 548px;
+}
+
+.protfolio1-project6-img{
+    object-fit: cover;
+    width: 395px;
+    height: 431px;
+}
+
+.protfolio1-project7-img{
+    object-fit: cover;
+    width: 395px;
+    height: 548px;
+}
+
+.protfolio1-project8-img{
+    object-fit: cover;
+    width: 395px;
+    height: 412px;
+}
+
+.protfolio1-project9-img{
+    object-fit: cover;
+    width: 395px;
+    height: 322px;
+}
+
+.portfolio1-more-projects-out{
+    padding: 40px 0 64px 0;
+    text-align: center;
+}
+.portfolio1-more-projects{
+    display: inline-flex;
+    
+}
+
+.leftarrow-circle-btn, .rightarrow-circle-btn{
+    padding: 12px;
+    
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid var(--neutral_700);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 30px;
+}
+
+.prot1-proj1-pages{
+    margin: 0 37.5px;
+    align-self: center;
+}
+
+.prot1-proj1-pages,.port1-slide-num1,.port1-slide-num2{
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+}
+/****************************** portfolio page 1 *********************************/
+
 /************************ @media Queries **************************/
 @media screen and (max-width:768px){
     /********** landing page 1 *************/
@@ -3774,6 +3917,37 @@ border-radius: 6px;
         padding-left: 32px;
     }
     /****************************** blog post page 2 *********************************/
+
+    /****************************** portfolio page 1 *********************************/
+    .potfolio1-section-in{
+        margin: 0 24px;
+    }
+
+    .protfolio1-project-gallery{
+        padding-top: 40px;
+    }
+    
+    .protfolio1-project1-img, .protfolio1-project2-img, .protfolio1-project3-img, .protfolio1-project4-img, .protfolio1-project5-img, .protfolio1-project6-img, .protfolio1-project7-img, .protfolio1-project8-img, .protfolio1-project9-img
+    {
+        width: 224px;
+    }
+
+    .protfolio1-project3-img{
+        height: 268px;
+    }
+
+    .protfolio1-project5-img{
+        height: 249px;
+    }
+
+    .protfolio1-project7-img{
+        height: 250px;
+    }
+
+    .portfolio1-more-projects-out{
+        padding: 24px 0 48px 0;
+    }
+    /****************************** portfolio page 1 *********************************/
 }
 
 
@@ -3962,7 +4136,7 @@ border-radius: 6px;
     /****************************** landing page 2 *********************************/
 
 
-/********** landing2 hero base  *************/
+    /********** landing2 hero base  *************/
     .landing2_head{
             width: 21.438rem;
             padding: 24px 0;
@@ -4495,10 +4669,6 @@ border-radius: 6px;
     
     /****************************** pricing page 2 *********************************/
 
-    .pricing1-option {
-        width: 343px;
-    }
-
     .pricing2-btn-monthly, .pricing2-btn-yearly {
         width: 164.5px;
     }
@@ -4763,6 +4933,65 @@ border-radius: 6px;
         margin: 0 16px;
     }
     /****************************** blog post page 2 *********************************/
+
+    /****************************** portfolio page 1 *********************************/
+    .potfolio1-section-in{
+        margin: 0 12px;
+    }
+
+    .prot1-proj1-images{
+        margin: 4px;
+    }
+
+    .protfolio1-project-gallery{
+        padding-top: 40px;
+    }
+    
+    .protfolio1-project1-img, .protfolio1-project2-img, .protfolio1-project3-img, .protfolio1-project4-img, .protfolio1-project5-img, .protfolio1-project6-img, .protfolio1-project7-img, .protfolio1-project8-img, .protfolio1-project9-img
+    {
+        width: 109px;
+    }
+
+    .protfolio1-project1-img{
+        height: 198.65px;
+    }
+
+    .protfolio1-project2-img, .protfolio1-project4-img{
+        height: 182px;
+    }
+
+    .protfolio1-project3-img{
+        height: 248.35px;
+    }
+
+    .protfolio1-project5-img{
+        height: 196.19px;
+    }
+
+    .protfolio1-project6-img{
+        height: 250.82px;
+    }
+
+    .protfolio1-project7-img{
+        height: 189.58px;
+    }
+
+    .protfolio1-project8-img{
+        height: 246.65px;
+    }
+
+    .protfolio1-project9-img{
+        height: 192.77px;
+    }
+
+    .portfolio1-more-projects-out{
+        padding: 20px 0 32px 0;
+    }
+
+    .prot1-proj1-pages{
+        margin: 0 79px;
+    }
+    /****************************** portfolio page 1 *********************************/
 }
 
 
