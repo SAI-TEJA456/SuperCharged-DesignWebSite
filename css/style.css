@@ -282,6 +282,10 @@ button{
     display: none;
 }
 
+.display-mediaqer{
+    display: block;
+}
+
 .dropdown:hover > .resources-submenu{
     display: block;
 }
@@ -3288,6 +3292,12 @@ line-height: 20px;
 
 /************************ @media Queries **************************/
 @media screen and (max-width:768px){
+
+    
+    .display-mediaqer{
+        display: none;
+    }
+
     /********** landing page 1 *************/
 
     /********** navigation bar *************/
@@ -4031,6 +4041,10 @@ line-height: 20px;
 
 
 @media screen and (max-width:391px){
+    
+    .display-mediaqer{
+        display: block;
+    }
     /********** landing page 1 *************/
     
     /********** navigation bar *************/
