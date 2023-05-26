@@ -246,6 +246,22 @@ button{
     height: 560px;
 }
 
+.neutral-bg-100{
+    background-color: var(--neutral_100) !important;
+}
+
+.neutral-200{
+    color: var(--neutral_200) !important;
+}
+
+.neutral-800{
+    color: var(--neutral_800) !important;
+}
+
+.gray-50{
+    color: var(--gray_50) !important;
+}
+
 .c-white{
     color: white !important;
 }
@@ -254,12 +270,20 @@ button{
     background-color: white !important;
 }
 
+.bg-gray-950{
+    background-color: var(--gray_950) !important;
+}
+
 .c-gray-700{
     color: var(--gray_700) !important;
 }
 
 .image4{
     display: none;
+}
+
+.display-mediaqer{
+    display: block;
 }
 
 .dropdown:hover > .resources-submenu{
@@ -1641,7 +1665,11 @@ button{
 }
 
 .following-section{
-    margin: 64px 80px;
+    padding: 64px 0;
+}
+
+.following-section-row{
+    margin: 0 80px;
 }
 /********** about page hero base  *************/
 
@@ -1888,7 +1916,7 @@ button{
 
 /********** about page hero base  *************/
 .abt2-head {
-    margin: 80px 340px 92px 340px;
+    margin: 80px 341px 92px 341px;
     text-align: center;
 }
 
@@ -1934,8 +1962,7 @@ button{
 }
 
 .pricing1-option{
-    width: 384px;
-    height: 46px;
+    padding: 4px;
     background-color: var(--neutral_300);
     border: 1px solid var(--neutral_600);
     border-radius: 5px;
@@ -1953,7 +1980,6 @@ button{
     font-size: 14px;
     font-weight: 600;
     color: var(--gray_700);
-    margin-top: 4px;
 }
 
 .pricing1-plans-out{
@@ -2226,14 +2252,6 @@ border-radius: 6px;
     margin-left: 7.8px;
 }
 
-.neutral-200{
-    color: var(--neutral_200);
-}
-
-.neutral-800{
-    color: var(--neutral_800);
-}
-
 .pricing2-eaiserCards{
     padding-top: 64px;
     padding-bottom: 64px;
@@ -2259,6 +2277,7 @@ border-radius: 6px;
 .land3-copyright-div {
     width: var(--width_1280px);
     border-top: 1px solid var(--gray_300);
+    padding-bottom: 64px;
 }
 
 .pricing2-email-section {
@@ -2779,6 +2798,7 @@ border-radius: 6px;
 }
 
 .form-input-labels{
+    text-align: left;
     padding: 0;
     margin: 0;
     margin-bottom: 8px;
@@ -2859,8 +2879,503 @@ border-radius: 6px;
 }
 /****************************** career page 2 *********************************/
 
+/****************************** blog page 1 *********************************/
+.blog-pg-section{
+    padding: 64px 0;
+}
+
+.blogs-pg-card-img{
+    object-fit: cover;
+    width: 24rem;
+    height: 285px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.blogs-pg-avatar-title{
+    margin: 0;
+    width: 90%;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--gray_700);
+    margin-top: 8;
+}
+
+.blogs-pg-learn{
+    margin-top: 16px ;
+}
+
+.blog-post1-head {
+    margin-bottom: 16px;
+}
+
+/****************************** blog page 1 *********************************/
+
+/****************************** blog page 2 *********************************/
+.blog-post-center{
+    display: grid;
+    justify-content: center;
+}
+
+.blogs-tag{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray_700);
+    margin-right: 16px;
+}
+
+.blogs-search-btn{
+    width: 75px;
+    padding: 4px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: var(--neutral_300);
+    border-radius: 5px;
+    color: var(--gray_700);
+    margin-right: 16px;
+}
+
+
+.blog-post-search{
+    padding: 32px 0;
+    width: var(--width_1216px);
+}
+
+.blog-search-col{
+    text-align: end;
+}
+
+.blog-search-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.blogs-search-icon {
+    position: relative;
+  }
+  
+  .blogs-search-icon:before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("../resources/icons/blog-search-icon-gray.png") center / contain no-repeat;
+  }
+  
+  .blogs-input-search {
+    padding: 12px 12px 12px 38px;
+    border: 1px solid var(--neutral_700);
+    border-radius: 5px 0px 0px 5px;
+    width: 382px;
+    color: var(--gray_25);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .btn-search-primary{
+    width: 87px;
+    padding: 12px 18px;
+    background-color: var(--primary_blue_600);
+    color: white;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 0px 6px 6px 0px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+/****************************** blog page 2 *********************************/
+
+/****************************** blog post page 1 *********************************/
+.blog-post-img1{
+    object-fit: cover;
+    width: 1100px;
+    height: 279px;
+}
+
+.blog-post-imgdiv{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 0 0 100% 100% / 0 0 6% 6%;
+}
+
+.blog-post-img2{
+    object-fit: cover;
+    width: 840px;
+    height: 553px;
+    margin-bottom: 16px;
+}
+
+.blog-post-desp{
+    color: var(--primary_blue_600);
+    text-align: center;
+}
+/****************************** blog post page 1 *********************************/
+
+/****************************** blog post page 2 *********************************/
+.test1{
+    position: relative;
+}
+
+.blog-pst2-imgin{
+    position: relative;
+    text-align: center;
+    height: 436px;
+    margin: 0 112px;
+    padding-bottom: 64px;
+}
+.blog-pst2-img1{
+    position: absolute;
+    top: -114px;
+    left: 0;
+    object-fit: cover;
+    height: 486px;
+    border-radius: 5px;
+}
+
+.blog-pst2-desimg{
+    height: 818px;
+}
+
+.blog-pst2-meaning{
+    height: 386px;
+}
+
+.blog-post-appre {
+    margin: 0;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.blogdescription-short-p{
+    margin-top: 48px;
+}
+
+
+.des-num-ul{
+    list-style-type: decimal;
+    margin: 32px 0;
+    padding-left:22px ;
+}
+
+.des-num-li{
+    margin: 0;
+}
+
+.blg-post2-supp{
+    margin: 0;
+    margin-left: 32px;
+}
+
+.blg2-email-label, .hint-text{
+    margin: 0 120px 8px 120px;
+    display: block;
+    text-align: left;
+}
+
+.blog2-post-btn{
+    margin-top: 24px;
+}
+
+.iphone-image{
+    object-fit: cover;
+    height: 246px;
+}
+
+.iphone-image-out{
+    text-align: center;
+}
+
+.blogpst2-email-section{
+    background-color: var(--gray_950);
+    padding: 64px 112px;
+}
+
+.blogpst2-email-head{
+    margin: 0;
+    background-color: var(--gray_900);
+    padding-top: 66px;
+}
+
+.blogpst2-email-message{
+    padding: 0;
+    padding-left: 49px;
+}
+
+/****************************** blog post page 2 *********************************/
+
+/****************************** portfolio page 1 *********************************/
+.potfolio1-section-in{
+    margin: 0 104px;
+}
+
+.portfolio1-option-out{
+    margin-top: 32px;
+}
+
+.portfolio1-hr-neu600{
+    border: 1px solid var(--neutral_600);
+    margin: 0;
+    margin-top: 48px;
+}
+
+.portfolio-copyright-div{
+    border-top: 1px solid var(--neutral_600);
+    margin: 0;
+}
+
+.btn-prot1-proj{
+    padding: 9px 18px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gray_700);
+    border-radius: 5px;
+}
+
+.protfolio1-project-gallery{
+    margin: 0;
+    padding-top: 56px;
+}
+
+.prot1-proj1-images{
+    margin: 8px;
+}
+
+.protfolio1-col-gallery a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.protfolio1-project1-img{
+    object-fit: cover;
+    width: 395px;
+    height: 412px;
+}
+
+.protfolio1-project2-img{
+    object-fit: cover;
+    width: 395px;
+    height: 304px;
+}
+
+.protfolio1-project3-img{
+    object-fit: cover;
+    width: 395px;
+    height: 567px;
+}
+
+.protfolio1-project4-img{
+    object-fit: cover;
+    width: 395px;
+    height: 304px;
+}
+
+.protfolio1-project5-img{
+    object-fit: cover;
+    width: 395px;
+    height: 548px;
+}
+
+.protfolio1-project6-img{
+    object-fit: cover;
+    width: 395px;
+    height: 431px;
+}
+
+.protfolio1-project7-img{
+    object-fit: cover;
+    width: 395px;
+    height: 548px;
+}
+
+.protfolio1-project8-img{
+    object-fit: cover;
+    width: 395px;
+    height: 412px;
+}
+
+.protfolio1-project9-img{
+    object-fit: cover;
+    width: 395px;
+    height: 322px;
+}
+
+.portfolio1-more-projects-out{
+    padding: 40px 0 64px 0;
+    text-align: center;
+}
+.portfolio1-more-projects{
+    display: inline-flex;
+    
+}
+
+.leftarrow-circle-btn, .rightarrow-circle-btn{
+    padding: 12px;
+    
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid var(--neutral_700);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 30px;
+}
+
+.prot1-proj1-pages{
+    margin: 0 37.5px;
+    align-self: center;
+}
+
+.prot1-proj1-pages,.port1-slide-num1,.port1-slide-num2{
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+}
+/****************************** portfolio page 1 *********************************/
+
+/****************************** portfolio page 2 *********************************/
+.protfolio2-project-gallery {
+    margin: 0;
+    padding-top: 40px;
+}
+
+.protfolio2-projs-images{
+    object-fit: cover;
+    width: 384px;
+    height: 427px;
+}
+
+.portfolio2-project-des{
+    margin: 16px 0 8px 16px;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.portfolio2-project-title{
+    margin: 0;
+    margin-left: 16px;
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.prot2-projs-images{
+    margin: 24px 16px 0 16px;
+}
+
+.potfolio2-section-in {
+    margin: 0 96px;
+}
+
+.portfolio2-more-projects-out {
+    padding: 32px 0;
+    text-align: center;
+}
+/****************************** portfolio page 2 *********************************/
+
+/****************************** contact page 1 *********************************/
+.contact1-channels-section{
+    padding: 64px 0;
+}
+
+.contact1-form-section {
+    padding-top: 64px;
+    padding-bottom: 128px;
+}
+
+.contact1-form-div{
+    margin: 0 112px;
+}
+
+.contact1-contact-form {
+    background-color: var(--neutral_100);
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.contact1-full-name, .contact1-email-input, .phonenum-input, .contactres-input {
+    padding: 12px 16px;
+    width: 564px;
+    border: 1px solid var(--neutral_700);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    background-color: white;
+    border-radius: 6px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.contactres-input{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact1-descript-input {
+    width: 100%;
+}
+
+.contact1-form-col6{
+    text-align: center;
+}
+
+.contact1-input-labels{
+    margin-left: 7px;
+}
+
+.contact1-checkbox{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.contact1-checkbox-input{
+    width: 20px;
+    height: 24px;
+}
+
+.contact1-checkbox-label{
+    color: var(--gray_700);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 12px;
+}
+
+.contact1-redefining-section{
+    padding-top: 64px;
+}
+
+.contact2-form-h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+/****************************** contact page 1 *********************************/
+
 /************************ @media Queries **************************/
 @media screen and (max-width:768px){
+
+    
+    .display-mediaqer{
+        display: none;
+    }
+
     /********** landing page 1 *************/
 
     /********** navigation bar *************/
@@ -2984,15 +3499,15 @@ border-radius: 6px;
 
     /********** landing page 1 *************/
 
-  /****************************** landing page 2 *********************************/
+    /****************************** landing page 2 *********************************/
 
-  /********** landing 2 navigation bar *************/
+    /********** landing 2 navigation bar *************/
 
-  .land2-toggler-icon{
-    background-color: white;
-  }
+    .land2-toggler-icon{
+        background-color: white;
+    }
 
-  .landing2_navbar{
+    .landing2_navbar{
     padding: 20px 0;
     }
     /********** landing 2 navigation bar *************/
@@ -3009,49 +3524,49 @@ border-radius: 6px;
 
     /********** landing2 Work Easier Today *************/
 
-  .land2-eaiserCards{
-    width: 100%;
-  }
+    .land2-eaiserCards{
+        width: 100%;
+    }
 
-  .land2-eaiserCard{
-    width: 20rem;
-    margin:0 0 0 2rem;
-  }
+    .land2-eaiserCard{
+        width: 20rem;
+        margin:0 0 0 2rem;
+    }
 
-  .pricing-cards{
-    width: 100%;
-  }
+    .pricing-cards{
+        width: 100%;
+    }
 
-  .pricing-section{
-    padding: 0;
-}
+    .pricing-section{
+        padding: 0;
+        }
 
-  .price-btn{
-    width: 276px;
-  }
-/********** landing2 Work Easier Today *************/
+    .price-btn{
+        width: 276px;
+    }
+    /********** landing2 Work Easier Today *************/
 
-/********** landing2 latest blog posts *************/
-.land2-blog-section{
-    padding-bottom: 16px;
-}
-.land2-card{
-    margin-left: 1.56rem;
-  }
+    /********** landing2 latest blog posts *************/
+    .land2-blog-section{
+        padding-bottom: 16px;
+    }
+    .land2-card{
+        margin-left: 1.56rem;
+    }
 
-  .land2-avatar-blogs{
-    margin: 0 12px;
-  } 
+    .land2-avatar-blogs{
+        margin: 0 12px;
+    } 
 
-  .land2-blog1{
-    margin-bottom: 2rem;
-  }
+    .land2-blog1{
+        margin-bottom: 2rem;
+    }
 
-  .land2-blog2{
-    margin-left: 39px;
-  }
+    .land2-blog2{
+        margin-left: 39px;
+    }
 
-/********** landing2 latest blog posts *************/
+    /********** landing2 latest blog posts *************/
 
  
     /********** landing2 email section *************/
@@ -3145,7 +3660,7 @@ border-radius: 6px;
 
     .land3-email-submit2 input {
     width: 240px;
-}
+    }
     /********** landing3 footer section *************/
 
     /****************************** landing page 3 *********************************/
@@ -3217,15 +3732,17 @@ border-radius: 6px;
         width: 100%;
     }
 
-    .following-section {
-        margin: 40px 32px;
+    .following-section{
+        padding: 40px 0;
+    }
+    
+    .following-section-row{
+        margin: 0 32px;
     }
 
     .abt1-btn-start{
         margin-bottom: 48px;
     }
-
-    
 
     /********** about page sign up section  *************/
     
@@ -3486,9 +4003,145 @@ border-radius: 6px;
         width: 220px;
     }
     /****************************** career page 2 *********************************/
+
+    /****************************** blog page 1 *********************************/
+    
+    .blogs-pg-card-img{
+        width: 336px;
+    }
+    
+    /****************************** blog page 1 *********************************/
+
+    /****************************** blog page 2  *********************************/
+    .blog-post-search{
+        width: 704px;
+    }
+
+    .blogs-input-search {
+        width: 240px;
+    }
+    /****************************** blog page 2  *********************************/
+
+    
+    /****************************** blog post page 1 *********************************/
+    .blog-post-img1{
+        object-fit: cover;
+        width: 656px;
+        height: 330px;
+    }
+
+    .blog-post-img2{
+        width: 704px;
+    }
+    /****************************** blog post page 1 *********************************/
+
+    /****************************** blog post page 2 *********************************/
+    
+    .blog-pst2-imgin{
+        height: 355px;
+        margin: 0 32px;
+    }
+
+    .blog-pst2-img1{
+        width: 704px;
+        height: 355px;
+    }
+    
+    .blogpst2-email-section{
+        padding: 40px 32px;
+    }
+    
+    .blogpst2-email-head{
+        padding-top: 32px;
+    }
+    
+    .blogpst2-email-message{
+        padding-left: 32px;
+    }
+    /****************************** blog post page 2 *********************************/
+
+    /****************************** portfolio page 1 *********************************/
+    .potfolio1-section-in{
+        margin: 0 24px;
+    }
+
+    .protfolio1-project-gallery{
+        padding-top: 40px;
+    }
+    
+    .protfolio1-project1-img, .protfolio1-project2-img, .protfolio1-project3-img, .protfolio1-project4-img, .protfolio1-project5-img, .protfolio1-project6-img, .protfolio1-project7-img, .protfolio1-project8-img, .protfolio1-project9-img
+    {
+        width: 224px;
+    }
+
+    .protfolio1-project3-img{
+        height: 268px;
+    }
+
+    .protfolio1-project5-img{
+        height: 249px;
+    }
+
+    .protfolio1-project7-img{
+        height: 250px;
+    }
+
+    .portfolio1-more-projects-out{
+        padding: 24px 0 48px 0;
+    }
+    /****************************** portfolio page 1 *********************************/
+
+    /****************************** portfolio page 2 *********************************/
+    .potfolio2-section-in {
+        margin: 0 16px;
+    }
+
+    .protfolio2-projs-images{
+        width: 336px;
+        height: 348px;
+    }
+
+    .protfolio2-project-gallery {
+        padding: 0;
+    }
+
+    .prot2-projs-images{
+        margin: 48px 16px 0 16px;
+    }
+
+    .portfolio2-project-title{
+        margin-bottom: 16px;
+    }
+
+
+
+    .portfolio2-more-projects-out {
+        padding: 64px 0 32px 0;
+    }
+    /****************************** portfolio page 2 *********************************/
+
+    /****************************** contact page 1 *********************************/
+    .contact1-form-div {
+        margin: 0 32px;
+    }
+
+    .contact1-full-name, .contact1-email-input, .phonenum-input, .contactres-input {
+        width: 308px;
+    }
+
+    .contact2-form-h1{
+        margin-bottom: 32px;
+    }
+    /****************************** contact page 1 *********************************/
+
 }
 
+
 @media screen and (max-width:391px){
+    
+    .display-mediaqer{
+        display: block;
+    }
     /********** landing page 1 *************/
     
     /********** navigation bar *************/
@@ -3673,7 +4326,7 @@ border-radius: 6px;
     /****************************** landing page 2 *********************************/
 
 
-/********** landing2 hero base  *************/
+    /********** landing2 hero base  *************/
     .landing2_head{
             width: 21.438rem;
             padding: 24px 0;
@@ -4087,8 +4740,12 @@ border-radius: 6px;
         margin: 0;
     }
 
-    .following-section {
-        margin: 32px 16px;
+    .following-section{
+        padding: 32px 0;
+    }
+    
+    .following-section-row{
+        margin: 0 16px;
     }
 
     .abt-channelsOuter {
@@ -4205,10 +4862,6 @@ border-radius: 6px;
     /****************************** pricing page 1 *********************************/
     
     /****************************** pricing page 2 *********************************/
-
-    .pricing1-option {
-        width: 343px;
-    }
 
     .pricing2-btn-monthly, .pricing2-btn-yearly {
         width: 164.5px;
@@ -4394,6 +5047,197 @@ border-radius: 6px;
         margin-bottom: 16px;
     }
     /****************************** career page 2 *********************************/
+
+    /****************************** blog page 1 *********************************/
+
+    .blogs-pg-card-img{
+        width: 343px;
+        height: 185px;
+    }
+
+    /****************************** blog page 1 *********************************/
+
+     /****************************** blog page 2  *********************************/
+     .blog-post-search{
+        padding: 16px 0;
+        width: 343px;
+    }
+
+    .blogs-input-search {
+        width: 256px;
+    }
+    
+    .blog-search-form{
+        margin: 24px 0 16px 0;
+
+    }
+    /****************************** blog page 2  *********************************/
+
+    /****************************** blog post page 1 *********************************/
+    .blog-post-img1{
+        width: 343px;
+        height: 129px;
+    }
+
+    .blog-post-img2{
+        width: 343px;
+        height: 313px;
+    }
+    /****************************** blog post page 1 *********************************/
+
+      /****************************** blog post page 2 *********************************/
+
+      .test1{
+        height: 584px;
+      }
+    
+      .blog-pst2-imgin{
+        height: 310px;
+        margin: 0 16px;
+        padding-bottom: 24px;
+    }
+
+    .blog-pst2-img1{
+        top: -140px;
+        width: 343px;
+        height: 426px;
+    }
+
+    .blogpst2-email-section{
+        padding: 32px 16px;
+    }
+    
+    .blogpst2-email-head{
+        padding-top: 16px;
+    }
+    
+    .blogpst2-email-message{
+        padding: 16px;
+    }
+
+    .blog2-post-btn{
+        width: 311px;
+    }
+
+    .iphone-image{
+        margin-top: 18px;
+    }
+
+    .iphone-image-out{
+        margin: 0 16px;
+    }
+    /****************************** blog post page 2 *********************************/
+
+    /****************************** portfolio page 1 *********************************/
+    .potfolio1-section-in{
+        margin: 0 12px;
+    }
+
+    .prot1-proj1-images{
+        margin: 4px;
+    }
+
+    .protfolio1-project-gallery{
+        padding-top: 40px;
+    }
+    
+    .protfolio1-project1-img, .protfolio1-project2-img, .protfolio1-project3-img, .protfolio1-project4-img, .protfolio1-project5-img, .protfolio1-project6-img, .protfolio1-project7-img, .protfolio1-project8-img, .protfolio1-project9-img
+    {
+        width: 109px;
+    }
+
+    .protfolio1-project1-img{
+        height: 198.65px;
+    }
+
+    .protfolio1-project2-img, .protfolio1-project4-img{
+        height: 182px;
+    }
+
+    .protfolio1-project3-img{
+        height: 248.35px;
+    }
+
+    .protfolio1-project5-img{
+        height: 196.19px;
+    }
+
+    .protfolio1-project6-img{
+        height: 250.82px;
+    }
+
+    .protfolio1-project7-img{
+        height: 189.58px;
+    }
+
+    .protfolio1-project8-img{
+        height: 246.65px;
+    }
+
+    .protfolio1-project9-img{
+        height: 192.77px;
+    }
+
+    .portfolio1-more-projects-out{
+        padding: 20px 0 32px 0;
+    }
+
+    .prot1-proj1-pages{
+        margin: 0 79px;
+    }
+    /****************************** portfolio page 1 *********************************/
+
+    /****************************** portfolio page 2 *********************************/
+
+    .protfolio2-projs-images{
+        width: 343px;
+        height: 393px;
+    }
+
+    .protfolio2-project-gallery {
+        padding: 0;
+    }
+
+    .prot2-projs-images{
+        margin: 32px 0 0 0;
+    }
+
+    .portfolio2-project-des {
+        margin-left: 0;
+    }
+
+    .portfolio2-project-title{
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+
+
+    .portfolio2-more-projects-out {
+        padding: 64px 0 32px 0;
+    }
+    /****************************** portfolio page 2 *********************************/
+
+    /****************************** contact page 1 *********************************/
+    .contact1-form-div {
+        margin: 0;
+    }
+
+    .contact1-form-section {
+        padding: 40px 0;
+    }
+
+    .contact1-checkbox{
+        padding: 0;
+    }
+
+    .contact2-form-h1{
+        margin-bottom: 48px;
+        font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    }
+    /****************************** contact page 1 *********************************/
 }
 
 
