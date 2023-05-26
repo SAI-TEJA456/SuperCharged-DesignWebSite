@@ -2248,14 +2248,6 @@ border-radius: 6px;
     margin-left: 7.8px;
 }
 
-.neutral-200{
-    color: var(--neutral_200);
-}
-
-.neutral-800{
-    color: var(--neutral_800);
-}
-
 .pricing2-eaiserCards{
     padding-top: 64px;
     padding-bottom: 64px;
@@ -2802,6 +2794,7 @@ border-radius: 6px;
 }
 
 .form-input-labels{
+    text-align: left;
     padding: 0;
     margin: 0;
     margin-bottom: 8px;
@@ -3289,6 +3282,79 @@ line-height: 20px;
     text-align: center;
 }
 /****************************** portfolio page 2 *********************************/
+
+/****************************** contact page 1 *********************************/
+.contact1-channels-section{
+    padding: 64px 0;
+}
+
+.contact1-form-section {
+    padding-top: 64px;
+    padding-bottom: 128px;
+}
+
+.contact1-form-div{
+    margin: 0 112px;
+}
+
+.contact1-contact-form {
+    background-color: var(--neutral_100);
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.contact1-full-name, .contact1-email-input, .phonenum-input, .contactres-input {
+    padding: 12px 16px;
+    width: 564px;
+    border: 1px solid var(--neutral_700);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    background-color: white;
+    border-radius: 6px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.contactres-input{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact1-descript-input {
+    width: 100%;
+}
+
+.contact1-form-col6{
+    text-align: center;
+}
+
+.contact1-input-labels{
+    margin-left: 7px;
+}
+
+.contact1-checkbox{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.contact1-checkbox-input{
+    width: 20px;
+    height: 24px;
+}
+
+.contact1-checkbox-label{
+    color: var(--gray_700);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 12px;
+}
+
+.contact1-redefining-section{
+    padding-top: 64px;
+}
+/****************************** contact page 1 *********************************/
 
 /************************ @media Queries **************************/
 @media screen and (max-width:768px){
@@ -4037,6 +4103,17 @@ line-height: 20px;
         padding: 64px 0 32px 0;
     }
     /****************************** portfolio page 2 *********************************/
+
+    /****************************** contact page 1 *********************************/
+    .contact1-form-div {
+        margin: 0 32px;
+    }
+
+    .contact1-full-name, .contact1-email-input, .phonenum-input, .contactres-input {
+        width: 308px;
+    }
+    /****************************** contact page 1 *********************************/
+
 }
 
 
@@ -5116,6 +5193,20 @@ line-height: 20px;
         padding: 64px 0 32px 0;
     }
     /****************************** portfolio page 2 *********************************/
+
+    /****************************** contact page 1 *********************************/
+    .contact1-form-div {
+        margin: 0;
+    }
+
+    .contact1-form-section {
+        padding: 40px 0;
+    }
+
+    .contact1-checkbox{
+        padding: 0;
+    }
+    /****************************** contact page 1 *********************************/
 }
 
 
