@@ -1665,7 +1665,11 @@ button{
 }
 
 .following-section{
-    margin: 64px 80px;
+    padding: 64px 0;
+}
+
+.following-section-row{
+    margin: 0 80px;
 }
 /********** about page hero base  *************/
 
@@ -3354,6 +3358,14 @@ line-height: 20px;
 .contact1-redefining-section{
     padding-top: 64px;
 }
+
+.contact2-form-h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 48px;
+}
 /****************************** contact page 1 *********************************/
 
 /************************ @media Queries **************************/
@@ -3720,8 +3732,12 @@ line-height: 20px;
         width: 100%;
     }
 
-    .following-section {
-        margin: 40px 32px;
+    .following-section{
+        padding: 40px 0;
+    }
+    
+    .following-section-row{
+        margin: 0 32px;
     }
 
     .abt1-btn-start{
@@ -4111,6 +4127,10 @@ line-height: 20px;
 
     .contact1-full-name, .contact1-email-input, .phonenum-input, .contactres-input {
         width: 308px;
+    }
+
+    .contact2-form-h1{
+        margin-bottom: 32px;
     }
     /****************************** contact page 1 *********************************/
 
@@ -4720,8 +4740,12 @@ line-height: 20px;
         margin: 0;
     }
 
-    .following-section {
-        margin: 32px 16px;
+    .following-section{
+        padding: 32px 0;
+    }
+    
+    .following-section-row{
+        margin: 0 16px;
     }
 
     .abt-channelsOuter {
@@ -5205,6 +5229,13 @@ line-height: 20px;
 
     .contact1-checkbox{
         padding: 0;
+    }
+
+    .contact2-form-h1{
+        margin-bottom: 48px;
+        font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
     }
     /****************************** contact page 1 *********************************/
 }
