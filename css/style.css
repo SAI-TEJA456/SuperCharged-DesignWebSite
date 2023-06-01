@@ -268,21 +268,21 @@ button{
     display: none;
 }
 
-.dropdown:hover > .resources-submenu{
-    display: block;
-}
+/* .dropdown:hover > .resources-submenu{
+    display: flex;
+} */
 
-.landing-pages-link:hover > .landing-pages-submenu{
+/* .landing-pages-link:hover > .landing-pages-submenu{
     display: block;
     position: absolute;
     top: 0;
     left: 100%;
     margin-left: 0.125rem;
-}
+} */
 
-.resources-submenu{
+/* .resources-submenu{
     width: 80px;
-}
+} */
 
 .sf-div{
     display: flex;
@@ -325,9 +325,9 @@ button{
 }
 
 .nav-bar-items .nav-item .nav-link{
-    color: var(--gray_700);
+    color: var(--black);
     font-size: 16px;
-    font-weight:600;
+    font-weight: 600;
 }
 
 /* .land2-signup{
@@ -3520,7 +3520,7 @@ border-radius: 6px;
     /****************************** career page 2 *********************************/
 }
 
-@media screen and (max-width:391px){
+@media screen and (max-width:392px){
     /********** landing page 1 *************/
     
     /********** navigation bar *************/
@@ -4434,3 +4434,265 @@ border-radius: 6px;
 /************************ @media Queries *************************/
 
 
+.profile-card-container {
+    background-image: url("../resources/redfining_image1.jpg");
+    background-size: cover;
+    width: 640px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+  }
+  .land1-profile-status{
+    background-color: white;
+    padding: 6px;
+    width: 450px;
+    border-radius: 10px;
+    justify-content: space-around;
+  }
+  .land1-profile-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .land1-profile-info p{
+    font-size: 14px;
+    margin: 0px;
+  }
+  .land1-profile-avatar{
+    width: 85px;
+    height: 85px;
+    /* margin-right: 20px; */
+  }
+  .land1-profile-statusout{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    text-decoration: none;
+    user-select: none;
+  }
+  .land1-profile-statusin{
+    color: rgb(0, 255, 0);
+    background-color: var(--success_50);
+    padding: 8px 16px;
+    font-weight: 700;
+    border-radius: 42px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+@media screen and (max-width:395px) {
+  .profile-card-container {
+    background-image: url("../resources/redfining_image1.jpg");
+    background-size: cover;
+    width: 379px;
+    height: 343px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+  }
+  .land1-profile-status{
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    width: 328px;
+    border-radius: 20px;
+    justify-content: space-around;
+
+  }
+  .land1-profile-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .land1-profile-info p{
+    font-size: 11px;
+    margin: 0px;
+  }
+  .land1-profile-avatar{
+    width: 56px;
+    height: 56px;
+    /* margin-right: 20px; */
+  }
+  .land1-profile-statusout{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    text-decoration: none;
+    user-select: none;
+  }
+  .land1-profile-statusin{
+    color: rgb(0, 255, 0);
+    background-color: var(--success_50);
+    padding: 8px 16px;
+    font-weight: 700;
+    border-radius: 42px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+}
+
+
+/*  <!-- begin:: demonstrate product features css  --> */
+
+
+/* .land1-images-end,.land1-images-center{
+  text-align: center;  "previous"
+} */
+.land1-images-center {
+  background: url("../resources/Land-1_card2_bg.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 560px;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.center-icon{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-icon i{
+  font-size: 50px;
+  color: var(--primary_blue_800);
+}
+.land1-images-overlay{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.land1-images-1{
+display: flex;
+}
+.land1-image-in-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+} 
+.land1-image-in-1 p {
+  padding: 3px;
+  text-align: center;
+}
+/*  <!-- end:: demonstrate product features css  --> */
+
+/* begin :: media querie of demonstrate product features */
+
+@media screen and (max-width:395px) {
+.land1-images-center {
+    background: url("../resources/Land-1_card2_bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 560px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .center-icon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center-icon i{
+    font-size: 50px;
+    color: var(--primary_blue_800);
+  }
+  .land1-images-overlay{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .land1-images-1{
+  display: flex;
+  }
+  .land1-image-in-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    height: 200px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+  } 
+  .land1-image-in-1 p {
+    padding: 3px;
+    text-align: center;
+  }
+}
+/* end:: media querie of demonstrate product features */
+
+
+
+
+
+/* begin:: check us page  css starts here */
+.land1-image-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.land1-image-end img{
+  object-fit: cover;
+  width: 560px;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.land1-checkus-out-image{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 330px;
+  height: 230px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.getStartNow{
+  text-decoration: none;
+  padding: 20px 30px;
+  background-color: #574efa;
+  color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+/* end:: check us page css */
+
+/* media queries of chckus out page */
+@media screen and (max-width:395px) {
+    .land1-image-end img{
+        object-fit: cover;
+        width: 389px;
+        height: 395px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+}
