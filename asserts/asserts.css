@@ -513,7 +513,26 @@ display: flex;
 .landing-pages-submenu{
   width: 100%;
   height: auto;
+  border-radius: 0px;
 }
+.sub-dropdown{
+  position: relative !important;
+  transform: none !important;
+  border-radius: inherit;
+  /* left: -50% !important; */
+}
+.sub-dropdown-heading{
+  padding-left: 10px;
+}
+
+.sub-dropdown-heading:hover .sub-sub-dropdown{
+  display: block;
+  /* left: 40% !important; */
+}
+/* .chevron-side{
+  float: right;
+  margin-right: 20px;
+} */
 
 
 .chevron-btn{
