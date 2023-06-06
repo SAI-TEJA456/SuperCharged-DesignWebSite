@@ -1,6 +1,6 @@
 /********** global values  *************/
-:root{
-    --white:  #FFFFFF;
+:root {
+    --white: #FFFFFF;
     --black: #000000;
 
     --neutral_25: #FCFCFD;
@@ -101,90 +101,99 @@
     --gradient_25_900: conic-gradient(from 225deg at 50% 50%, #F5F8FF 0deg, #00359E 360deg);
     --gradient_600_100: linear-gradient(225deg, #B2CCFF 14.64%, #1058E8 85.36%);
     --gradient_overlay_dark: rgba(15, 23, 36, 0.85);
-    
+
     --gradient_400_900: linear-gradient(90deg, #F2F4F7 0%, #98A2B3 100%);
     --gradient_800_800: linear-gradient(25deg, #1D2939 12.38%, #98A2B3 87.62%);
     --gradient_50_900: conic-gradient(from 225deg at 50% 50%, #FCFCFD 0deg, #101828 360deg);
     --gradient_purple_blue: linear-gradient(225deg, #0046D1 14.64%, #A48AFB 85.36%);
 
     --font_1rem: 1rem;
-    --font_1-5rem:1.5rem;
+    --font_1-5rem: 1.5rem;
     --font_2rem: 2rem;
 
 
     --width_400px: 25rem;
     --width_768px: 48rem;
     --width_800px: 50rem;
-    --width_1216px: 76rem; 
-    --width_1280px: 80rem; 
+    --width_1216px: 76rem;
+    --width_1280px: 80rem;
 
 }
-.pb-6{
+
+.pb-6 {
     padding-bottom: 2rem;
 }
-.pt-6{
+
+.pt-6 {
     padding-top: 2rem;
 }
 
-.pt-64{
+.pt-64 {
     padding-top: 64px;
 }
 
-.pb-64{
+.pb-64 {
     padding-bottom: 64px;
 }
 
-.mb-6{
+.mb-6 {
     margin-bottom: 2rem;
 }
-.mt-6{
+
+.mt-6 {
     margin-top: 2rem;
 }
 
-.mx-80{
-    margin-left:80px;
-    margin-right:80px;
+.mx-80 {
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
-.mt-80{
-    margin-top:80px;
+.mt-80 {
+    margin-top: 80px;
 }
 
-.mb-80{
-    margin-bottom:80px;
+.mb-80 {
+    margin-bottom: 80px;
 }
 
-.ms-64{
+.ms-64 {
     margin-top: 64px;
     margin-bottom: 64px;
 }
 
-.mt-64{
+.mt-64 {
     margin-top: 64px;
 }
 
-.mb-64{
+.mb-64 {
     margin-bottom: 64px;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-transform: capitalize;
     color: var(--gray_700);
     font-weight: 700;
 }
 
-a{
+a {
     text-transform: capitalize;
 }
 
-p,span{
+p,
+span {
     color: var(--gray_50);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
 }
 
-button{
+button {
     text-transform: capitalize;
     font-size: var(--font_1rem);
     font-weight: 600;
@@ -201,40 +210,40 @@ button{
 /****************************** landing page 3 *********************************/
 
 /********** landing3 page header  *************/
-.landing3-header{
+.landing3-header {
     background-color: var(--primary_blue_900);
 }
 
-.land3-signup{
+.land3-signup {
     color: white;
 
 }
 
-.land3-navbar{
+.land3-navbar {
     border-bottom: 1px solid var(--primary_blue_400);
     padding: 20px 100px;
 }
 
 /********** landing3 hero base  *************/
-.land3-hero{
+.land3-hero {
     display: grid;
     place-items: center;
 }
 
-.land3-head{
+.land3-head {
     width: 40rem;
-    padding: 80px 0 92px 0; 
+    padding: 80px 0 92px 0;
     text-align: left;
 }
 
-.land3-head h1{
+.land3-head h1 {
     color: white;
     font-size: 3.25rem;
     font-weight: bold;
     padding: 0 0 24px 0;
 }
 
-.hero-img{
+.hero-img {
     background-image: url(../resources/land3-img1.png);
     object-fit: cover;
     background-repeat: no-repeat;
@@ -242,32 +251,33 @@ button{
 
 }
 
-.hero-img img{
+.hero-img img {
     position: relative;
     left: 9rem;
     top: 9rem;
 }
 
-.land3-head p{
+.land3-head p {
     color: var(--primary_blue_200);
     font-size: 1.125rem;
-  
+
 }
+
 /********** landing3 hero base  *************/
 
 /********** landing3 page header  *************/
 
 /********** landing6 Work Easier Today *************/
 
-.land3-eaiserCards{
+.land3-eaiserCards {
     width: var(--width_1216px);
 }
 
-.land3-eaiserCard{
+.land3-eaiserCard {
     padding: 0 3rem;
 }
 
-.land3-eaiserCard h4{
+.land3-eaiserCard h4 {
     color: var(--gray_700);
     padding: 12px 0;
     font-size: 22px;
@@ -280,6 +290,7 @@ button{
     font-weight: 500;
     text-decoration: none;
 }
+
 /********** landing3 Work Easier Today *************/
 
 /********** landing3 demonstrate branding *************/
@@ -310,7 +321,7 @@ button{
     width: 850px;
 }
 
-.land3-thank-msg{
+.land3-thank-msg {
     text-transform: none;
     padding: 32px 0;
     font-size: 28px;
@@ -318,32 +329,33 @@ button{
     font-weight: 500;
 }
 
-.avatar-msg{
+.avatar-msg {
     display: grid;
     place-items: center;
 }
 
-.avatar-del p{
+.avatar-del p {
     font-size: 14px;
     font-weight: 500;
 }
 
-.avatar-del h6{
+.avatar-del h6 {
     margin: 0;
     font-size: 15px;
     font-weight: 500;
 }
+
 /********** landing3 demonstrate branding *************/
 
 
 /********** landing3 latest blog posts *************/
 
-.land3-avatar-card{
+.land3-avatar-card {
     width: 24rem;
     border: none;
 }
 
-.land3-avatar-bg-img{
+.land3-avatar-bg-img {
     object-fit: cover;
     height: 248px;
     border-radius: 0.8rem;
@@ -353,18 +365,19 @@ button{
 /********** landing3 latest blog posts *************/
 
 /********** landing3 proud to be used by *************/
-.cp-img{
- width: 1216px;
+.cp-img {
+    width: 1216px;
 }
 
-.land3-logo-img{
+.land3-logo-img {
     object-fit: cover;
 
 }
+
 /********** landing3 proud to be used by *************/
 
 /********** landing2  email submition  *************/
-.land3-email-section{
+.land3-email-section {
     width: 100%;
     display: grid;
     place-items: center;
@@ -372,13 +385,13 @@ button{
     padding: 64px 0;
 }
 
-.land3-email-head{
+.land3-email-head {
     text-align: center;
     width: 47rem;
     /* margin-right: 80px; */
 }
 
-.land3-email-head h1{
+.land3-email-head h1 {
     color: var(--gray_700);
     font-size: var(--font_2rem);
     font-weight: 600;
@@ -386,12 +399,12 @@ button{
     margin-bottom: 24px;
 }
 
-.land3-email-submit{
+.land3-email-submit {
     text-align: center;
 }
 
 
-.land3-email-submit input{
+.land3-email-submit input {
     padding: 20px;
     width: 26.25rem;
     height: 46px;
@@ -399,7 +412,7 @@ button{
     border-radius: 6px 0px 0px 6px;
 }
 
-.land3-email-submit button{
+.land3-email-submit button {
     width: 5.5rem;
     padding: 12px 18px;
     margin: 0;
@@ -410,7 +423,7 @@ button{
     margin-bottom: 5px;
 }
 
-.land3-trust{
+.land3-trust {
     color: var(--gray_700);
     font-size: var(--font_1rem);
     font-weight: 500;
@@ -419,7 +432,7 @@ button{
 
 
 
-.land3-email-submit2 input{
+.land3-email-submit2 input {
     color: var(--neutral_800);
     padding: 20px;
     width: 214px;
@@ -428,10 +441,11 @@ button{
     border-radius: 6px 0px 0px 6px;
     background-color: var(--gray_600);
 }
+
 /********** landing2  email submition  *************/
 
 /********** landing2  footer section  *************/
-.email-submit-btn{
+.email-submit-btn {
     width: 5rem;
     padding: 12px 18px;
     margin: 0;
@@ -442,18 +456,19 @@ button{
     margin-bottom: 5px;
 }
 
-.land3-footer-copyright{
+.land3-footer-copyright {
     text-align: left;
 }
 
-.land3-copyright-div{
+.land3-copyright-div {
     width: var(--width_1280px);
     border-top: 1px solid var(--gray_300);
 }
 
-.land3-media-links{
+.land3-media-links {
     text-align: end;
 }
+
 /********** landing2  footer section  *************/
 
 /****************************** landing page 3 *********************************/
