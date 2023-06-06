@@ -268,21 +268,6 @@ button{
     display: none;
 }
 
-/* .dropdown:hover > .resources-submenu{
-    display: flex;
-} */
-
-/* .landing-pages-link:hover > .landing-pages-submenu{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    margin-left: 0.125rem;
-} */
-
-/* .resources-submenu{
-    width: 80px;
-} */
 
 .sf-div{
     display: flex;
@@ -330,9 +315,7 @@ button{
     font-weight: 600;
 }
 
-/* .land2-signup{
-    color: var(--primary_blue_600);
-} */
+
 .land1-login{
     font-weight: 600;
 }
@@ -341,6 +324,91 @@ button{
    padding: 12px 18px 12px 18px;
    font-weight: 500;
 }
+/* begin :: Navigation bar Ali */
+
+/* begin:: navbar main css */
+.resources-submenu {
+    display: static !important;
+    width: 1051px;
+    padding: 10px;
+    left: -70% !important;
+    right: auto !important;
+    text-align: center !important;
+    transform: translate(-27%, 0) !important;
+  } 
+  .dropdown:hover > .resources-submenu{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .landing-pages-link a{
+    font-size: 14px;
+  }
+  
+  .landing-pages-link:hover > .landing-pages-submenu{
+      display: flex;
+      position: absolute;
+   }
+   
+  
+  .landing-pages-link{
+   text-align: center;
+  }
+  
+  .landing-pages-submenu{
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
+  .land1-profile-state{
+    font-weight: 500;
+  }
+  
+  .land1-profile-price{
+    font-weight: 700;
+    color: black;
+  }
+  
+  .chevron-btn{
+    margin-left: 5px;
+  }
+  .canvas-btn{
+    visibility: hidden;
+  }
+  
+  @media screen and (max-width:1000px) {
+    .canvas-btn{
+      visibility:visible;
+    }
+  }
+  
+  
+  
+  /* begin::offcanvas right css */
+  .sub-dropdown{
+    position: relative !important;
+    transform: none !important;
+    border-radius: inherit;
+    padding: 15px;
+  }
+  .sub-dropdown-heading{
+    padding-left: 10px;
+  }
+  .sub-dropdown-heading:hover .sub-sub-dropdown{
+    display: block;
+    border: none;
+    outline: none;
+  }
+ 
+
+  .chevron{
+    float: right;
+    margin-left: 5px;
+  }
+  /* end::offcanvas right css */
+  
+
+/* end:: NAvigation bar Ali */
 
 
 /********** navigation bar *************/
@@ -392,7 +460,6 @@ button{
     display: grid;
     place-items: center;
     background-color: var(--white);
-
 }
 
 .channelCards{
@@ -470,7 +537,84 @@ button{
 .redefining-img-position{
     text-align: end;
 }
+
+/* begin:: demonstrate card */
+
+.profile-card-container {
+    background-image: url("../resources/redfining_image1.jpg");
+    background-size: cover;
+    width: 640px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+  }
+  .land1-profile-status{
+    background-color: white;
+    padding: 6px;
+    width: 450px;
+    border-radius: 10px;
+    justify-content: space-around;
+  }
+  .land1-profile-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .land1-profile-info p{
+    font-size: 14px;
+    margin: 0px;
+  }
+  .land1-profile-avatar{
+    width: 85px;
+    height: 85px;
+    /* margin-right: 20px; */
+  }
+  .land1-profile-statusout{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    text-decoration: none;
+    user-select: none;
+  }
+  .land1-profile-statusin-success , .land1-profile-statusin-unsuccessful , .land1-profile-statusin-pending{
+    color: rgb(24 183 24);
+    background-color: var(--success_50);
+    padding: 8px 16px;
+    font-weight: 700;
+    border-radius: 42px;
+    font-size: 12px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  .land1-profile-statusin-unsuccessful{
+    color: var(--error_450);
+    background-color: var(--error_200);
+  }
+  .land1-profile-statusin-pending{
+    color: var(--primary_blue_800);
+    background-color:var(--primary_blue_100);
+  }
+
+.land1-profile-state{
+    font-weight: 500;
+  }
+  
+  .land1-profile-price{
+    font-weight: 700;
+    color: black;
+  }
+  /* end:: demonstrate card */
+
+
 /********** redefining product features *************/
+
+
+
 
 /********** demonstrate branding *************/
 .demonstrate-section{
@@ -4541,62 +4685,9 @@ border-radius: 6px;
 }
 
 
+
 /*  <!-- begin:: demonstrate product features css  --> */
 
-
-/* .land1-images-end,.land1-images-center{
-  text-align: center;  "previous"
-} */
-.land1-images-center {
-  background: url("../resources/Land-1_card2_bg.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
-  width: 560px;
-  height: 560px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-}
-.center-icon{
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.center-icon i{
-  font-size: 50px;
-  color: var(--primary_blue_800);
-}
-.land1-images-overlay{
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.land1-images-1{
-display: flex;
-}
-.land1-image-in-1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 240px;
-  height: 240px;
-  margin: 5px;
-  background-color: white;
-  border-radius: 10px;
-} 
-.land1-image-in-1 p {
-  padding: 3px;
-  text-align: center;
-}
-/*  <!-- end:: demonstrate product features css  --> */
-
-/* begin :: media querie of demonstrate product features */
-
-@media screen and (max-width:395px) {
 .land1-images-center {
     background: url("../resources/Land-1_card2_bg.jpg");
     background-size:cover;
@@ -4615,8 +4706,8 @@ display: flex;
     align-items: center;
   }
   .center-icon i{
-    font-size: 50px;
-    color: var(--primary_blue_800);
+    font-size: 80px;
+    color: black;
   }
   .land1-images-overlay{
     position: absolute;
@@ -4627,24 +4718,114 @@ display: flex;
   .land1-images-1{
   display: flex;
   }
-  .land1-image-in-1 {
+  .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+  , .land1-image-in-1-4{
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    width: 170px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
+    padding: 0px;
     margin: 5px;
     background-color: white;
-    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
   } 
-  .land1-image-in-1 p {
+  .land1-image-in-1-1{
+    border-top-left-radius: 10%;
+  }
+  .land1-image-in-1-2{
+    border-top-right-radius: 10%;
+  }
+  .land1-image-in-1-3{
+    border-bottom-left-radius: 10%;
+  }
+  .land1-image-in-1-4{
+    border-bottom-right-radius: 10%;
+  }
+  .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+  , .land1-image-in-1-4 p {
     padding: 3px;
     text-align: center;
   }
-}
-/* end:: media querie of demonstrate product features */
+  /*  <!-- end:: demonstrate product features css  --> */
 
+  /* begin ::media querie of demonstrate product features */
+
+@media screen and (max-width:395px) {
+    .land1-images-center {
+        background: url("../resources/Land-1_card2_bg.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 560px;
+        height: 560px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px;
+      }
+      .center-icon{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .center-icon i{
+        font-size: 50px;
+        color:black;
+      }
+      .land1-images-overlay{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .land1-images-1{
+      display: flex;
+      width: 343px;
+      }
+      .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+      , .land1-image-in-1-4{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        height: 225px;
+        padding: 0px;
+        margin: 5px;
+        background-color: white;
+        align-items: center;
+        justify-content: space-around;
+      } 
+      .land1-image-in-1-1{
+        border-top-left-radius: 10%;
+      }
+      .land1-image-in-1-2{
+        border-top-right-radius: 10%;
+      }
+      .land1-image-in-1-3{
+        border-bottom-left-radius: 10%;
+      }
+      .land1-image-in-1-4{
+        border-bottom-right-radius: 10%;
+      }
+      .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+      , .land1-image-in-1-4 p {
+        padding: 3px;
+        text-align: center;
+      }
+      .land1-checkus-out-image{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        width: 350px;
+        height: 230px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+    }
+    /* end:: media querie of demonstrate product features */
 
 
 
