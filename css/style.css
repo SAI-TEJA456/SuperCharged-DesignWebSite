@@ -286,22 +286,6 @@ button{
     display: block;
 }
 
-.dropdown:hover > .resources-submenu{
-    display: block;
-}
-
-.landing-pages-link:hover > .landing-pages-submenu{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    margin-left: 0.125rem;
-}
-
-.resources-submenu{
-    width: 80px;
-}
-
 .sf-div{
     display: flex;
 }
@@ -3768,6 +3752,791 @@ line-height: 20px;
 
 /************************ @media Queries **************************/
 @media screen and (max-width:220px){}
+@media screen and (max-width:480px){}
+@media screen and (max-width:600px){}
+@media screen and (max-width:768px){
+
+    
+    .display-mediaqer{
+        display: none;
+    }
+
+    /********** landing page 1 *************/
+
+    /********** navigation bar *************/
+    .nav-bar {
+        padding: 20px 0;
+    }
+    /********** navigation bar *************/
+    
+    /********** hero base *************/
+
+    .heroBaseHead{
+        width: 672px ;
+        padding: 42px 0 42px 0 ;
+    }
+
+    .heroBaseOuter div p{
+     width: 672px;
+    }
+
+    .ourChannel-img{
+        object-fit: contain;
+        width: 656px;
+        height: 292px;
+        border-radius: 0 0 100% 100% / 0 0 9% 9% ;
+    }
+    /********** hero base *************/
+
+    /********** our channel review *************/
+    .channelCards{
+        width: var(--width_768px);
+    }
+    .channelCard{
+        width: 340px;
+        margin: 12px 20px 12px 20px ;
+    
+    }
+    
+    .channelCard .btn {
+        margin-left: 37%;
+    }
+    /********** our channel review *************/
+
+    /********** redefining product features *************/
+    .image4{
+        display: none;
+    }
+    .allHeads{
+        width: 672px;
+        padding: 40px 0 32px 0 ;
+    }
+    
+    .content-div{
+        width: 44rem;
+    }
+
+    .des-body{
+        width: 44rem;
+        padding-top: 5%;
+        margin: 0;
+    }
+
+    .redefining-p{
+        padding-top: 5%;
+    }
+
+    .des-img{
+        width: 44rem;
+    }
+
+    /********** redefining product features *************/
+
+    /********** latest blog posts *************/
+    .avatar-blogs{
+        width: var(--width_768px);
+    }
+    .avatar-card{
+        width: 336px;
+        margin: 0 24px;
+    }
+    /********** latest blog posts *************/
+
+    /********** email section *************/
+    .email-section{
+        padding: 40px 0;
+    }
+    .email-head{
+        width: 640px;
+    
+    }
+
+    .email-content{
+        display: block ;
+        width: 704px;
+        padding: 32px;
+        
+    }
+
+    .email-submit{
+        width: 641px;
+    }
+
+    .email-submit input{
+        width: 552px;
+    }
+    /********** email section *************/
+
+    /********** what our customers say *************/
+    .customers-review-section{
+        padding-bottom: 40px;
+    }
+    .reviewer{
+        width: 210px;
+        margin: 0;
+    }
+
+    /********** footer scetion *************/
+    .footer-section{
+        padding: 40px 32px;
+    }
+    /********** footer scetion *************/
+
+    /********** landing page 1 *************/
+
+    /****************************** landing page 2 *********************************/
+
+    /********** landing 2 navigation bar *************/
+
+    .land2-toggler-icon{
+        background-color: white;
+    }
+
+    .landing2_navbar{
+    padding: 20px 0;
+    }
+    /********** landing 2 navigation bar *************/
+
+    /********** landing2 redefining product features  *************/
+    .image1{
+    display: none;
+    }
+
+    .image2{
+    display: block;
+    }
+    /********** landing2 redefining product features  *************/
+
+    /********** landing2 Work Easier Today *************/
+
+    .land2-eaiserCards{
+        width: 100%;
+    }
+
+    .land2-eaiserCard{
+        width: 20rem;
+        margin:0 0 0 2rem;
+    }
+
+    .pricing-cards{
+        width: 100%;
+    }
+
+    .pricing-section{
+        padding: 0;
+        }
+
+    .price-btn{
+        width: 276px;
+    }
+    /********** landing2 Work Easier Today *************/
+
+    /********** landing2 latest blog posts *************/
+    .land2-blog-section{
+        padding-bottom: 16px;
+    }
+    .land2-card{
+        margin-left: 1.56rem;
+    }
+
+    .land2-avatar-blogs{
+        margin: 0 12px;
+    } 
+
+    .land2-blog1{
+        margin-bottom: 2rem;
+    }
+
+    .land2-blog2{
+        margin-left: 39px;
+    }
+
+    /********** landing2 latest blog posts *************/
+
+ 
+    /********** landing2 email section *************/
+    .land2-email-section{
+        padding: 40px 0;
+    }
+    .email-section{
+        padding: 40px 0;
+    }
+    .land2-email-head{
+        width: 640px;
+    
+    }
+
+    .land2-email-content{
+        display: block ;
+        width: 704px;
+        
+    }
+
+    .land2-email-submit{
+        margin-top: 2rem;
+        width: 641px;
+    }
+
+    .land2-email-submit input{
+        width: 552px;
+    }
+    /********** landing2 email section *************/
+
+    /****************************** landing page 2 *********************************/
+
+    /****************************** landing page 3 *********************************/
+
+    /********** landing3 Work Easier Today *************/
+    
+    .land3-eaiserCards{
+        width: 704px;
+    }
+    /********** landing3 Work Easier Today *************/
+
+    
+    /********** landing3 demonstrate branding *************/
+    .land3-thank-msg{
+        
+        padding: 16px 0;
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+    /********** landing3 demonstrate branding *************/
+
+    /********** landing3 demonstrate branding *************/
+    .land3-msg {
+        /* text-align: center; */
+        width: 640px;
+    }
+    /********** landing3 demonstrate branding *************/
+
+    /********** landing3 latest blog posts *************/
+
+    .land3-avatar-card{
+        margin: 0 1.5rem;
+        width: 21rem;
+    }
+
+    .land3-avatar-bg-img{
+        width: 336px;
+        height: 300px;
+        border-radius: 0.8rem;
+    }
+
+    .land3-article-span {
+        padding-left: 2rem;
+    }
+    /********** landing3 latest blog posts *************/
+
+    /********** landing3 proud to be used by *************/
+    .text-align-end{
+        text-align: end;
+    }
+    .cp-img{
+        width: 704px;
+    }
+    /********** landing3 proud to be used by *************/
+    
+    /********** landing3 footer section *************/
+    .land3-copyright-div{
+        width: 704px;
+    }
+
+    .land3-email-submit2 input {
+    width: 240px;
+    }
+    /********** landing3 footer section *************/
+
+    /****************************** landing page 3 *********************************/
+
+    /****************************** landing page 4 *********************************/
+
+    /********** landing4 hero base *************/
+
+    .land4-hero-section{
+        margin: 0 48px;
+    }
+
+    .land4-hero-img{
+        width: 672px;
+        margin-bottom: 40px;
+    }
+    /********** landing4 hero base *************/
+
+    /********** landing4 redefining product features *************/
+
+    .land4-branding-img{
+        margin-left: 2rem;
+        margin-bottom: 48px;
+    }
+    /********** landing4 redefining product features *************/
+
+    /********** landing4 what our customers say  *************/
+    .land4-eaiserCards{
+        margin: 0 20px;
+    }
+
+    .land4-eaiserCard{
+        margin-left: 12px;
+        width: 340px;
+    }
+    /********** landing4 what our customers say  *************/
+
+
+    /********** landing4 footer section *************/
+    .land4-check-body{
+        width: 704px;
+        margin: 0 32px;
+    }
+
+    .land4-content-div{
+        width: 100%;
+    }
+
+    .land4-footer-content{
+        margin: 0 2rem 2rem 2rem;
+    }
+
+    .land4-copyright-div{
+        margin: 0 32px;
+    }
+    /********** landing4 footer section *************/
+
+    /****************************** landing page 4 *********************************/
+
+    
+    /****************************** about page 1 *********************************/
+    
+    /********** about page sign up section  *************/
+    .abt-email-head {
+        margin: 0 16px;
+    }
+
+    .about1-head{
+        width: 100%;
+    }
+
+    .following-section{
+        padding: 40px 0;
+    }
+    
+    .following-section-row{
+        margin: 0 32px;
+    }
+
+    .abt1-btn-start{
+        margin-bottom: 48px;
+    }
+
+    /********** about page sign up section  *************/
+    
+
+    /********** about page our channels review  *************/
+    
+    .abt-channelCard {
+        width: 340px;
+        margin-left: 5px; 
+    }
+
+    .abt-channelCards {
+        margin: 0;
+    }
+
+    .abt-btn-showmore {
+        margin-left: 105px;
+    }
+    /********** about page our channels review  *************/
+
+    /********** about page our channels review  *************/
+    .abt-channelsOuter {
+        margin: 0 32px;
+    }
+    /********** about page our channels review  *************/
+    
+    /********** about page redefining product features  *************/
+    .abt-redefining-section {
+        /* padding: 64px 0; */
+        margin: 0 32px;
+    }
+
+    .abt-des-imgout {
+        text-align: center;
+        padding-bottom: 48px;
+    }
+    /********** about page redefining product features  *************/
+    
+    /********** about page the core of our team  *************/
+    .abt-core-section {
+        padding: 40px 0 8px 0;
+    }
+    
+    
+    .abt-core-team {
+        margin: 0 32px;
+    }
+
+    .abt-head {
+        margin: 0;
+    }
+
+    .abt-core-members{
+        padding-bottom: 32px;
+    }
+    /********** about page the core of our team  *************/
+    
+    /********** about page frequently asked questions  *************/
+    .abt-feq-ques {
+        margin: 0;
+    }
+
+    .abt1-input{
+        width: 494px;
+    }
+    /********** about page frequently asked questions  *************/
+    
+    /****************************** about page 1 *********************************/
+
+    /****************************** about page 2 *********************************/
+
+    /********** about page hero base  *************/
+
+    .abt2-head {
+    margin: 48px 48px 88px 48px;
+    text-align: center;
+    }
+
+    .abt2-head h1{
+    font-size: 52px;
+    line-height: 60px;
+    margin: 16px 0;
+    }
+    /********** about page hero base  *************/
+    .abt2-members-outer {
+        margin: 0;
+    }
+
+    .abt2-members-img {
+        width: 336px;
+        height: 285.5px;
+        
+    }
+
+    .abt2-cmp-logos{
+        justify-content: center;
+    }
+
+    .abt2-768-logo{
+        margin-top: 32px;
+    }
+    /****************************** about page 2 *********************************/
+    
+    /****************************** pricing page 1 *********************************/
+    /* .adapt-plan-outer{
+    overflow: auto;
+    white-space: nowrap;
+    }
+     */
+
+     .adapt-scroll-row{
+        overflow: auto;
+        white-space: nowrap;
+     }
+     .adapt-scroll-col{
+        display: inline-block;
+        float: none;
+        /* white-space: normal; */
+     }
+    /**********  Pricing that Adapts to You *************/
+
+    /****************************** pricing page 1 *********************************/
+    .pricing1-plan-card {
+        width: 336px;
+        margin-left: 0;
+    }
+
+    .pricing1-avatar-img{
+        width: 336px;
+        height: 464px;
+        border-radius: 10px;
+    }
+
+    .pricing1-customer-h1 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    /****************************** pricing page 1 *********************************/
+
+    /****************************** pricing page 2 *********************************/
+    .pricing1-section-in{
+        margin: 0 32px;
+    }
+
+    .pricing2-plan-card {
+        width: 336px;
+        margin-left: 0;
+    }
+
+    .pricing1-plans-row {
+        margin: 0 ;
+    }
+
+    .buynow-btn {
+        width: 272px;
+    }
+
+    .pricing2-plan-card2{
+        margin-left: 1rem;
+    }
+
+    .pricing2-customer-review {
+       margin-top: 32px;
+    }
+
+    .pricing2-email-head {
+        margin: 0 32px;
+    }
+
+    .pricing2-avatar-row
+    {
+        width: 275px;
+    }
+
+    .pricing2-email-h1{
+        margin-bottom: 32px;
+    }
+
+    .pricing2-red-img{
+        margin-top: 48px;
+    }
+    /****************************** pricing page 2 *********************************/
+
+    /****************************** help&support 1 *********************************/
+    .help1-support-des {
+        margin: 24px 32px 0 32px;
+    }
+
+    .help1-img {
+        object-fit: cover;
+        width: 704px;
+        height: 368px;
+    }
+
+    .contact-phone {
+        margin: 0 16px;
+    }
+    /****************************** help&support 1 *********************************/
+
+    /****************************** help&support 2 *********************************/
+    .help1-head{
+        margin: 32px;
+    }
+
+    .help2-authentification{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .help1-assistance-div {
+        margin: 0 32px;
+    }
+    /****************************** help&support 2 *********************************/
+
+    /****************************** career page 1 *********************************/
+    .career1-img2 {
+        width: 768px;
+    }
+
+    .role-btn {
+        width: 213.33px;
+    }
+
+    .career1-ourteam {
+        margin: 0 32px;
+    }
+
+    .career1-ourteam-search {
+        margin: 0;
+    }
+
+    .career1-customer-headout {
+        margin: 0 ;
+    }
+
+    .career1-img1 {
+        width: 704px;
+        height: 359px;
+        border-radius: 5px;
+    }
+    /****************************** career page 1 *********************************/
+    
+    /****************************** career page 2 *********************************/
+    .career2-description-div {
+        margin: 0 32px;
+    }
+
+    .career2-form-div {
+        margin: 0 32px;
+    }
+
+    .full-name, .email-input {
+        width: 308px;
+    }
+
+    .input-group .resume-input{
+        width: 220px;
+    }
+    /****************************** career page 2 *********************************/
+
+    /****************************** blog page 1 *********************************/
+    
+    .blogs-pg-card-img{
+        width: 336px;
+    }
+    
+    /****************************** blog page 1 *********************************/
+
+    /****************************** blog page 2  *********************************/
+    .blog-post-search{
+        width: 704px;
+    }
+
+    .blogs-input-search {
+        width: 240px;
+    }
+    /****************************** blog page 2  *********************************/
+
+    
+    /****************************** blog post page 1 *********************************/
+    .blog-post-img1{
+        object-fit: cover;
+        width: 656px;
+        height: 330px;
+    }
+
+    .blog-post-img2{
+        width: 704px;
+    }
+    /****************************** blog post page 1 *********************************/
+
+    /****************************** blog post page 2 *********************************/
+    
+    .blog-pst2-imgin{
+        height: 355px;
+        margin: 0 32px;
+    }
+
+    .blog-pst2-img1{
+        width: 704px;
+        height: 355px;
+    }
+    
+    .blogpst2-email-section{
+        padding: 40px 32px;
+    }
+    
+    .blogpst2-email-head{
+        padding-top: 32px;
+    }
+    
+    .blogpst2-email-message{
+        padding-left: 32px;
+    }
+    /****************************** blog post page 2 *********************************/
+
+    /****************************** portfolio page 1 *********************************/
+    .potfolio1-section-in{
+        margin: 0 24px;
+    }
+
+    .protfolio1-project-gallery{
+        padding-top: 40px;
+    }
+    
+    .protfolio1-project1-img, .protfolio1-project2-img, .protfolio1-project3-img, .protfolio1-project4-img, .protfolio1-project5-img, .protfolio1-project6-img, .protfolio1-project7-img, .protfolio1-project8-img, .protfolio1-project9-img
+    {
+        width: 224px;
+    }
+
+    .protfolio1-project3-img{
+        height: 268px;
+    }
+
+    .protfolio1-project5-img{
+        height: 249px;
+    }
+
+    .protfolio1-project7-img{
+        height: 250px;
+    }
+
+    .portfolio1-more-projects-out{
+        padding: 24px 0 48px 0;
+    }
+    /****************************** portfolio page 1 *********************************/
+
+    /****************************** portfolio page 2 *********************************/
+    .potfolio2-section-in {
+        margin: 0 16px;
+    }
+
+    .protfolio2-projs-images{
+        width: 336px;
+        height: 348px;
+    }
+
+    .protfolio2-project-gallery {
+        padding: 0;
+    }
+
+    .prot2-projs-images{
+        margin: 48px 16px 0 16px;
+    }
+
+    .portfolio2-project-title{
+        margin-bottom: 16px;
+    }
+
+
+
+    .portfolio2-more-projects-out {
+        padding: 64px 0 32px 0;
+    }
+    /****************************** portfolio page 2 *********************************/
+
+    /****************************** contact page 1 *********************************/
+    .contact1-form-div {
+        margin: 0 32px;
+    }
+
+    .contact1-full-name, .contact1-email-input, .phonenum-input, .contactres-input {
+        width: 308px;
+    }
+
+    .contact2-form-h1{
+        margin-bottom: 32px;
+    }
+    /****************************** contact page 1 *********************************/
+
+    /****************************** reset password page  *********************************/
+    .reset-pass-img{
+        height: 836px;
+    }
+
+    /****************************** reset password page  *********************************/
+
+    /****************************** error pages  *********************************/
+    .error2-search-input{
+        width: 640px;
+    }
+
+    .error-default-card{
+        margin-top: 24px;
+    }
+    /****************************** error pages  *********************************/
+
+}
 @media screen and (max-width:400px){
     
     .display-mediaqer{
@@ -3860,19 +4629,22 @@ line-height: 20px;
     }
 
     .des-img{
-        object-fit: cover;
-        width: 343px;
-        height: 343px;
-    }
-
-    .des-btn{
-        margin-top: 32px;;
-    }
-
-    .check-body {
-        width: 343px;
-        margin: 32px 16px;
-    }
+                object-fit: cover;
+                width: 343px;
+                height: 343px;
+            }
+        
+            .des-btn{
+                padding: 12px 18px;
+                font-weight: 600;
+                margin-top: 32px;
+            }
+        
+            .check-body {
+                width: 343px;
+                margin: 32px 16px;
+                width: 44rem;
+            }
 
     .land1-images-end,.land1-images-center{
         text-align: center;
@@ -4937,791 +5709,6 @@ line-height: 20px;
         padding: 0 21px 0 29px;
     }
     /****************************** error pages  *********************************/
-}
-@media screen and (max-width:480px){}
-@media screen and (max-width:600px){}
-@media screen and (max-width:768px){
-
-    
-    .display-mediaqer{
-        display: none;
-    }
-
-    /********** landing page 1 *************/
-
-    /********** navigation bar *************/
-    .nav-bar {
-        padding: 20px 0;
-    }
-    /********** navigation bar *************/
-    
-    /********** hero base *************/
-
-    .heroBaseHead{
-        width: 672px ;
-        padding: 42px 0 42px 0 ;
-    }
-
-    .heroBaseOuter div p{
-     width: 672px;
-    }
-
-    .ourChannel-img{
-        object-fit: contain;
-        width: 656px;
-        height: 292px;
-        border-radius: 0 0 100% 100% / 0 0 9% 9% ;
-    }
-    /********** hero base *************/
-
-    /********** our channel review *************/
-    .channelCards{
-        width: var(--width_768px);
-    }
-    .channelCard{
-        width: 340px;
-        margin: 12px 20px 12px 20px ;
-    
-    }
-    
-    .channelCard .btn {
-        margin-left: 37%;
-    }
-    /********** our channel review *************/
-
-    /********** redefining product features *************/
-    .image4{
-        display: none;
-    }
-    .allHeads{
-        width: 672px;
-        padding: 40px 0 32px 0 ;
-    }
-    
-    .content-div{
-        width: 44rem;
-    }
-
-    .des-body{
-        width: 44rem;
-        padding-top: 5%;
-        margin: 0;
-    }
-
-    .redefining-p{
-        padding-top: 5%;
-    }
-
-    .des-img{
-        width: 44rem;
-    }
-
-    /********** redefining product features *************/
-
-    /********** latest blog posts *************/
-    .avatar-blogs{
-        width: var(--width_768px);
-    }
-    .avatar-card{
-        width: 336px;
-        margin: 0 24px;
-    }
-    /********** latest blog posts *************/
-
-    /********** email section *************/
-    .email-section{
-        padding: 40px 0;
-    }
-    .email-head{
-        width: 640px;
-    
-    }
-
-    .email-content{
-        display: block ;
-        width: 704px;
-        padding: 32px;
-        
-    }
-
-    .email-submit{
-        width: 641px;
-    }
-
-    .email-submit input{
-        width: 552px;
-    }
-    /********** email section *************/
-
-    /********** what our customers say *************/
-    .customers-review-section{
-        padding-bottom: 40px;
-    }
-    .reviewer{
-        width: 210px;
-        margin: 0;
-    }
-
-    /********** footer scetion *************/
-    .footer-section{
-        padding: 40px 32px;
-    }
-    /********** footer scetion *************/
-
-    /********** landing page 1 *************/
-
-    /****************************** landing page 2 *********************************/
-
-    /********** landing 2 navigation bar *************/
-
-    .land2-toggler-icon{
-        background-color: white;
-    }
-
-    .landing2_navbar{
-    padding: 20px 0;
-    }
-    /********** landing 2 navigation bar *************/
-
-    /********** landing2 redefining product features  *************/
-    .image1{
-    display: none;
-    }
-
-    .image2{
-    display: block;
-    }
-    /********** landing2 redefining product features  *************/
-
-    /********** landing2 Work Easier Today *************/
-
-    .land2-eaiserCards{
-        width: 100%;
-    }
-
-    .land2-eaiserCard{
-        width: 20rem;
-        margin:0 0 0 2rem;
-    }
-
-    .pricing-cards{
-        width: 100%;
-    }
-
-    .pricing-section{
-        padding: 0;
-        }
-
-    .price-btn{
-        width: 276px;
-    }
-    /********** landing2 Work Easier Today *************/
-
-    /********** landing2 latest blog posts *************/
-    .land2-blog-section{
-        padding-bottom: 16px;
-    }
-    .land2-card{
-        margin-left: 1.56rem;
-    }
-
-    .land2-avatar-blogs{
-        margin: 0 12px;
-    } 
-
-    .land2-blog1{
-        margin-bottom: 2rem;
-    }
-
-    .land2-blog2{
-        margin-left: 39px;
-    }
-
-    /********** landing2 latest blog posts *************/
-
- 
-    /********** landing2 email section *************/
-    .land2-email-section{
-        padding: 40px 0;
-    }
-    .email-section{
-        padding: 40px 0;
-    }
-    .land2-email-head{
-        width: 640px;
-    
-    }
-
-    .land2-email-content{
-        display: block ;
-        width: 704px;
-        
-    }
-
-    .land2-email-submit{
-        margin-top: 2rem;
-        width: 641px;
-    }
-
-    .land2-email-submit input{
-        width: 552px;
-    }
-    /********** landing2 email section *************/
-
-    /****************************** landing page 2 *********************************/
-
-    /****************************** landing page 3 *********************************/
-
-    /********** landing3 Work Easier Today *************/
-    
-    .land3-eaiserCards{
-        width: 704px;
-    }
-    /********** landing3 Work Easier Today *************/
-
-    
-    /********** landing3 demonstrate branding *************/
-    .land3-thank-msg{
-        
-        padding: 16px 0;
-        font-size: 22px;
-        line-height: 30px;
-        font-weight: 500;
-    }
-    /********** landing3 demonstrate branding *************/
-
-    /********** landing3 demonstrate branding *************/
-    .land3-msg {
-        /* text-align: center; */
-        width: 640px;
-    }
-    /********** landing3 demonstrate branding *************/
-
-    /********** landing3 latest blog posts *************/
-
-    .land3-avatar-card{
-        margin: 0 1.5rem;
-        width: 21rem;
-    }
-
-    .land3-avatar-bg-img{
-        width: 336px;
-        height: 300px;
-        border-radius: 0.8rem;
-    }
-
-    .land3-article-span {
-        padding-left: 2rem;
-    }
-    /********** landing3 latest blog posts *************/
-
-    /********** landing3 proud to be used by *************/
-    .text-align-end{
-        text-align: end;
-    }
-    .cp-img{
-        width: 704px;
-    }
-    /********** landing3 proud to be used by *************/
-    
-    /********** landing3 footer section *************/
-    .land3-copyright-div{
-        width: 704px;
-    }
-
-    .land3-email-submit2 input {
-    width: 240px;
-    }
-    /********** landing3 footer section *************/
-
-    /****************************** landing page 3 *********************************/
-
-    /****************************** landing page 4 *********************************/
-
-    /********** landing4 hero base *************/
-
-    .land4-hero-section{
-        margin: 0 48px;
-    }
-
-    .land4-hero-img{
-        width: 672px;
-        margin-bottom: 40px;
-    }
-    /********** landing4 hero base *************/
-
-    /********** landing4 redefining product features *************/
-
-    .land4-branding-img{
-        margin-left: 2rem;
-        margin-bottom: 48px;
-    }
-    /********** landing4 redefining product features *************/
-
-    /********** landing4 what our customers say  *************/
-    .land4-eaiserCards{
-        margin: 0 20px;
-    }
-
-    .land4-eaiserCard{
-        margin-left: 12px;
-        width: 340px;
-    }
-    /********** landing4 what our customers say  *************/
-
-
-    /********** landing4 footer section *************/
-    .land4-check-body{
-        width: 704px;
-        margin: 0 32px;
-    }
-
-    .land4-content-div{
-        width: 100%;
-    }
-
-    .land4-footer-content{
-        margin: 0 2rem 2rem 2rem;
-    }
-
-    .land4-copyright-div{
-        margin: 0 32px;
-    }
-    /********** landing4 footer section *************/
-
-    /****************************** landing page 4 *********************************/
-
-    
-    /****************************** about page 1 *********************************/
-    
-    /********** about page sign up section  *************/
-    .abt-email-head {
-        margin: 0 16px;
-    }
-
-    .about1-head{
-        width: 100%;
-    }
-
-    .following-section{
-        padding: 40px 0;
-    }
-    
-    .following-section-row{
-        margin: 0 32px;
-    }
-
-    .abt1-btn-start{
-        margin-bottom: 48px;
-    }
-
-    /********** about page sign up section  *************/
-    
-
-    /********** about page our channels review  *************/
-    
-    .abt-channelCard {
-        width: 340px;
-        margin-left: 5px; 
-    }
-
-    .abt-channelCards {
-        margin: 0;
-    }
-
-    .abt-btn-showmore {
-        margin-left: 105px;
-    }
-    /********** about page our channels review  *************/
-
-    /********** about page our channels review  *************/
-    .abt-channelsOuter {
-        margin: 0 32px;
-    }
-    /********** about page our channels review  *************/
-    
-    /********** about page redefining product features  *************/
-    .abt-redefining-section {
-        /* padding: 64px 0; */
-        margin: 0 32px;
-    }
-
-    .abt-des-imgout {
-        text-align: center;
-        padding-bottom: 48px;
-    }
-    /********** about page redefining product features  *************/
-    
-    /********** about page the core of our team  *************/
-    .abt-core-section {
-        padding: 40px 0 8px 0;
-    }
-    
-    
-    .abt-core-team {
-        margin: 0 32px;
-    }
-
-    .abt-head {
-        margin: 0;
-    }
-
-    .abt-core-members{
-        padding-bottom: 32px;
-    }
-    /********** about page the core of our team  *************/
-    
-    /********** about page frequently asked questions  *************/
-    .abt-feq-ques {
-        margin: 0;
-    }
-
-    .abt1-input{
-        width: 494px;
-    }
-    /********** about page frequently asked questions  *************/
-    
-    /****************************** about page 1 *********************************/
-
-    /****************************** about page 2 *********************************/
-
-    /********** about page hero base  *************/
-
-    .abt2-head {
-    margin: 48px 48px 88px 48px;
-    text-align: center;
-    }
-
-    .abt2-head h1{
-    font-size: 52px;
-    line-height: 60px;
-    margin: 16px 0;
-    }
-    /********** about page hero base  *************/
-    .abt2-members-outer {
-        margin: 0;
-    }
-
-    .abt2-members-img {
-        width: 336px;
-        height: 285.5px;
-        
-    }
-
-    .abt2-cmp-logos{
-        justify-content: center;
-    }
-
-    .abt2-768-logo{
-        margin-top: 32px;
-    }
-    /****************************** about page 2 *********************************/
-    
-    /****************************** pricing page 1 *********************************/
-    /* .adapt-plan-outer{
-    overflow: auto;
-    white-space: nowrap;
-    }
-     */
-
-     .adapt-scroll-row{
-        overflow: auto;
-        white-space: nowrap;
-     }
-     .adapt-scroll-col{
-        display: inline-block;
-        float: none;
-        /* white-space: normal; */
-     }
-    /**********  Pricing that Adapts to You *************/
-
-    /****************************** pricing page 1 *********************************/
-    .pricing1-plan-card {
-        width: 336px;
-        margin-left: 0;
-    }
-
-    .pricing1-avatar-img{
-        width: 336px;
-        height: 464px;
-        border-radius: 10px;
-    }
-
-    .pricing1-customer-h1 {
-        font-size: 22px;
-        font-weight: 600;
-        line-height: 30px;
-    }
-    /****************************** pricing page 1 *********************************/
-
-    /****************************** pricing page 2 *********************************/
-    .pricing1-section-in{
-        margin: 0 32px;
-    }
-
-    .pricing2-plan-card {
-        width: 336px;
-        margin-left: 0;
-    }
-
-    .pricing1-plans-row {
-        margin: 0 ;
-    }
-
-    .buynow-btn {
-        width: 272px;
-    }
-
-    .pricing2-plan-card2{
-        margin-left: 1rem;
-    }
-
-    .pricing2-customer-review {
-       margin-top: 32px;
-    }
-
-    .pricing2-email-head {
-        margin: 0 32px;
-    }
-
-    .pricing2-avatar-row
-    {
-        width: 275px;
-    }
-
-    .pricing2-email-h1{
-        margin-bottom: 32px;
-    }
-
-    .pricing2-red-img{
-        margin-top: 48px;
-    }
-    /****************************** pricing page 2 *********************************/
-
-    /****************************** help&support 1 *********************************/
-    .help1-support-des {
-        margin: 24px 32px 0 32px;
-    }
-
-    .help1-img {
-        object-fit: cover;
-        width: 704px;
-        height: 368px;
-    }
-
-    .contact-phone {
-        margin: 0 16px;
-    }
-    /****************************** help&support 1 *********************************/
-
-    /****************************** help&support 2 *********************************/
-    .help1-head{
-        margin: 32px;
-    }
-
-    .help2-authentification{
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    .help1-assistance-div {
-        margin: 0 32px;
-    }
-    /****************************** help&support 2 *********************************/
-
-    /****************************** career page 1 *********************************/
-    .career1-img2 {
-        width: 768px;
-    }
-
-    .role-btn {
-        width: 213.33px;
-    }
-
-    .career1-ourteam {
-        margin: 0 32px;
-    }
-
-    .career1-ourteam-search {
-        margin: 0;
-    }
-
-    .career1-customer-headout {
-        margin: 0 ;
-    }
-
-    .career1-img1 {
-        width: 704px;
-        height: 359px;
-        border-radius: 5px;
-    }
-    /****************************** career page 1 *********************************/
-    
-    /****************************** career page 2 *********************************/
-    .career2-description-div {
-        margin: 0 32px;
-    }
-
-    .career2-form-div {
-        margin: 0 32px;
-    }
-
-    .full-name, .email-input {
-        width: 308px;
-    }
-
-    .input-group .resume-input{
-        width: 220px;
-    }
-    /****************************** career page 2 *********************************/
-
-    /****************************** blog page 1 *********************************/
-    
-    .blogs-pg-card-img{
-        width: 336px;
-    }
-    
-    /****************************** blog page 1 *********************************/
-
-    /****************************** blog page 2  *********************************/
-    .blog-post-search{
-        width: 704px;
-    }
-
-    .blogs-input-search {
-        width: 240px;
-    }
-    /****************************** blog page 2  *********************************/
-
-    
-    /****************************** blog post page 1 *********************************/
-    .blog-post-img1{
-        object-fit: cover;
-        width: 656px;
-        height: 330px;
-    }
-
-    .blog-post-img2{
-        width: 704px;
-    }
-    /****************************** blog post page 1 *********************************/
-
-    /****************************** blog post page 2 *********************************/
-    
-    .blog-pst2-imgin{
-        height: 355px;
-        margin: 0 32px;
-    }
-
-    .blog-pst2-img1{
-        width: 704px;
-        height: 355px;
-    }
-    
-    .blogpst2-email-section{
-        padding: 40px 32px;
-    }
-    
-    .blogpst2-email-head{
-        padding-top: 32px;
-    }
-    
-    .blogpst2-email-message{
-        padding-left: 32px;
-    }
-    /****************************** blog post page 2 *********************************/
-
-    /****************************** portfolio page 1 *********************************/
-    .potfolio1-section-in{
-        margin: 0 24px;
-    }
-
-    .protfolio1-project-gallery{
-        padding-top: 40px;
-    }
-    
-    .protfolio1-project1-img, .protfolio1-project2-img, .protfolio1-project3-img, .protfolio1-project4-img, .protfolio1-project5-img, .protfolio1-project6-img, .protfolio1-project7-img, .protfolio1-project8-img, .protfolio1-project9-img
-    {
-        width: 224px;
-    }
-
-    .protfolio1-project3-img{
-        height: 268px;
-    }
-
-    .protfolio1-project5-img{
-        height: 249px;
-    }
-
-    .protfolio1-project7-img{
-        height: 250px;
-    }
-
-    .portfolio1-more-projects-out{
-        padding: 24px 0 48px 0;
-    }
-    /****************************** portfolio page 1 *********************************/
-
-    /****************************** portfolio page 2 *********************************/
-    .potfolio2-section-in {
-        margin: 0 16px;
-    }
-
-    .protfolio2-projs-images{
-        width: 336px;
-        height: 348px;
-    }
-
-    .protfolio2-project-gallery {
-        padding: 0;
-    }
-
-    .prot2-projs-images{
-        margin: 48px 16px 0 16px;
-    }
-
-    .portfolio2-project-title{
-        margin-bottom: 16px;
-    }
-
-
-
-    .portfolio2-more-projects-out {
-        padding: 64px 0 32px 0;
-    }
-    /****************************** portfolio page 2 *********************************/
-
-    /****************************** contact page 1 *********************************/
-    .contact1-form-div {
-        margin: 0 32px;
-    }
-
-    .contact1-full-name, .contact1-email-input, .phonenum-input, .contactres-input {
-        width: 308px;
-    }
-
-    .contact2-form-h1{
-        margin-bottom: 32px;
-    }
-    /****************************** contact page 1 *********************************/
-
-    /****************************** reset password page  *********************************/
-    .reset-pass-img{
-        height: 836px;
-    }
-
-    /****************************** reset password page  *********************************/
-
-    /****************************** error pages  *********************************/
-    .error2-search-input{
-        width: 640px;
-    }
-
-    .error-default-card{
-        margin-top: 24px;
-    }
-    /****************************** error pages  *********************************/
-
 }
 @media screen and (max-width:900px){}
 @media screen and (max-width:1200px){}
