@@ -1,0 +1,634 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* google fonts for inter font */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@200&display=swap');
+/* @import url(./land3.css); */
+
+
+/********** global values  *************/
+
+:root{
+    --white:  #FFFFFF;
+    --black: #000000;
+
+    --neutral_25: #FCFCFD;
+    --neutral_50: #FAFBFC;
+    --neutral_100: #F8F9FB;
+    --neutral_200: #F9F9F9;
+    --neutral_300: #F7F7F8;
+    --neutral_400: #F5F5F5;
+    --neutral_500: #EFEFF1;
+    --neutral_600: #EAECF0;
+    --neutral_700: #DDDFE4;
+    --neutral_800: #A5ACBA;
+    --neutral_900: #878D97;
+    --neutral_950: #6B7B8F;
+
+    --gray_25: #5F6D7E;
+    --gray_50: #5F6D7E;
+    --gray_100: #49556D;
+    --gray_200: #384255;
+    --gray_300: #2E3545;
+    --gray_400: #333B48;
+    --gray_500: #2E3646;
+    --gray_600: #2C3444;
+    --gray_700: #272D37;
+    --gray_800: #252D3C;
+    --gray_900: #1C2534;
+    --gray_950: #151B28;
+
+    --primary_blue_25: #F5FAFF;
+    --primary_blue_50: #F5F8FE;
+    --primary_blue_100: #E8EFFD;
+    --primary_blue_200: #B1CCFB;
+    --primary_blue_300: #AEC9FE;
+    --primary_blue_400: #648EF7;
+    --primary_blue_500: #5390F8;
+    --primary_blue_600: #437EF7;
+    --primary_blue_700: #3971E7;
+    --primary_blue_800: #3E67E3;
+    --primary_blue_900: #2B63D9;
+    --primary_blue_950: #1B4397;
+
+    --error_25: #FEF6F6;
+    --error_50: #FEF6F6;
+    --error_100: #FFF2F0;
+    --error_200: #FFDBD7;
+    --error_300: #FEB8AE;
+    --error_400: #FD5E49;
+    --error_450: #F15146;
+    --error_500: #F04438;
+    --error_600: #E2341D;
+    --error_700: #B02817;
+    --error_900: #3E2026;
+    --error_950: #3E2026;
+
+    --warning_25: #FBFAF8;
+    --warning_50: #fff8eb;
+    --warning_100: #ffe4c0;
+    --warning_200: #ffdda1;
+    --warning_300: #ffd08a;
+    --warning_400: #ffc772;
+    --warning_500: #ffae43;
+    --warning_600: #eea23e;
+    --warning_700: #d78100;
+    --warning_800: #a15c00;
+    --warning_900: #6b3d00;
+    --warning_950: #4D2C00;
+
+    --success_25: #FBFAF8;
+    --success_50: #f0faf0;
+    --success_100: #c9ebcb;
+    --success_200: #a6e1a8;
+    --success_300: #93d698;
+    --success_400: #7fd184;
+    --success_500: #5dc264;
+    --success_600: #41ae49;
+    --success_700: #2d8a39;
+    --success_800: #27682c;
+    --success_900: #1a451d;
+    --success_950: #0D3510;
+
+    --purple_25: #F9F8FB;
+    --purple_50: #ecebff;
+    --purple_100: #c7c4fd;
+    --purple_200: #aba7fd;
+    --purple_300: #8f89fc;
+    --purple_400: #736cfb;
+    --purple_500: #5d55f6;
+    --purple_600: #574efa;
+    --purple_700: #463ee3;
+    --purple_800: #352dc8;
+    --purple_900: #33059f;
+    --purple_950: #33059f;
+
+    /* gradients */
+    --gradient_100_400: linear-gradient(90deg, #B2CCFF 0%, #528BFF 100%);
+    --gradient_800_400: linear-gradient(25deg, #0040C1 12.38%, #528BFF 87.62%);
+    --gradient_900_600: linear-gradient(45deg, #0848AF 14.64%, #3971E7 85.36%);
+    --gradient_25_900: conic-gradient(from 225deg at 50% 50%, #F5F8FF 0deg, #00359E 360deg);
+    --gradient_600_100: linear-gradient(225deg, #B2CCFF 14.64%, #1058E8 85.36%);
+    --gradient_overlay_dark: rgba(15, 23, 36, 0.85);
+    
+    --gradient_400_900: linear-gradient(90deg, #F2F4F7 0%, #98A2B3 100%);
+    --gradient_800_800: linear-gradient(25deg, #1D2939 12.38%, #98A2B3 87.62%);
+    --gradient_50_900: conic-gradient(from 225deg at 50% 50%, #FCFCFD 0deg, #101828 360deg);
+    --gradient_purple_blue: linear-gradient(225deg, #0046D1 14.64%, #A48AFB 85.36%);
+
+    --font_1rem: 1rem;
+    --font_1-5rem:1.5rem;
+    --font_2rem: 2rem;
+
+
+    --width_400px: 25rem;
+    --width_768px: 48rem;
+    --width_800px: 50rem;
+    --width_1216px: 76rem; 
+    --width_1280px: 80rem; 
+
+}
+
+/********************* writing css with DEFAULT WIDTH GIVEN BY PROJECT AS 1440px  ***************/
+.pb-6{
+    padding-bottom: 2rem;
+}
+.pt-6{
+    padding-top: 2rem;
+}
+
+.pt-64{
+    padding-top: 64px;
+}
+
+.pb-64{
+    padding-bottom: 64px;
+}
+
+.py-64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.mb-6{
+    margin: 0;
+    margin-bottom: 2rem;
+}
+.mt-6{
+    margin-top: 2rem;
+}
+
+.ms-6{
+    margin-left: 2rem;
+}
+
+.mx-6{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.mx-80{
+    margin-left:80px;
+    margin-right:80px;
+}
+
+.mt-80{
+    margin-top:80px;
+}
+
+.mb-80{
+    margin-bottom:80px;
+}
+
+.ms-64{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.mt-64{
+    margin-top: 64px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+    color: var(--gray_700);
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+}
+
+a{
+    text-transform: capitalize;
+    font-family: 'Inter',sans-serif;
+}
+
+p,span{
+    color: var(--gray_50);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: 'Inter',sans-serif;
+}
+
+button{
+    text-transform: capitalize;
+    font-size: var(--font_1rem);
+    font-weight: 600;
+    line-height: 22px;
+    font-family: 'Inter', sans-serif;
+}
+
+.c-white{
+    color: white !important;
+}
+
+.bg-white{
+    background-color: white !important;
+}
+
+.c-gray-700{
+    color: var(--gray_700) !important;
+}
+
+/* begin:: redefining product card css */
+
+.profile-card-container {
+    background-image: url("../resources/redfining_image1.jpg");
+    background-size: cover;
+    width: 640px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+  }
+  .land1-profile-status{
+    background-color: white;
+    padding: 6px;
+    width: 450px;
+    border-radius: 10px;
+    justify-content: space-around;
+  }
+  .land1-profile-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .land1-profile-info p{
+    font-size: 14px;
+    margin: 0px;
+  }
+  .land1-profile-avatar{
+    width: 85px;
+    height: 85px;
+    /* margin-right: 20px; */
+  }
+  .land1-profile-statusout{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    text-decoration: none;
+    user-select: none;
+  }
+  .land1-profile-statusin-success , .land1-profile-statusin-unsuccessful , .land1-profile-statusin-pending{
+    color: rgb(24 183 24);
+    background-color: var(--success_50);
+    padding: 8px 16px;
+    font-weight: 700;
+    border-radius: 42px;
+    font-size: 12px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  .land1-profile-statusin-unsuccessful{
+    color: var(--error_450);
+    background-color: var(--error_200);
+  }
+  .land1-profile-statusin-pending{
+    color: var(--primary_blue_800);
+    background-color:var(--primary_blue_100);
+  }
+
+  
+@media screen and (max-width:395px) {
+  .profile-card-container {
+    background-image: url("../resources/redfining_image1.jpg");
+    background-size: cover;
+    width: 375px;
+    height: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+  }
+  .land1-profile-status{
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    width: 328px;
+    border-radius: 20px;
+    justify-content: space-around;
+
+  }
+  .land1-profile-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .land1-profile-info p{
+    font-size: 11px;
+    margin: 0px;
+  }
+  .land1-profile-avatar{
+    width: 56px;
+    height: 56px;
+    /* margin-right: 20px; */
+  }
+  .land1-profile-statusout{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    text-decoration: none;
+    user-select: none;
+  }
+  .land1-profile-statusin-success , .land1-profile-statusin-unsuccessful , .land1-profile-statusin-pending{
+    padding: 8px 16px;
+    font-weight: 700;
+    border-radius: 42px;
+    font-size: 12px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  }
+/* begin:: redefining product card css */
+
+
+
+/*  <!-- begin:: demonstrate product features css  --> */
+
+.land1-images-center {
+  background: url("../resources/Land-1_card2_bg.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 560px;
+  height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.center-icon{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-icon i{
+  font-size: 80px;
+  color: black;
+}
+.land1-images-overlay{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.land1-images-1{
+display: flex;
+}
+.land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+, .land1-image-in-1-4{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 240px;
+  padding: 0px;
+  margin: 5px;
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+} 
+.land1-image-in-1-1{
+  border-top-left-radius: 10%;
+}
+.land1-image-in-1-2{
+  border-top-right-radius: 10%;
+}
+.land1-image-in-1-3{
+  border-bottom-left-radius: 10%;
+}
+.land1-image-in-1-4{
+  border-bottom-right-radius: 10%;
+}
+.land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+, .land1-image-in-1-4 p {
+  padding: 3px;
+  text-align: center;
+}
+/*  <!-- end:: demonstrate product features css  --> */
+
+/* begin:: check us page  css starts here */
+.land1-image-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.land1-image-end img{
+  object-fit: cover;
+  width: 560px;
+  height: 560px;
+  max-width: 100%;
+  object-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+ 
+}
+.land1-checkus-out-image{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 400px;
+  height: 230px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.getStartNow{
+  text-decoration: none;
+  padding: 20px 30px;
+  background-color: #574efa;
+  color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+
+.chevron{
+  float: right;
+  margin-left: 5px;
+}
+
+
+/* begin:: navbar main css */
+.resources-submenu {
+  display: static !important;
+  width: 1051px;
+  padding: 10px;
+  left: -70% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-27%, 0) !important;
+} 
+.dropdown:hover > .resources-submenu{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.landing-pages-link a{
+  font-size: 14px;
+}
+
+.landing-pages-link:hover > .landing-pages-submenu{
+    display: flex;
+    position: absolute;
+ }
+ 
+
+.landing-pages-link{
+ text-align: center;
+}
+
+.landing-pages-submenu{
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+
+.chevron-btn{
+  margin-left: 5px;
+}
+
+
+
+
+.canvas-btn{
+  visibility: hidden;
+}
+
+@media screen and (max-width:1000px) {
+  .canvas-btn{
+    visibility:visible;
+  }
+}
+
+
+
+/* begin::offcanvas right css */
+.sub-dropdown{
+  position: relative !important;
+  transform: none !important;
+  border-radius: inherit;
+  padding: 15px;
+}
+.sub-dropdown-heading{
+  padding-left: 10px;
+}
+
+.sub-dropdown-heading:hover .sub-sub-dropdown{
+  display: block;
+  border: none;
+  outline: none;
+  
+
+}
+/* end::offcanvas right css */
+
+
+
+/* begin:: demonstrate card */
+.land1-profile-state{
+  font-weight: 500;
+}
+
+.land1-profile-price{
+  font-weight: 700;
+  color: black;
+}
+
+/* end:: demonstrate card */
+
+
+
+/* begin ::media querie of demonstrate product features */
+
+@media screen and (max-width:395px) {
+  .land1-images-center {
+      background: url("../resources/Land-1_card2_bg.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+      width: 560px;
+      height: 560px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0px;
+    }
+    .center-icon{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .center-icon i{
+      font-size: 50px;
+      color: var(--primary_blue_800);
+    }
+    .land1-images-overlay{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .land1-images-1{
+    display: flex;
+    width: 343px;
+    }
+    .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+    , .land1-image-in-1-4{
+      display: flex;
+      flex-direction: column;
+      width: 340px;
+      height: 225px;
+      padding: 0px;
+      margin: 5px;
+      background-color: white;
+      align-items: center;
+      justify-content: space-around;
+    } 
+    .land1-image-in-1-1{
+      border-top-left-radius: 10%;
+    }
+    .land1-image-in-1-2{
+      border-top-right-radius: 10%;
+    }
+    .land1-image-in-1-3{
+      border-bottom-left-radius: 10%;
+    }
+    .land1-image-in-1-4{
+      border-bottom-right-radius: 10%;
+    }
+    .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+    , .land1-image-in-1-4 p {
+      padding: 3px;
+      text-align: center;
+    }
+    .land1-checkus-out-image{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: white;
+      width: 350px;
+      height: 230px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+  }
+  /* end:: media querie of demonstrate product features */
+
+
+

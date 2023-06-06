@@ -330,7 +330,6 @@ button{
 .navigationBar{
     border-bottom: 1px solid var(--neutral_600);
 }
-
 .nav-bar{
     padding: 20px 100px;
 }
@@ -340,13 +339,108 @@ button{
 }
 
 .nav-bar-items .nav-item .nav-link{
-    color: var(--gray_700);
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 600;
 }
 
-.land2-signup{
-    color: var(--primary_blue_600);
 
+.land1-login{
+    font-weight: 600;
 }
+
+#btn-3,#btn-4{
+   padding: 12px 18px 12px 18px;
+   font-weight: 500;
+}
+/* begin :: Navigation bar Ali */
+
+/* begin:: navbar main css */
+.resources-dropdown .resources-submenu{
+    display: static;
+    width: 1051px;
+    padding: 10px;
+    left: -70% ;
+    right: auto ;
+    text-align: center ;
+    transform: translate(-27%, 0);
+  } 
+
+  .resources-dropdown:hover  > .resources-submenu{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .landing-pages-link a{
+    font-size: 14px;
+  }
+  
+  .landing-pages-link:hover > .landing-pages-submenu{
+      display: flex;
+      position: absolute;
+   }
+   
+  
+  .landing-pages-link{
+   text-align: center;
+  }
+  
+  .landing-pages-submenu{
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
+  .land1-profile-state{
+    font-weight: 500;
+  }
+  
+  .land1-profile-price{
+    font-weight: 700;
+    color: black;
+  }
+  
+  .chevron-btn{
+    margin-left: 5px;
+  }
+  .canvas-btn{
+    visibility: hidden;
+  }
+  
+  @media screen and (max-width:1000px) {
+    .canvas-btn{
+      visibility:visible;
+    }
+  }
+  
+  
+  
+  /* begin::offcanvas right css */
+  .sub-dropdown{
+    position: relative !important;
+    transform: none !important;
+    border-radius: inherit;
+    padding: 15px;
+  }
+  .sub-dropdown-heading{
+    padding-left: 10px;
+  }
+  .sub-dropdown-heading:hover .sub-sub-dropdown{
+    display: block;
+    border: none;
+    outline: none;
+  }
+ 
+
+  .chevron{
+    float: right;
+    margin-left: 5px;
+  }
+  /* end::offcanvas right css */
+  
+
+/* end:: NAvigation bar Ali */
+
+
 /********** navigation bar *************/
 
 
@@ -365,14 +459,12 @@ button{
 
 .heroBaseOuter div h1{
     font-size: 3.25rem;
-    font-weight: bold;
+    font-weight: 700;
     padding: 0 30px;
 }
-
 .heroBaseOuter div p{
     padding: 6px 0;
 }
-
 .btn-contactUs{
     color: var(--gray_700);
     margin-left: 18px;
@@ -398,7 +490,6 @@ button{
     display: grid;
     place-items: center;
     background-color: var(--white);
-
 }
 
 .channelCards{
@@ -436,13 +527,14 @@ button{
 
 .btn-reveal{
     text-align: center;
-    padding: 1% 0;
     margin: 64px 0 64px 0;
 }
 
-.btn-reveal button{
+.btn-reveal a{
     width: 10.875rem;
-
+    padding: 14px 12px;
+    font-weight: 600;
+    font-size: 16px;
 }
 /********** our channel review *************/
 
@@ -465,13 +557,92 @@ button{
 
 .redefining-h2{
     font-size: var(--font_2rem);
+    font-weight: 600;
     line-height: 42px;
+    text-transform:none;
 }
 
 .redefining-img-position{
     text-align: end;
 }
+
+/* begin:: demonstrate card */
+
+.profile-card-container {
+    background-image: url("../resources/redfining_image1.jpg");
+    background-size: cover;
+    width: 640px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+  }
+  .land1-profile-status{
+    background-color: white;
+    padding: 6px;
+    width: 450px;
+    border-radius: 10px;
+    justify-content: space-around;
+  }
+  .land1-profile-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .land1-profile-info p{
+    font-size: 14px;
+    margin: 0px;
+  }
+  .land1-profile-avatar{
+    width: 85px;
+    height: 85px;
+    /* margin-right: 20px; */
+  }
+  .land1-profile-statusout{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    text-decoration: none;
+    user-select: none;
+  }
+  .land1-profile-statusin-success , .land1-profile-statusin-unsuccessful , .land1-profile-statusin-pending{
+    color: rgb(24 183 24);
+    background-color: var(--success_50);
+    padding: 8px 16px;
+    font-weight: 700;
+    border-radius: 42px;
+    font-size: 12px;
+    margin: 0px;
+    cursor: pointer;
+  }
+  .land1-profile-statusin-unsuccessful{
+    color: var(--error_450);
+    background-color: var(--error_200);
+  }
+  .land1-profile-statusin-pending{
+    color: var(--primary_blue_800);
+    background-color:var(--primary_blue_100);
+  }
+
+.land1-profile-state{
+    font-weight: 500;
+  }
+  
+  .land1-profile-price{
+    font-weight: 700;
+    color: black;
+  }
+  /* end:: demonstrate card */
+
+
 /********** redefining product features *************/
+
+
+
 
 /********** demonstrate branding *************/
 .demonstrate-section{
@@ -576,15 +747,17 @@ button{
     color: var(--primary_blue_600);
     font-size: 14px;
     font-weight: 500;
-    width: 68px;
+    padding: 4px 12px;
 }
 
 .avatar-title{
-    width: 90%;
+    /* width: 90%; */
     font-size: 22px;
     font-weight: 600;
     color: var(--gray_700);
     margin-top: 10%;
+    text-transform: none;
+
 }
 
 .avatar-body{
@@ -594,6 +767,7 @@ button{
 
 .avatar-text{
     padding-top: 5%;
+    font-size: 16px;
 
 }
 
@@ -621,7 +795,7 @@ button{
 .reviewer{
     margin-left: 10%;
     text-align: center;
-    width: 19.75rem;
+    width: 20.75rem;
     /* height: 96px; */
 }
 
@@ -641,7 +815,7 @@ button{
 
 .common-review{
     color: var(--gray_700);
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 500;
     padding: 3%;
 }
@@ -674,13 +848,12 @@ button{
     width: 35.5rem;
     margin-right: 80px;
 }
-
 .email-head h1{
     font-size: var(--font_2rem);
-    line-height: 42px;
+    line-height: 42px; 
+    font-size: 32px;
+    text-transform: none;
 }
-
-
 .email-submit input{
     padding: 20px;
     width: 22rem;
@@ -708,10 +881,10 @@ button{
     place-items: center;
     background-color: var(--white);
     padding: 64px 0;
-
 }
 
 .footer-p{
+    font-size: 16px;
     padding-top: 16px;
 }
 
@@ -730,19 +903,329 @@ button{
 }
 .product-li,.resources-li,.chooseUs-li,.company-li{
     padding-bottom: 12px ;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    color:#5F6D7E;
+    line-height: 24px;
+    
 }
 
 .copyright-div{
     width: 100%;
     text-align: center;
+    margin-top: 64px;
 }
 
 .footer-copyright{
     margin-top: 16px;
 }
+.companyDes-div{
+    width: 247px;
+}
 
 
 /********** footer section *************/
+
+.profile-card-container {
+    background-image: url("../resources/redfining_image1.jpg");
+    background-size: cover;
+    width: 640px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+  }
+  .land1-profile-status{
+    background-color: white;
+    padding: 6px;
+    width: 450px;
+    border-radius: 10px;
+    justify-content: space-around;
+  }
+  .land1-profile-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .land1-profile-info p{
+    font-size: 14px;
+    margin: 0px;
+  }
+  .land1-profile-avatar{
+    width: 85px;
+    height: 85px;
+    /* margin-right: 20px; */
+  }
+  .land1-profile-statusout{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    text-decoration: none;
+    user-select: none;
+  }
+  .land1-profile-statusin{
+    color: rgb(0, 255, 0);
+    background-color: var(--success_50);
+    padding: 8px 16px;
+    font-weight: 700;
+    border-radius: 42px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+@media screen and (max-width:395px) {
+  .profile-card-container {
+    background-image: url("../resources/redfining_image1.jpg");
+    background-size: cover;
+    width: 379px;
+    height: 343px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px;
+  }
+  .land1-profile-status{
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    width: 328px;
+    border-radius: 20px;
+    justify-content: space-around;
+
+  }
+  .land1-profile-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .land1-profile-info p{
+    font-size: 11px;
+    margin: 0px;
+  }
+  .land1-profile-avatar{
+    width: 56px;
+    height: 56px;
+    /* margin-right: 20px; */
+  }
+  .land1-profile-statusout{
+    display: flex;
+    margin-left: 3rem;
+    align-items: center;
+    text-decoration: none;
+    user-select: none;
+  }
+  .land1-profile-statusin{
+    color: rgb(0, 255, 0);
+    background-color: var(--success_50);
+    padding: 8px 16px;
+    font-weight: 700;
+    border-radius: 42px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+}
+
+
+
+/*  <!-- begin:: demonstrate product features css  --> */
+
+.land1-images-center {
+    background: url("../resources/Land-1_card2_bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 560px;
+    height: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .center-icon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center-icon i{
+    font-size: 100px;
+    color: black;
+  }
+  .land1-images-overlay{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .land1-images-1{
+  display: flex;
+  }
+  .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+  , .land1-image-in-1-4{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 240px;
+    padding: 0px;
+    margin: 5px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+  } 
+  .land1-image-in-1-1{
+    border-top-left-radius: 10%;
+  }
+  .land1-image-in-1-2{
+    border-top-right-radius: 10%;
+  }
+  .land1-image-in-1-3{
+    border-bottom-left-radius: 10%;
+  }
+  .land1-image-in-1-4{
+    border-bottom-right-radius: 10%;
+  }
+  .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+  , .land1-image-in-1-4 p {
+    padding: 3px;
+    text-align: center;
+  }
+  /*  <!-- end:: demonstrate product features css  --> */
+
+  /* begin ::media querie of demonstrate product features */
+
+@media screen and (max-width:395px) {
+    .land1-images-center {
+        background: url("../resources/Land-1_card2_bg.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 560px;
+        height: 560px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0px;
+      }
+      .center-icon{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .center-icon i{
+        font-size: 50px;
+        color:black;
+      }
+      .land1-images-overlay{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .land1-images-1{
+      display: flex;
+      width: 343px;
+      }
+      .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+      , .land1-image-in-1-4{
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        height: 225px;
+        padding: 0px;
+        margin: 5px;
+        background-color: white;
+        align-items: center;
+        justify-content: space-around;
+      } 
+      .land1-image-in-1-1{
+        border-top-left-radius: 10%;
+      }
+      .land1-image-in-1-2{
+        border-top-right-radius: 10%;
+      }
+      .land1-image-in-1-3{
+        border-bottom-left-radius: 10%;
+      }
+      .land1-image-in-1-4{
+        border-bottom-right-radius: 10%;
+      }
+      .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
+      , .land1-image-in-1-4 p {
+        padding: 3px;
+        text-align: center;
+      }
+      .land1-checkus-out-image{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        width: 350px;
+        height: 230px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+      }
+    }
+    /* end:: media querie of demonstrate product features */
+
+
+
+
+/* begin:: check us page  css starts here */
+.land1-image-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.land1-image-end img{
+  object-fit: cover;
+  width: 560px;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.land1-checkus-out-image{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 330px;
+  height: 230px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.getStartNow{
+  text-decoration: none;
+  padding: 20px 30px;
+  background-color: #574efa;
+  color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+/* end:: check us page css */
+
+/* media queries of chckus out page */
+@media screen and (max-width:395px) {
+    .land1-image-end img{
+        object-fit: cover;
+        width: 389px;
+        height: 395px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+}
 
 /****************************** landing page 1 *********************************/
 
@@ -4643,7 +5126,7 @@ line-height: 20px;
             .check-body {
                 width: 343px;
                 margin: 32px 16px;
-                width: 44rem;
+                /* width: 44rem; */
             }
 
     .land1-images-end,.land1-images-center{
