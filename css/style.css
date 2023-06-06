@@ -327,17 +327,18 @@ button{
 /* begin :: Navigation bar Ali */
 
 /* begin:: navbar main css */
-.resources-submenu {
-    display: static !important;
+.resources-dropdown .resources-submenu{
+    display: static;
     width: 1051px;
     padding: 10px;
-    left: -70% !important;
-    right: auto !important;
-    text-align: center !important;
-    transform: translate(-27%, 0) !important;
+    left: -70% ;
+    right: auto ;
+    text-align: center ;
+    transform: translate(-27%, 0);
   } 
-  .dropdown:hover > .resources-submenu{
-      display:flex;
+
+  .resources-dropdown:hover  > .resources-submenu{
+      display: flex;
       flex-wrap: wrap;
       justify-content: center;
   }
