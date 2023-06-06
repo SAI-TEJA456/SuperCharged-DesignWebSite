@@ -325,6 +325,18 @@ button{
 .direct-pages:hover{
     color: var(--primary_blue_600);
 }
+
+.theme-icons{
+    margin-left: 50px;
+}
+
+.display-none{
+    display: none;
+}
+
+.display-contents{
+    display:contents;
+}
 /********** global values  *************/
 
 /****************************** landing page 1 *********************************/
@@ -1973,6 +1985,10 @@ button{
     background-color: white !important;
 }
 
+.current{
+    color: var(--primary_blue_600) !important;
+}
+
 .btn-monthly,.btn-yearly{
     width: 185px;
     height: 38px;
@@ -2049,7 +2065,7 @@ button{
     font-weight: 600;
     line-height: 22px;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
-border-radius: 6px;
+    border-radius: 6px;
 }
 /**********  pricing section *************/
 
@@ -3368,6 +3384,388 @@ line-height: 20px;
 }
 /****************************** contact page 1 *********************************/
 
+/****************************** reset password page  *********************************/
+.reset-pass-col{
+    padding: 0;
+    text-align: center;
+    align-self: center;
+}
+
+.reset-pass-content{
+    display: inline-block;
+}
+
+.reset-pass-h1{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.reset-pass-p{
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.reset-email-form{
+    width: 424px;
+    text-align: left;
+}
+
+.reset-pass-email{
+    color: var(--gray_700);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.reset-pass-img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.email-input-icon {
+    position: relative;
+}
+
+.email-input-icon:before {
+     content: "";
+     position: absolute;
+     right: 10px;
+     top: 0;
+     bottom: 25px;
+     width: 20px;
+     background: url("../resources/icons/email-icon-gray.svg") center / contain no-repeat;
+ }
+
+ .reset-email-input{
+    padding: 12px 16px;
+    width: 424px;
+    border: 1px solid var(--neutral_700);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    margin-bottom: 24px;
+ }
+
+ .reset-pass-continue{
+    padding: 12px 18px;
+    width: 424px;
+    background-color: var(--primary_blue_600);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 24px;
+ }
+
+ .goto-signin-page{
+    text-decoration: none;
+ }
+
+ .btn-lightIcon, .btn-darkIcon{
+    background-color: white;
+ }
+
+/****************************** reset password page  *********************************/
+
+/****************************** sign up page  *********************************/
+.signup-google{
+    padding: 12px 16px;
+    width: 424px;
+    background-color: white;
+    border: 1px solid var(--neutral_700);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 5px;
+    margin: 32px 0;
+}
+
+
+.signup-google-txt{
+    display:inline-block;
+    color: var(--gray_700);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    padding-left: 8px;
+}
+
+.signup-email-p {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    color: var(--gray_700);
+    margin: 0;
+    margin-bottom: 32px;
+ }
+ .signup-email-p:before,
+ .signup-email-p:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid var(--neutral_600);
+    margin: auto 12px;
+ }     
+
+ .password-input-icon:before{
+    content: "";
+     position: absolute;
+     right: 10px;
+     top: 0;
+     bottom: 25px;
+     width: 20px;
+     background: url("../resources/icons/eye-on-icon-gray.svg") center / contain no-repeat;
+ }
+
+ .forgot-pass-link{
+    padding-left: 122px;
+ }
+
+ .login-checkbox{
+    margin-bottom: 32px;
+ }
+/****************************** sign up page  *********************************/
+
+/****************************** error pages  *********************************/
+.error-image{
+    object-fit: cover;
+    width: 660px;
+    height: 514px;
+}
+
+.error-message-404, .not-found404{
+    text-align: center;
+    align-self: center;
+}
+
+.not-found404{
+    padding: 64px ;
+
+}
+
+.error-message-head{
+    padding-top: 48px;
+    margin-bottom: 8px;
+    color: var(--primary_blue_600);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.reason-error{
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.reason-des{
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.backToStart{
+    padding: 12px 18px;
+    width: 129px;
+    background-color: var(--primary_blue_600);
+    color: white;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.error-root-links{
+    padding-top: 48px;
+}
+
+.default-links{
+    text-decoration: none;
+    color: var(--gray_700);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 32px;
+}
+
+.error2-message-head{
+    font-size: 52px;
+}
+
+.reason2-error{
+    color: var(--gray_50);
+    margin-bottom: 48px;
+}
+
+.error-search-input{
+    position: relative;
+    justify-content: center;
+}
+
+.error2-search-input{
+    padding: 18px 8px 18px 40px;
+    width: 640px;
+    border-radius: 100px;
+}
+.error2-search-btn{
+    margin: 8px 8px 8px 0;
+    right: 0;
+    position: absolute;
+    padding: 10px 16px;
+    width: 80px;
+    border-radius: 100px;
+}
+
+.error-root-cards{
+    margin-top: 48px;
+}
+
+.error-root-col{
+    display: grid;
+    justify-content: center;
+}
+
+.error-default-card{
+    display: block;
+    padding: 48px 80px;
+    width: 286px;
+    text-decoration: none;
+    border: 1px solid var(--neutral_600);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 10px;
+    /* margin-left: 32px; */
+}
+
+.error-default-linkcard{
+    display: block;
+}
+/****************************** error pages  *********************************/
+/****************************** onboarding pages  *********************************/
+.onboarding-outer{
+    display: grid;
+    justify-items: center;
+    margin: 6px 0;
+}
+
+.onboarding-inner{
+    width: 648px;
+    border: 1px solid var(--neutral_700);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.onboarding-map-div, .onboarding-map-names{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.onboarding-map-div{
+    padding: 0 48px;
+}
+
+.onboard-map-names{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.onboarding-map-names{
+    margin-top: 8px;
+    padding: 0 42px;
+}
+
+.hr-dottedline{
+    width: 113px;
+    border: none;
+    border-top: 3px dotted var(--neutral_700);
+    color: var(--neutral_700);
+}
+
+.onboarding-map-order{
+    background-color: var(--neutral_50);
+     padding: 24px 0;
+
+ }
+
+.onboarding-email-form{
+    padding: 32px 48px;
+    width: 648px;
+    text-align: left;
+}
+
+.onboarding-pass-email{
+    color: var(--gray_700);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.warning-message-email{
+    display: block;
+    margin-bottom: 24px;
+}
+
+.onboarding-info-icon {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.onboarding-info-icon:before {
+     content: "";
+     position: absolute;
+     right: 10px;
+     top: 0;
+     bottom: 0;
+     width: 20px;
+     background: url("../resources/icons/information-icon-gray.svg") center / contain no-repeat;
+ }
+
+ .onboarding-name-input{
+    margin-bottom: 24px;
+ }
+
+ .onboarding-email-input{
+    padding: 12px 16px;
+    width: 552px;
+    border: 1px solid var(--neutral_700);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+ }
+
+ .onboarding-password-input{
+    width: 268px;
+ }
+
+ .onboarding-next-div{
+    background-color: var(--neutral_50);
+    padding: 16px 48px;
+    text-align: end;
+ }
+
+ .next-btn{
+    padding: 12px 18px;
+    width: 96px;
+    background-color: var(--primary_blue_600);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+ }
+
+/****************************** onboarding pages  *********************************/
+
 /************************ @media Queries **************************/
 @media screen and (max-width:768px){
 
@@ -4133,6 +4531,23 @@ line-height: 20px;
         margin-bottom: 32px;
     }
     /****************************** contact page 1 *********************************/
+
+    /****************************** reset password page  *********************************/
+    .reset-pass-img{
+        height: 836px;
+    }
+
+    /****************************** reset password page  *********************************/
+
+    /****************************** error pages  *********************************/
+    .error2-search-input{
+        width: 640px;
+    }
+
+    .error-default-card{
+        margin-top: 24px;
+    }
+    /****************************** error pages  *********************************/
 
 }
 
@@ -5238,6 +5653,74 @@ line-height: 20px;
     line-height: 32px;
     }
     /****************************** contact page 1 *********************************/
+
+    /****************************** reset password page  *********************************/
+
+    .reset-email-input, .reset-pass-continue, .reset-email-form, .signup-google{
+        width: 327px;
+     }
+
+     .reset-pass-content {
+        margin: 211px 0;
+    }
+    /****************************** reset password page  *********************************/
+
+    /****************************** sign up page  *********************************/
+    .forgot-pass-link{
+        padding-left: 9px;
+    }
+
+    .error-image{
+    width: 315.42px;
+    height: 245.65px;
+    }
+
+    .not-found404{
+        padding: 16px;
+    }
+
+    /****************************** sign up page  *********************************/
+
+     /****************************** error pages  *********************************/
+     .error-default-card{
+        width: 163.5px;
+     }
+
+     .error2-search-input{
+        width: 343px;
+    }
+
+    .error-default-card{
+        padding: 40px;
+        margin-top: 16px;
+    }
+
+    .error2-message-head {
+        font-size: 36px;
+    }
+
+    .onboarding-password-input, .onboarding-email-input{
+        width: 295px;
+     }
+     
+     .onboarding-email-form{
+        padding: 24px;
+        width: 343px;
+     }
+
+     .onboarding-inner{
+        margin: 0 16px;
+        width: 343px;
+     }
+
+     .hr-dottedline{
+        width: 47px;
+     }
+
+     .onboarding-map-names {
+        padding: 0 21px 0 29px;
+    }
+    /****************************** error pages  *********************************/
 }
 
 

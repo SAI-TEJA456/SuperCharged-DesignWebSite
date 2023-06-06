@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <div class="container-fluid p-0">
+    <div id="bodyDiv" class="container-fluid p-0">
         <!--begin::  Navigation bar-->
-        <header class="navigationBar">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary nav-bar">
+        <header id="header" class="navigationBar">
+            <nav id="navbar" class="navbar navbar-expand-lg  nav-bar">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="../resources/Logo-clickup.png" alt="company logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,13 +26,13 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-bar-items">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <a class="nav-link nav-bar-links" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">our products</a>
+                                <a class="nav-link nav-bar-links" href="#">our products</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link nav-bar-links" href="#" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
                                     resources
                                     <i class="fa-solid fa-chevron-down"></i>
                                 </a>
@@ -211,30 +211,65 @@
                                     <!-- end:: error pages sub-menu -->
                                 </ul>
                             </li>
-
-
                             <li class="nav-item">
-                                <a class="nav-link" href="../help&support/help-supp-page2.html">contacts</a>
+                                <a class="nav-link nav-bar-links" href="../help&support/help-supp-page2.html">contacts</a>
                             </li>
                         </ul>
                         <form class="d-flex btn-button">
                             <button id="btn-1" class="btn btn-outline land4-signup" type="button">sign up</button>
                             <button id="btn-2" class="btn btn-primary" type="button">log in</button>
                         </form>
+                        <div class="nav-item theme-icons">
+                            <button id="lightIcon" class="btn btn-lightIcon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 21H15M6 9C6 5.68629 8.68629 3 12 3C15.3137 3 18 5.68629 18 9C18 9.88962 17.8064 10.734 17.459 11.4934C16.503 13.5831 15 15.6125 15 17.9106C15 17.96 14.96 18 14.9106 18H9.08941C9.04003 18 9 17.96 9 17.9106C9 15.6125 7.49703 13.5831 6.541 11.4934C6.19361 10.734 6 9.88962 6 9Z" stroke="black" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>     
+                            </button>
+                            <button id="darkIcon" class="btn btn-darkIcon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.6534 16.738C19.8623 16.4013 19.5771 15.9905 19.181 15.9983C19.1208 15.9995 19.0605 16.0001 19 16.0001C14.0294 16.0001 10 11.9707 10 7.00011C10 5.91499 10.192 4.87473 10.544 3.91145C10.6799 3.53934 10.3843 3.13583 9.998 3.22358C5.99102 4.13378 3 7.71765 3 12.0001C3 16.9707 7.02944 21.0001 12 21.0001C15.2321 21.0001 18.0663 19.2964 19.6534 16.738Z" stroke="black" stroke-width="2"/>
+                                    </svg>     
+                            </button>
+                        </div>
                     </div>
                 </div>
             </nav>
         </header>
         <!--end:: Navigation bar-->
 
-
-        <!-- begin:: hero base -->
-        <div class="heroBaseOuter">
-            <div class="heroBaseHead">
-                <h1>we are still under development</h1>
+        <!--begin:: password reset page -->
+        <div class="reset-pass-page">
+            <div class="row m-0">
+                <div class="col-lg-6 col-md-8 reset-pass-col">
+                    <div class="reset-pass-content">
+                        <h1 class="reset-pass-h1">
+                            reset password
+                        </h1>
+                        <p class="reset-pass-p">
+                            Enter your email to reset your password
+                        </p>
+                        <form class="reset-email-form" action="">
+                            <label class="reset-pass-email" for="reset-email">Email Address</label>
+                            <label class="email-input-icon" for="">
+                                <input class="reset-email-input" type="email" placeholder="Email">
+                            </label>
+                            <button class="btn reset-pass-continue">continue</button>
+                        </form>
+                        <a class="goto-signin-page" href="../log-in-pages/login-page1.html">
+                            <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.3332 6H1.49987M5.66654 1L1.2558 5.41074C0.93036 5.73618 0.93036 6.26382 1.2558 6.58926L5.66654 11" stroke="#437EF7" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                
+                            Go back to the previous step
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-4 image3 p-0">
+                    <img src="../resources/grass-image1.png" alt="grass image" class="reset-pass-img">
+                </div>
             </div>
         </div>
-        <!-- end:: hero base -->
+         <!--end:: password reset page -->
 
        
     </div>
@@ -247,7 +282,7 @@
     <script src="https://kit.fontawesome.com/02fa547c1f.js" crossorigin="anonymous"></script>
 
     <!-- jQuery first-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
 
 
