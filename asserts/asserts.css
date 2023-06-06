@@ -307,7 +307,7 @@ button{
     user-select: none;
   }
   .land1-profile-statusin-success , .land1-profile-statusin-unsuccessful , .land1-profile-statusin-pending{
-    color: rgb(0, 255, 0);
+    color: rgb(24 183 24);
     background-color: var(--success_50);
     padding: 8px 16px;
     font-weight: 700;
@@ -407,7 +407,7 @@ button{
   align-items: center;
 }
 .center-icon i{
-  font-size: 50px;
+  font-size: 80px;
   color: black;
 }
 .land1-images-overlay{
@@ -421,14 +421,14 @@ display: flex;
 }
 .land1-image-in-1 {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
   width: 240px;
   height: 240px;
+  padding: 32px;
   margin: 5px;
   background-color: white;
   border-radius: 10px;
+  justify-content: space-between;
 } 
 .land1-image-in-1 p {
   padding: 3px;
@@ -476,7 +476,7 @@ display: flex;
 
 
 .chevron{
-  /* float: right; */
+  float: right;
   margin-left: 5px;
 }
 /* begin:: navbar main css */
@@ -515,24 +515,16 @@ display: flex;
   height: auto;
   border-radius: 0px;
 }
-.sub-dropdown{
-  position: relative !important;
-  transform: none !important;
-  border-radius: inherit;
-  /* left: -50% !important; */
-}
-.sub-dropdown-heading{
-  padding-left: 10px;
+.land1-profile-state{
+  font-weight: 500;
 }
 
-.sub-dropdown-heading:hover .sub-sub-dropdown{
-  display: block;
-  /* left: 40% !important; */
+.land1-profile-price{
+  font-weight: 700;
+  color: black;
 }
-/* .chevron-side{
-  float: right;
-  margin-right: 20px;
-} */
+
+
 
 
 .chevron-btn{
@@ -547,7 +539,28 @@ display: flex;
     visibility:visible;
   }
 }
+
 /* begin::offcanvas right css */
+
+
+
+.sub-dropdown{
+  position: relative !important;
+  transform: none !important;
+  border-radius: inherit;
+  padding: 15px;
+}
+.sub-dropdown-heading{
+  padding-left: 10px;
+}
+
+.sub-dropdown-heading:hover .sub-sub-dropdown{
+  display: block;
+  border: none;
+  outline: none;
+  
+
+}
 
 
 /* end::offcanvas right css */
@@ -590,14 +603,14 @@ display: flex;
     }
     .land1-image-in-1 {
       display: flex;
-      justify-content: center;
       flex-direction: column;
-      align-items: center;
-      width: 170px;
-      height: 200px;
-      margin: 5px;
+      width: 240px;
+      height: 240px;
+      padding: 32px;
+      margin: 10px;
       background-color: white;
       border-radius: 10px;
+      justify-content: space-between;
     } 
     .land1-image-in-1 p {
       padding: 3px;
