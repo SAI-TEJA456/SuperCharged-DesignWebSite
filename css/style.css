@@ -1,12 +1,15 @@
 /* google fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+
+/* google fonts for inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@200&display=swap');
 /* @import url(./land3.css); */
 
 
 /********** global values  *************/
-:root{
-    --white:  #FFFFFF;
+:root {
+    --white: #FFFFFF;
     --black: #000000;
 
     --neutral_25: #FCFCFD;
@@ -107,86 +110,88 @@
     --gradient_25_900: conic-gradient(from 225deg at 50% 50%, #F5F8FF 0deg, #00359E 360deg);
     --gradient_600_100: linear-gradient(225deg, #B2CCFF 14.64%, #1058E8 85.36%);
     --gradient_overlay_dark: rgba(15, 23, 36, 0.85);
-    
+
     --gradient_400_900: linear-gradient(90deg, #F2F4F7 0%, #98A2B3 100%);
     --gradient_800_800: linear-gradient(25deg, #1D2939 12.38%, #98A2B3 87.62%);
     --gradient_50_900: conic-gradient(from 225deg at 50% 50%, #FCFCFD 0deg, #101828 360deg);
     --gradient_purple_blue: linear-gradient(225deg, #0046D1 14.64%, #A48AFB 85.36%);
 
     --font_1rem: 1rem;
-    --font_1-5rem:1.5rem;
+    --font_1-5rem: 1.5rem;
     --font_2rem: 2rem;
 
 
     --width_400px: 25rem;
     --width_768px: 48rem;
     --width_800px: 50rem;
-    --width_1216px: 76rem; 
-    --width_1280px: 80rem; 
+    --width_1216px: 76rem;
+    --width_1280px: 80rem;
 
 }
 
 /********************* writing css with DEFAULT WIDTH GIVEN BY PROJECT AS 1440px  ***************/
-.pb-6{
+.pb-6 {
     padding-bottom: 2rem;
 }
-.pt-6{
+
+.pt-6 {
     padding-top: 2rem;
 }
 
-.pt-64{
+.pt-64 {
     padding-top: 64px;
 }
 
-.pb-64{
+.pb-64 {
     padding-bottom: 64px;
 }
 
-.py-64{
+.py-64 {
     padding-top: 64px;
     padding-bottom: 64px;
 }
 
-.mb-6{
+.mb-6 {
     margin: 0;
     margin-bottom: 2rem;
 }
-.mt-6{
+
+.mt-6 {
     margin-top: 2rem;
 }
 
-.ms-6{
+.ms-6 {
     margin-left: 2rem;
 }
 
-.mx-6{
+.mx-6 {
     margin-right: 2rem;
     margin-left: 2rem;
 }
 
-.mx-80{
-    margin-left:80px;
-    margin-right:80px;
+.mx-80 {
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
-.mt-80{
-    margin-top:80px;
+.mt-80 {
+    margin-top: 80px;
 }
 
-.mb-80{
-    margin-bottom:80px;
+.mb-80 {
+    margin-bottom: 80px;
 }
 
-.ms-64{
+.ms-64 {
     margin-top: 64px;
     margin-bottom: 64px;
 }
 
-.mt-64{
+.mt-64 {
     margin-top: 64px;
 }
 
-.mb-64{
+.mb-64 {
     margin-bottom: 64px;
 }
 
@@ -195,10 +200,12 @@ h1,h2,h3,h4,h5,h6{
     text-transform: capitalize;
     color: var(--gray_700);
     font-weight: 700;
+    font-family: 'Inter',sans-serif;
 }
 
 a{
     text-transform: capitalize;
+    font-family: 'Inter',sans-serif;
 }
 
 p,span{
@@ -206,6 +213,7 @@ p,span{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
+    font-family: 'Inter',sans-serif;
 }
 
 button{
@@ -213,230 +221,236 @@ button{
     font-size: var(--font_1rem);
     font-weight: 600;
     line-height: 22px;
+    font-family: 'Inter', sans-serif;
 }
 
 
-.allHeads{
+
+.allHeads {
     text-align: center;
     width: var(--width_800px);
     padding: 64px 0;
 }
 
-.allHeads p,.redefining-p{
+.allHeads p,
+.redefining-p {
     font-size: var(--font_1rem);
     margin: 0;
 }
 
-.content-div{
+.content-div {
     width: var(--width_1280px);
 }
 
-.des-body{
+.des-body {
     width: 32.25rem;
     margin: 116px 140px 116px 32px;
 }
 
-.des-btn{
+.des-btn {
     margin: 40px 0 0 0;
-} 
+}
 
-.des-img{
+.des-img {
     width: 560px;
     object-fit: cover;
     height: 560px;
 }
 
-.neutral-bg-100{
+.neutral-bg-100 {
     background-color: var(--neutral_100) !important;
 }
 
-.neutral-200{
+.neutral-200 {
     color: var(--neutral_200) !important;
 }
 
-.neutral-800{
+.neutral-800 {
     color: var(--neutral_800) !important;
 }
 
-.gray-50{
+.gray-50 {
     color: var(--gray_50) !important;
 }
 
-.c-white{
+.c-white {
     color: white !important;
 }
 
-.bg-white{
+.bg-white {
     background-color: white !important;
 }
 
-.bg-gray-950{
+.bg-gray-950 {
     background-color: var(--gray_950) !important;
 }
 
-.c-gray-700{
+.c-gray-700 {
     color: var(--gray_700) !important;
 }
 
-.image4{
+.image4 {
     display: none;
 }
 
-.display-mediaqer{
+.display-mediaqer {
     display: block;
 }
 
-.sf-div{
+.sf-div {
     display: flex;
 }
 
-.sf-out{
+.sf-out {
     background-color: var(--primary_blue_25);
     width: 47px;
     height: 24px;
     text-align: center;
 }
 
-.sf-in{
+.sf-in {
     color: var(--primary_blue_600);
 }
 
-.direct-pages{
+.direct-pages {
     text-decoration: none;
     color: var(--gray_50);
 }
 
-.direct-pages:hover{
+.direct-pages:hover {
     color: var(--primary_blue_600);
 }
 
-.theme-icons{
+.theme-icons {
     margin-left: 50px;
 }
 
-.display-none{
+.display-none {
     display: none;
 }
 
-.display-contents{
-    display:contents;
+.display-contents {
+    display: contents;
 }
+
 /********** global values  *************/
 
 /****************************** landing page 1 *********************************/
 
 
 /********** navigation bar *************/
-.navigationBar{
+.navigationBar {
     border-bottom: 1px solid var(--neutral_600);
 }
-.nav-bar{
+
+.nav-bar {
     padding: 20px 100px;
 }
 
-.nav-bar-items .nav-item{
+.nav-bar-items .nav-item {
     margin-right: 32px;
 }
 
-.nav-bar-items .nav-item .nav-link{
+.nav-bar-items .nav-item .nav-link {
     color: var(--black);
     font-size: 16px;
     font-weight: 600;
 }
 
 
-.land1-login{
+.land1-login {
     font-weight: 600;
 }
 
-#btn-3,#btn-4{
-   padding: 12px 18px 12px 18px;
-   font-weight: 500;
+#btn-3,
+#btn-4 {
+    padding: 12px 18px 12px 18px;
+    font-weight: 500;
 }
+
 /* begin :: Navigation bar Ali */
 
 /* begin:: navbar main css */
-.resources-dropdown .resources-submenu{
+.resources-dropdown .resources-submenu {
     display: static;
     width: 1051px;
     padding: 10px;
-    left: -70% ;
-    right: auto ;
-    text-align: center ;
+    left: -70%;
+    right: auto;
+    text-align: center;
     transform: translate(-27%, 0);
-  } 
+}
 
-  .resources-dropdown:hover  > .resources-submenu{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-  }
-  .landing-pages-link a{
+.resources-dropdown:hover>.resources-submenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.landing-pages-link a {
     font-size: 14px;
-  }
-  
-  .landing-pages-link:hover > .landing-pages-submenu{
-      display: flex;
-      position: absolute;
-   }
-   
-  
-  .landing-pages-link{
-   text-align: center;
-  }
-  
-  .landing-pages-submenu{
+}
+
+.landing-pages-link:hover>.landing-pages-submenu {
+    display: flex;
+    position: absolute;
+}
+
+
+.landing-pages-link {
+    text-align: center;
+}
+
+.landing-pages-submenu {
     width: 100%;
     height: auto;
     border-radius: 0px;
-  }
-  .land1-profile-state{
+}
+
+.land1-profile-state {
     font-weight: 500;
-  }
-  
-  .land1-profile-price{
+}
+
+.land1-profile-price {
     font-weight: 700;
     color: black;
-  }
-  
-  .chevron-btn{
+}
+
+.chevron-btn {
     margin-left: 5px;
-  }
-  .canvas-btn{
+}
+
+.canvas-btn {
     visibility: hidden;
-  }
-  
-  @media screen and (max-width:1000px) {
-    .canvas-btn{
-      visibility:visible;
-    }
-  }
-  
-  
-  
-  /* begin::offcanvas right css */
-  .sub-dropdown{
+}
+
+
+/*offcanvas right css */
+.sub-dropdown {
     position: relative !important;
     transform: none !important;
     border-radius: inherit;
     padding: 15px;
-  }
-  .sub-dropdown-heading{
+}
+
+.sub-dropdown-heading {
     padding-left: 10px;
-  }
-  .sub-dropdown-heading:hover .sub-sub-dropdown{
+}
+
+.sub-dropdown-heading:hover .sub-sub-dropdown {
     display: block;
     border: none;
     outline: none;
-  }
- 
+}
 
-  .chevron{
+
+.chevron {
     float: right;
     margin-left: 5px;
-  }
-  /* end::offcanvas right css */
-  
+}
+
+/*offcanvas right css */
+
 
 /* end:: NAvigation bar Ali */
 
@@ -445,58 +459,61 @@ button{
 
 
 /********** hero base *************/
-.heroBaseOuter{
+.heroBaseOuter {
     background-color: var(--neutral_50);
     display: grid;
     place-items: center;
 }
 
-.heroBaseHead{
+.heroBaseHead {
     width: 56.25rem;
-    padding: 48px 0; 
+    padding: 48px 0;
     text-align: center;
 }
 
-.heroBaseOuter div h1{
+.heroBaseOuter div h1 {
     font-size: 3.25rem;
     font-weight: 700;
     padding: 0 30px;
 }
-.heroBaseOuter div p{
+
+.heroBaseOuter div p {
     padding: 6px 0;
 }
-.btn-contactUs{
+
+.btn-contactUs {
     color: var(--gray_700);
     margin-left: 18px;
     border: 1px solid var(--neutral_600);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
 }
 
-.channelsReview-img{
+.channelsReview-img {
     display: grid;
     place-items: center;
     background-color: var(--neutral_50);
 }
 
-.ourChannel-img{
+.ourChannel-img {
     object-fit: cover;
     height: 385px;
-    border-radius: 0 0 100% 100% / 0 0 9% 9% ;
+    border-radius: 0 0 100% 100% / 0 0 9% 9%;
 }
+
 /********** hero base *************/
 
 /********** our channel review *************/
-.channels-section{
+.channels-section {
     display: grid;
     place-items: center;
     background-color: var(--white);
 }
 
-.channelCards{
+.channelCards {
     width: var(--width_1280px);
 }
 
-.channelCard{
+.channelCard {
     width: 24rem;
     text-align: none;
     border: 1px solid var(--neutral_600);
@@ -507,7 +524,7 @@ button{
 
 }
 
-.channelCard .btn{
+.channelCard .btn {
     margin-left: 47%;
     color: var(--gray_700);
     border: 1px solid var(--neutral_600);
@@ -517,7 +534,7 @@ button{
     line-height: 22px;
 }
 
-.channelCard h4{
+.channelCard h4 {
     color: var(--gray_700);
     padding: 12px 0;
     font-size: 22px;
@@ -525,29 +542,30 @@ button{
 }
 
 
-.btn-reveal{
+.btn-reveal {
     text-align: center;
     margin: 64px 0 64px 0;
 }
 
-.btn-reveal a{
+.btn-reveal a {
     width: 10.875rem;
     padding: 14px 12px;
     font-weight: 600;
     font-size: 16px;
 }
+
 /********** our channel review *************/
 
 /********** redefining product features *************/
 
-.redefining-section{
+.redefining-section {
     display: grid;
     place-items: center;
     background-color: var(--neutral_50);
     padding-bottom: 64px;
 }
 
-.redefining-a{
+.redefining-a {
     font-weight: 600;
     font-size: 14px;
     text-decoration: none;
@@ -555,14 +573,14 @@ button{
     color: var(--primary_blue_600);
 }
 
-.redefining-h2{
+.redefining-h2 {
     font-size: var(--font_2rem);
     font-weight: 600;
     line-height: 42px;
-    text-transform:none;
+    text-transform: none;
 }
 
-.redefining-img-position{
+.redefining-img-position {
     text-align: end;
 }
 
@@ -579,37 +597,44 @@ button{
     flex-direction: column;
     gap: 10px;
     padding: 0px;
-  }
-  .land1-profile-status{
+}
+
+.land1-profile-status {
     background-color: white;
     padding: 6px;
     width: 450px;
     border-radius: 10px;
     justify-content: space-around;
-  }
-  .land1-profile-info{
+}
+
+.land1-profile-info {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-  }
-  .land1-profile-info p{
+}
+
+.land1-profile-info p {
     font-size: 14px;
     margin: 0px;
-  }
-  .land1-profile-avatar{
+}
+
+.land1-profile-avatar {
     width: 85px;
     height: 85px;
-    /* margin-right: 20px; */
-  }
-  .land1-profile-statusout{
+}
+
+.land1-profile-statusout {
     display: flex;
     margin-left: 3rem;
     align-items: center;
     text-decoration: none;
     user-select: none;
-  }
-  .land1-profile-statusin-success , .land1-profile-statusin-unsuccessful , .land1-profile-statusin-pending{
+}
+
+.land1-profile-statusin-success,
+.land1-profile-statusin-unsuccessful,
+.land1-profile-statusin-pending {
     color: rgb(24 183 24);
     background-color: var(--success_50);
     padding: 8px 16px;
@@ -618,25 +643,28 @@ button{
     font-size: 12px;
     margin: 0px;
     cursor: pointer;
-  }
-  .land1-profile-statusin-unsuccessful{
+}
+
+.land1-profile-statusin-unsuccessful {
     color: var(--error_450);
     background-color: var(--error_200);
-  }
-  .land1-profile-statusin-pending{
-    color: var(--primary_blue_800);
-    background-color:var(--primary_blue_100);
-  }
+}
 
-.land1-profile-state{
+.land1-profile-statusin-pending {
+    color: var(--primary_blue_800);
+    background-color: var(--primary_blue_100);
+}
+
+.land1-profile-state {
     font-weight: 500;
-  }
-  
-  .land1-profile-price{
+}
+
+.land1-profile-price {
     font-weight: 700;
     color: black;
-  }
-  /* end:: demonstrate card */
+}
+
+/* end:: demonstrate card */
 
 
 /********** redefining product features *************/
@@ -645,14 +673,14 @@ button{
 
 
 /********** demonstrate branding *************/
-.demonstrate-section{
+.demonstrate-section {
     display: grid;
     place-items: center;
     background-color: var(--primary_blue_900);
     padding: 64px 0;
 }
 
-.demonstrate-a{
+.demonstrate-a {
     color: var(--white);
     font-weight: 600;
     font-size: 14px;
@@ -660,43 +688,45 @@ button{
     text-transform: uppercase;
 }
 
-.demonstrate-h2{
+.demonstrate-h2 {
     color: var(--white);
     font-size: var(--font_2rem);
     line-height: 42px;
 }
 
-.demonstrate-p{
+.demonstrate-p {
     color: var(--primary_blue_200);
     font-size: var(--font_1rem);
 }
+
 /********** demonstrate branding *************/
 
 /********** check us out *************/
-.check-section{
+.check-section {
     display: grid;
     place-items: center;
     background-color: var(--neutral_50);
     padding: 64px 0;
 }
 
-.check-body{
+.check-body {
     width: 32.25rem;
     margin: 93px 140px 93px 32px;
 }
 
-.check-h2{
+.check-h2 {
     font-size: var(--font_2rem);
     line-height: 42px;
 }
 
-.check-p,.check-li{
+.check-p,
+.check-li {
     font-size: var(--font_1rem);
 }
 
-.check-ul{
+.check-ul {
     padding: 0;
-    list-style-type:none;
+    list-style-type: none;
     color: var(--gray_50);
 
 }
@@ -705,44 +735,45 @@ button{
     margin-bottom: 10px;
 }
 
-.land1-images-end{
+.land1-images-end {
     text-align: end;
 }
+
 /********** check us out *************/
 
 /********** latest blog posts *************/
-.blog-section{
+.blog-section {
     display: grid;
     place-items: center;
     background-color: var(--white);
     padding: 0 0 64px 0;
 }
 
-.avatar-blogs{
+.avatar-blogs {
     width: var(--width_1280px);
 }
 
-.avatar-card{
+.avatar-card {
     width: 24rem;
     border: 1px solid var(--neutral_600);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 10px;
 }
 
-.avatar-bg-img{
+.avatar-bg-img {
     object-fit: cover;
     height: 248px;
     border-top-right-radius: 0.8rem;
     border-top-left-radius: 0.8rem;
 }
 
-.avatar-img{
+.avatar-img {
     position: absolute;
     right: 32px;
     top: 224px;
 }
 
-.avatar-article-btn{
+.avatar-article-btn {
     background-color: var(--primary_blue_25);
     color: var(--primary_blue_600);
     font-size: 14px;
@@ -750,7 +781,7 @@ button{
     padding: 4px 12px;
 }
 
-.avatar-title{
+.avatar-title {
     /* width: 90%; */
     font-size: 22px;
     font-weight: 600;
@@ -760,81 +791,83 @@ button{
 
 }
 
-.avatar-body{
+.avatar-body {
     padding-left: 10%;
     padding-bottom: 0;
 }
 
-.avatar-text{
+.avatar-text {
     padding-top: 5%;
     font-size: 16px;
 
 }
 
-.article-span{
+.article-span {
     font-size: 14px;
     font-weight: 500;
 }
 
-.learn-more-link{
+.learn-more-link {
     font-size: var(--font_1rem);
     font-weight: 500;
     text-decoration: none;
     padding-left: 5%;
 }
+
 /********** latest blog posts *************/
 
 /********** what our customers say *************/
-.customers-review-section{
+.customers-review-section {
     display: grid;
     place-items: center;
     background-color: var(--white);
     padding: 0 0 64px 0;
 }
 
-.reviewer{
+.reviewer {
     margin-left: 10%;
     text-align: center;
     width: 20.75rem;
     /* height: 96px; */
 }
 
-.avatar-group{
+.avatar-group {
     display: inline-block;
     text-align: center;
     width: 100%;
     padding: 3%;
 }
 
-.avatar-g-1 img{
+.avatar-g-1 img {
     object-fit: cover;
 }
-.avatar-g-1:not(:first-child){
+
+.avatar-g-1:not(:first-child) {
     margin-left: -5%;
 }
 
-.common-review{
+.common-review {
     color: var(--gray_700);
     font-size: 16px;
     font-weight: 500;
     padding: 3%;
 }
 
-.review-stars{
+.review-stars {
     padding: 3%;
 }
 
 /********** what our customers say *************/
 
 /********** email section *************/
-.email-section{
+.email-section {
     display: grid;
     place-items: center;
     background-color: var(--white);
     padding: 64px 0;
 }
 
-.email-content{
+.email-content {
     width: 76rem;
     background-color: var(--neutral_100);
     border-radius: 10px;
@@ -844,17 +877,19 @@ button{
     padding: 1.5rem;
 }
 
-.email-head{
+.email-head {
     width: 35.5rem;
     margin-right: 80px;
 }
-.email-head h1{
+
+.email-head h1 {
     font-size: var(--font_2rem);
-    line-height: 42px; 
+    line-height: 42px;
     font-size: 32px;
     text-transform: none;
 }
-.email-submit input{
+
+.email-submit input {
     padding: 20px;
     width: 22rem;
     height: 46px;
@@ -862,7 +897,7 @@ button{
     border-radius: 6px 0px 0px 6px;
 }
 
-.email-submit button{
+.email-submit button {
     width: 5.5rem;
     padding: 12px 18px;
     margin: 0;
@@ -872,174 +907,79 @@ button{
     margin-left: -4px;
     margin-bottom: 5px;
 }
+
 /********** email section *************/
 
 /********** footer section *************/
 
-.footer-section{
+.footer-section {
     display: grid;
     place-items: center;
     background-color: var(--white);
     padding: 64px 0;
 }
 
-.footer-p{
+.footer-p {
     font-size: 16px;
     padding-top: 16px;
 }
 
-.footer-div{
+.footer-div {
     display: flex;
     justify-content: space-between;
 }
-.product-main-h6,.resources-main-h6,.chooseUs-main-h6,.company-main-h6{
+
+.product-main-h6,
+.resources-main-h6,
+.chooseUs-main-h6,
+.company-main-h6 {
     font-size: var(--font_1rem);
     line-height: 24px;
 }
-.product-ul,.resources-ul,.chooseUs-ul,.company-ul{
+
+.product-ul,
+.resources-ul,
+.chooseUs-ul,
+.company-ul {
     list-style-type: none;
     padding: 24px 0 0 0;
-    
+
 }
-.product-li,.resources-li,.chooseUs-li,.company-li{
-    padding-bottom: 12px ;
+
+.product-li,
+.resources-li,
+.chooseUs-li,
+.company-li {
+    padding-bottom: 12px;
     text-transform: capitalize;
     font-size: 16px;
     font-weight: 400;
-    color:#5F6D7E;
+    color: #5F6D7E;
     line-height: 24px;
-    
+
 }
 
-.copyright-div{
+.copyright-div {
     width: 100%;
     text-align: center;
     margin-top: 64px;
 }
 
-.footer-copyright{
+.footer-copyright {
     margin-top: 16px;
 }
-.companyDes-div{
+
+.companyDes-div {
     width: 247px;
 }
 
 
 /********** footer section *************/
 
-.profile-card-container {
-    background-image: url("../resources/redfining_image1.jpg");
-    background-size: cover;
-    width: 640px;
-    height: 560px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    gap: 10px;
-    padding: 0px;
-  }
-  .land1-profile-status{
-    background-color: white;
-    padding: 6px;
-    width: 450px;
-    border-radius: 10px;
-    justify-content: space-around;
-  }
-  .land1-profile-info{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .land1-profile-info p{
-    font-size: 14px;
-    margin: 0px;
-  }
-  .land1-profile-avatar{
-    width: 85px;
-    height: 85px;
-    /* margin-right: 20px; */
-  }
-  .land1-profile-statusout{
-    display: flex;
-    margin-left: 3rem;
-    align-items: center;
-    text-decoration: none;
-    user-select: none;
-  }
-  .land1-profile-statusin{
-    color: rgb(0, 255, 0);
-    background-color: var(--success_50);
-    padding: 8px 16px;
-    font-weight: 700;
-    border-radius: 42px;
-    font-size: 12px;
-    cursor: pointer;
-  }
-
-@media screen and (max-width:395px) {
-  .profile-card-container {
-    background-image: url("../resources/redfining_image1.jpg");
-    background-size: cover;
-    width: 379px;
-    height: 343px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-    padding: 0px;
-  }
-  .land1-profile-status{
-    display: flex;
-    background-color: white;
-    padding: 4px;
-    width: 328px;
-    border-radius: 20px;
-    justify-content: space-around;
-
-  }
-  .land1-profile-info{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .land1-profile-info p{
-    font-size: 11px;
-    margin: 0px;
-  }
-  .land1-profile-avatar{
-    width: 56px;
-    height: 56px;
-    /* margin-right: 20px; */
-  }
-  .land1-profile-statusout{
-    display: flex;
-    margin-left: 3rem;
-    align-items: center;
-    text-decoration: none;
-    user-select: none;
-  }
-  .land1-profile-statusin{
-    color: rgb(0, 255, 0);
-    background-color: var(--success_50);
-    padding: 8px 16px;
-    font-weight: 700;
-    border-radius: 42px;
-    font-size: 12px;
-    cursor: pointer;
-  }
-}
-
-
-
 /*  <!-- begin:: demonstrate product features css  --> */
-
 .land1-images-center {
     background: url("../resources/Land-1_card2_bg.jpg");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 560px;
     height: 560px;
@@ -1047,28 +987,35 @@ button{
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-  }
-  .center-icon{
+}
+
+.center-icon {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .center-icon i{
+}
+
+.center-icon i {
     font-size: 100px;
     color: black;
-  }
-  .land1-images-overlay{
+}
+
+.land1-images-overlay {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .land1-images-1{
-  display: flex;
-  }
-  .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
-  , .land1-image-in-1-4{
+}
+
+.land1-images-1 {
+    display: flex;
+}
+
+.land1-image-in-1-1,
+.land1-image-in-1-2,
+.land1-image-in-1-3,
+.land1-image-in-1-4 {
     display: flex;
     flex-direction: column;
     width: 240px;
@@ -1078,280 +1025,205 @@ button{
     background-color: white;
     align-items: center;
     justify-content: space-around;
-  } 
-  .land1-image-in-1-1{
+}
+
+.land1-image-in-1-1 {
     border-top-left-radius: 10%;
-  }
-  .land1-image-in-1-2{
+}
+
+.land1-image-in-1-2 {
     border-top-right-radius: 10%;
-  }
-  .land1-image-in-1-3{
+}
+
+.land1-image-in-1-3 {
     border-bottom-left-radius: 10%;
-  }
-  .land1-image-in-1-4{
+}
+
+.land1-image-in-1-4 {
     border-bottom-right-radius: 10%;
-  }
-  .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
-  , .land1-image-in-1-4 p {
+}
+
+.land1-image-in-1-1,
+.land1-image-in-1-2,
+.land1-image-in-1-3,
+.land1-image-in-1-4 p {
     padding: 3px;
     text-align: center;
-  }
-  /*  <!-- end:: demonstrate product features css  --> */
+}
 
-  /* begin ::media querie of demonstrate product features */
-
-@media screen and (max-width:395px) {
-    .land1-images-center {
-        background: url("../resources/Land-1_card2_bg.jpg");
-        background-size:cover;
-        background-repeat: no-repeat;
-        width: 560px;
-        height: 560px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px;
-      }
-      .center-icon{
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .center-icon i{
-        font-size: 50px;
-        color:black;
-      }
-      .land1-images-overlay{
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .land1-images-1{
-      display: flex;
-      width: 343px;
-      }
-      .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
-      , .land1-image-in-1-4{
-        display: flex;
-        flex-direction: column;
-        width: 340px;
-        height: 225px;
-        padding: 0px;
-        margin: 5px;
-        background-color: white;
-        align-items: center;
-        justify-content: space-around;
-      } 
-      .land1-image-in-1-1{
-        border-top-left-radius: 10%;
-      }
-      .land1-image-in-1-2{
-        border-top-right-radius: 10%;
-      }
-      .land1-image-in-1-3{
-        border-bottom-left-radius: 10%;
-      }
-      .land1-image-in-1-4{
-        border-bottom-right-radius: 10%;
-      }
-      .land1-image-in-1-1  , .land1-image-in-1-2  , .land1-image-in-1-3
-      , .land1-image-in-1-4 p {
-        padding: 3px;
-        text-align: center;
-      }
-      .land1-checkus-out-image{
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        background-color: white;
-        width: 350px;
-        height: 230px;
-        margin-bottom: 20px;
-        border-radius: 10px;
-      }
-    }
-    /* end:: media querie of demonstrate product features */
-
-
+/*  <!-- end:: demonstrate product features css  --> */
 
 
 /* begin:: check us page  css starts here */
-.land1-image-end{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.land1-image-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.land1-image-end img{
-  object-fit: cover;
-  width: 560px;
-  height: 560px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+
+.land1-image-end img {
+    object-fit: cover;
+    width: 560px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
-.land1-checkus-out-image{
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: white;
-  width: 330px;
-  height: 230px;
-  margin-bottom: 20px;
-  border-radius: 10px;
+
+.land1-checkus-out-image {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 330px;
+    height: 230px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
-.getStartNow{
-  text-decoration: none;
-  padding: 20px 30px;
-  background-color: #574efa;
-  color: white;
-  margin-top: 40px;
-  border-radius: 10px;
+
+.getStartNow {
+    text-decoration: none;
+    padding: 20px 30px;
+    background-color: #574efa;
+    color: white;
+    margin-top: 40px;
+    border-radius: 10px;
 }
+
 /* end:: check us page css */
 
-/* media queries of chckus out page */
-@media screen and (max-width:395px) {
-    .land1-image-end img{
-        object-fit: cover;
-        width: 389px;
-        height: 395px;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-      }
-}
+
 
 /****************************** landing page 1 *********************************/
 
 /****************************** landing page 2 *********************************/
 
 /********** landing 2 navigation bar *************/
-.c-white .nav-item{
+.c-white .nav-item {
     margin-right: 32px;
 }
 
-.c-white .nav-item .nav-link{
+.c-white .nav-item .nav-link {
     color: white;
 }
 
-.landing2_navbar{
+.landing2_navbar {
     padding: 20px 100px;
 }
 
-.landing2_header{
+.landing2_header {
     border-bottom: 1px solid var(--neutral_600);
-    background: url(../resources/landing2_bg_img.png),rgba(15, 23, 36, 0.85);
+    background: url(../resources/landing2_bg_img.png), rgba(15, 23, 36, 0.85);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
     border-radius: 0 0 100% 100% / 0 0 6% 6%;
 }
+
 /********** landing 2 navigation bar *************/
 
 /********** landing 2 hero base*************/
-.landing2_hero{
+.landing2_hero {
     display: grid;
     place-items: center;
 }
 
-.land2-rating{
+.land2-rating {
     margin-bottom: 24px;
 }
 
-.landing2_head{
+.landing2_head {
     width: 40rem;
-    padding: 80px 0 92px 0; 
+    padding: 80px 0 92px 0;
     text-align: center;
 }
 
-.landing2_head h1{
+.landing2_head h1 {
     color: white;
     font-size: 3.25rem;
     font-weight: bold;
     padding: 0 30px 24px 30px;
 }
 
-.landing2_head p{
+.landing2_head p {
     color: white;
     font-size: 1.125rem;
     padding-bottom: 48px;
 }
 
-.land2-btn-contactUs{
+.land2-btn-contactUs {
     color: white;
     font-weight: 600;
     margin-left: 18px;
     border: 1px solid var(--neutral_600);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
 }
+
 /********** landing 2 hero base*************/
 
 /********** landing2 Work Easier Today *************/
-.land2-sections{
+.land2-sections {
     display: grid;
     place-items: center;
     background-color: var(--white);
 
 }
 
-.land2-eaiserCards{
+.land2-eaiserCards {
     width: var(--width_1216px);
 }
 
-.land2-eaiserCard{
+.land2-eaiserCard {
     width: 16.75rem;
     text-align: center;
 }
 
-.land2-eaiserCard h4{
+.land2-eaiserCard h4 {
     color: var(--gray_700);
     padding: 12px 0;
     font-size: 22px;
     line-height: 30px;
     font-weight: 600;
 }
+
 /********** landing2 Work Easier Today *************/
 
 /********** landing2 redefining product features  *************/
 
-.image2{
+.image2 {
     display: none;
 }
 
-.land2-redefining-h2{
+.land2-redefining-h2 {
     font-size: 22px;
     line-height: 42px;
 }
 
-.land2-redefining-p{
+.land2-redefining-p {
     font-size: 16px;
     line-height: 24px;
     margin: 0;
-    margin-bottom: 1rem ;
+    margin-bottom: 1rem;
 }
 
-.land2-des-body-outer{
+.land2-des-body-outer {
     padding: 64px 124px 0 32px;
 }
 
-.learn-more-land2{
+.learn-more-land2 {
     font-size: var(--font_1rem);
     font-weight: 500;
     text-decoration: none;
 }
 
-.land2-des-body{
+.land2-des-body {
     justify-content: center;
 }
 
-.land2-redf-icons{
+.land2-redf-icons {
     width: 64px;
 }
 
@@ -1359,142 +1231,147 @@ button{
 
 /********** landing2 demonstrate branding  *************/
 
-.demonstrate-h2{
+.demonstrate-h2 {
     color: var(--white);
     font-size: var(--font_2rem);
     line-height: 42px;
 }
 
-.land2-check-ul{
-    list-style-type:none;
+.land2-check-ul {
+    list-style-type: none;
     color: var(--primary_blue_200);
 
 }
 
-.land2-check-li{
+.land2-check-li {
     color: var(--primary_blue_200) !important;
 }
 
-.land2-des-div{
+.land2-des-div {
     width: 32.25rem;
     margin: 116px 140px 32px 32px;
 }
+
 /********** landing2 demonstrate branding  *************/
 
 /********** landing2 proud to be used by  *************/
-.logo-img{
+.logo-img {
     width: 100%;
     object-fit: cover;
 }
+
 /********** landing2 proud to be used by  *************/
 
 /********** landing2 pricing that adapts to you  *************/
-.pricing-section{
+.pricing-section {
     display: grid;
     place-items: center;
     background-color: var(--white);
     padding: 0 0 64px 0;
 }
 
-.pricing-cards{
+.pricing-cards {
     width: var(--width_1280px);
 }
 
-.plan-price{
+.plan-price {
     padding: 32px;
     text-align: center;
 }
 
-.land2-price-ul{
-    list-style-type:none;
+.land2-price-ul {
+    list-style-type: none;
     color: var(--gray_700);
 }
 
-.land2-price-ul li{
+.land2-price-ul li {
     padding-bottom: 0.5rem;
 }
 
-.land2-price-li{
+.land2-price-li {
     padding-left: 3%;
     color: var(--gray_700);
 }
 
-.price-btn{
+.price-btn {
     margin: 32px;
     width: 20rem;
 }
+
 /********** landing2 pricing that adapts to you  *************/
 
 /********** landing2  latest blog posts  *************/
 
-.land2-blog-section{
+.land2-blog-section {
     display: grid;
     place-items: center;
     background-color: var(--white);
     padding: 0 0 32px 0;
 }
 
-.land2-avatar-blogs{
+.land2-avatar-blogs {
     margin: 0 80px;
-} 
+}
 
-.land2-blog1-main{
+.land2-blog1-main {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.land2-blog-img1{
+.land2-blog-img1 {
     margin-bottom: 24px;
 }
 
-.land2-blog1 h4{
+.land2-blog1 h4 {
     margin-bottom: 16px;
-    font-size: 22px ;
+    font-size: 22px;
     font-weight: 600;
     line-height: 30px;
 }
 
-.land2-blog1 p{
-    font-size:16px ;
+.land2-blog1 p {
+    font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.land2-blogs-main2{
+.land2-blogs-main2 {
     margin: 0 20px;
 }
 
-.land2-blog-imgs{
+.land2-blog-imgs {
     object-fit: cover;
     /* width: 195px; */
 }
 
-.land2-blog2{
-   margin-left: 15px;
-   margin-bottom: 2rem;
+.land2-blog2 {
+    margin-left: 15px;
+    margin-bottom: 2rem;
 }
 
-.land2-blog2 h4{
+.land2-blog2 h4 {
     font-weight: 600;
     font-size: 22px;
     line-height: 30px;
     margin-bottom: 4px;
- }
+}
 
- .land2-blog2 p{
-    line-height:24px ;
+.land2-blog2 p {
+    line-height: 24px;
     margin-bottom: 16px
- }
+}
 
- .land2-blog2 span,.land2-main-span{
+.land2-blog2 span,
+.land2-main-span {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
- }
+}
+
 /********** landing2  latest blog posts  *************/
 
 /********** landing2  email submition  *************/
-.land2-email-section{
+.land2-email-section {
     width: 100%;
     display: grid;
     place-items: center;
@@ -1502,7 +1379,7 @@ button{
     padding: 64px 0;
 }
 
-.land2-email-content{
+.land2-email-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1510,24 +1387,24 @@ button{
     width: 80rem;
 }
 
-.land2-email-head{
+.land2-email-head {
     width: 35.5rem;
     margin-right: 80px;
 }
 
-.land2-email-head h1{
+.land2-email-head h1 {
     color: white;
     font-size: var(--font_2rem);
     line-height: 42px;
     margin-bottom: 24px;
 }
 
-.land2-email-head p{
+.land2-email-head p {
     color: white;
 }
 
 
-.land2-email-submit input{
+.land2-email-submit input {
     padding: 20px;
     width: 22rem;
     height: 46px;
@@ -1535,7 +1412,7 @@ button{
     border-radius: 6px 0px 0px 6px;
 }
 
-.land2-email-submit button{
+.land2-email-submit button {
     width: 5.5rem;
     padding: 12px 18px;
     margin: 0;
@@ -1545,47 +1422,60 @@ button{
     margin-left: -4px;
     margin-bottom: 5px;
 }
+
 /********** landing2  email submition  *************/
 
 /********** landing2 footer section *************/
 
-.land2-footer-section{
+.land2-footer-section {
     display: grid;
     place-items: center;
     background-color: var(--gray_950);
     padding-top: 40px
 }
 
-.footer-p{
+.footer-p {
     padding-top: 16px;
 }
 
-.footer-div{
+.footer-div {
     display: flex;
     justify-content: space-between;
 }
-.land2-product-main-h6,.land2-resources-main-h6,.land2-chooseUs-main-h6,.land2-company-main-h6{
+
+.land2-product-main-h6,
+.land2-resources-main-h6,
+.land2-chooseUs-main-h6,
+.land2-company-main-h6 {
     color: white;
     font-size: var(--font_1rem);
     line-height: 24px;
 }
-.product-ul,.resources-ul,.chooseUs-ul,.company-ul{
+
+.product-ul,
+.resources-ul,
+.chooseUs-ul,
+.company-ul {
     list-style-type: none;
     padding: 24px 0 0 0;
-    
-}
-.land2-product-li,.land2-resources-li,.land2-chooseUs-li,.land2-company-li{
-    text-decoration: none;
-    color: var(--neutral_800);
-    padding-bottom: 12px ;
+
 }
 
-.copyright-div{
+.land2-product-li,
+.land2-resources-li,
+.land2-chooseUs-li,
+.land2-company-li {
+    text-decoration: none;
+    color: var(--neutral_800);
+    padding-bottom: 12px;
+}
+
+.copyright-div {
     width: 100%;
     text-align: center;
 }
 
-.footer-copyright{
+.footer-copyright {
     margin-top: 16px;
 }
 
@@ -1597,45 +1487,45 @@ button{
 /****************************** landing page 3 *********************************/
 
 /********** landing3 page header  *************/
-.landing3-header{
+.landing3-header {
     padding-bottom: 64px;
     background-color: var(--primary_blue_900);
 }
 
-.land3-signup{
+.land3-signup {
     color: white;
 
 }
 
-.land3-navbar{
+.land3-navbar {
     border-bottom: 1px solid var(--primary_blue_400);
     padding: 20px 100px;
 }
 
 /********** landing3 hero base  *************/
-.land3-hero-section{
+.land3-hero-section {
     margin: 0 80px;
 }
 
-.land3-hero{
+.land3-hero {
     display: grid;
     place-items: center;
 }
 
-.land3-head{
+.land3-head {
     width: 40rem;
-    padding: 80px 0 92px 0; 
+    padding: 80px 0 92px 0;
     text-align: left;
 }
 
-.land3-head h1{
+.land3-head h1 {
     color: white;
     font-size: 3.25rem;
     font-weight: bold;
     padding: 0 0 24px 0;
 }
 
-.hero-img{
+.hero-img {
     background-image: url(../resources/land3-img1.png);
     object-fit: cover;
     background-repeat: no-repeat;
@@ -1643,32 +1533,33 @@ button{
 
 }
 
-.hero-img-avatar{
+.hero-img-avatar {
     position: relative;
     left: 9rem;
     top: 9rem;
 }
 
-.land3-head p{
+.land3-head p {
     color: var(--primary_blue_200);
     font-size: 1.125rem;
-  
+
 }
+
 /********** landing3 hero base  *************/
 
 /********** landing3 page header  *************/
 
 /********** landing6 Work Easier Today *************/
 
-.land3-eaiserCards{
+.land3-eaiserCards {
     width: var(--width_1216px);
 }
 
-.land3-eaiserCard{
+.land3-eaiserCard {
     padding: 0 3rem;
 }
 
-.land3-eaiserCard h4{
+.land3-eaiserCard h4 {
     color: var(--gray_700);
     padding: 12px 0;
     font-size: 22px;
@@ -1681,6 +1572,7 @@ button{
     font-weight: 500;
     text-decoration: none;
 }
+
 /********** landing3 Work Easier Today *************/
 
 /********** landing3 demonstrate branding *************/
@@ -1711,7 +1603,7 @@ button{
     width: 850px;
 }
 
-.land3-thank-msg{
+.land3-thank-msg {
     text-transform: none;
     padding: 32px 0;
     font-size: 28px;
@@ -1719,38 +1611,39 @@ button{
     font-weight: 500;
 }
 
-.avatar-msg{
+.avatar-msg {
     display: grid;
     place-items: center;
 }
 
-.avatar-del p{
+.avatar-del p {
     font-size: 14px;
     font-weight: 500;
 }
 
-.avatar-del h6{
+.avatar-del h6 {
     margin: 0;
     font-size: 15px;
     font-weight: 500;
 }
+
 /********** landing3 demonstrate branding *************/
 
 
 /********** landing3 latest blog posts *************/
 
-.land3-avatar-card{
+.land3-avatar-card {
     width: 24rem;
     border: none;
 }
 
-.land3-avatar-bg-img{
+.land3-avatar-bg-img {
     object-fit: cover;
     height: 300px;
     border-radius: 0.8rem;
 }
 
-.land3-avatar-title{
+.land3-avatar-title {
     width: 90%;
     font-size: 22px;
     font-weight: 600;
@@ -1768,18 +1661,19 @@ button{
 /********** landing3 latest blog posts *************/
 
 /********** landing3 proud to be used by *************/
-.cp-img{
- width: 1216px;
+.cp-img {
+    width: 1216px;
 }
 
-.land3-logo-img{
+.land3-logo-img {
     object-fit: cover;
 
 }
+
 /********** landing3 proud to be used by *************/
 
 /********** landing3  email submition  *************/
-.land3-email-section{
+.land3-email-section {
     width: 100%;
     display: grid;
     place-items: center;
@@ -1787,13 +1681,13 @@ button{
     padding: 64px 0;
 }
 
-.land3-email-head{
+.land3-email-head {
     text-align: center;
     width: 47rem;
     /* margin-right: 80px; */
 }
 
-.land3-email-head h1{
+.land3-email-head h1 {
     color: var(--gray_700);
     font-size: var(--font_2rem);
     font-weight: 600;
@@ -1801,12 +1695,12 @@ button{
     margin-bottom: 24px;
 }
 
-.land3-email-submit{
+.land3-email-submit {
     text-align: center;
 }
 
 
-.land3-email-submit input{
+.land3-email-submit input {
     padding: 20px;
     width: 26.25rem;
     height: 46px;
@@ -1814,7 +1708,7 @@ button{
     border-radius: 6px 0px 0px 6px;
 }
 
-.land3-email-submit button{
+.land3-email-submit button {
     width: 5.5rem;
     padding: 12px 18px;
     margin: 0;
@@ -1825,7 +1719,7 @@ button{
     margin-bottom: 5px;
 }
 
-.land3-trust{
+.land3-trust {
     color: var(--gray_700);
     font-size: var(--font_1rem);
     font-weight: 500;
@@ -1834,7 +1728,7 @@ button{
 
 
 
-.land3-email-submit2 input{
+.land3-email-submit2 input {
     color: var(--neutral_800);
     padding: 20px;
     width: 214px;
@@ -1843,10 +1737,11 @@ button{
     border-radius: 6px 0px 0px 6px;
     background-color: var(--gray_600);
 }
+
 /********** landing3 email submition  *************/
 
 /********** landing3 footer section  *************/
-.email-submit-btn{
+.email-submit-btn {
     width: 5rem;
     padding: 12px 18px;
     margin: 0;
@@ -1857,19 +1752,20 @@ button{
     margin-bottom: 5px;
 }
 
-.land3-footer-copyright{
+.land3-footer-copyright {
     text-align: left;
 }
 
-.land3-copyright-div{
+.land3-copyright-div {
     width: var(--width_1280px);
     border-top: 1px solid var(--gray_300);
     margin-bottom: 2rem;
 }
 
-.land3-media-links{
+.land3-media-links {
     text-align: end;
 }
+
 /********** landing3  footer section  *************/
 
 /****************************** landing page 3 *********************************/
@@ -1877,70 +1773,70 @@ button{
 /****************************** landing page 4 *********************************/
 
 /********** landing4 page header  *************/
-.landing4-header{
+.landing4-header {
     padding-bottom: 64px;
     background-color: var(--neutral_100);
 }
 
-.land4-navbar{
+.land4-navbar {
     border-bottom: 1px solid var(--neutral_600);
     padding: 20px 100px;
 }
 
-.land4-signup{
+.land4-signup {
     color: var(--primary_blue_600);
 }
 
 /********** landing4 hero base  *************/
 
-.land4-hero-section{
+.land4-hero-section {
     margin: 0 80px;
 }
 
-.land4-head{
+.land4-head {
     width: 32.75rem;
     text-align: left;
 }
 
-.land4-head h1{
+.land4-head h1 {
     color: var(--gray_700);
     font-size: 3.25rem;
     font-weight: 700;
     margin-bottom: 2rem;
 }
 
-.land4-check-ul{
+.land4-check-ul {
     padding: 0;
-    list-style-type:none;
+    list-style-type: none;
     color: var(--gray_50);
 
 }
 
-.land4-check-ul li{
+.land4-check-ul li {
     margin-bottom: 10px;
 }
 
-.land4-check-li{
+.land4-check-li {
     padding-left: 12px;
     font-size: 18px;
     color: var(--gray_700);
 }
 
-.land4-hero-imgdiv{
+.land4-hero-imgdiv {
     text-align: end;
 }
 
-.land4-hero-img{
+.land4-hero-img {
     object-fit: cover;
     margin-top: 48px;
 }
 
-.land4-email-submit{
+.land4-email-submit {
     margin-top: 48px;
 }
 
 
-.land4-email-submit input{
+.land4-email-submit input {
     padding: 20px;
     width: 20.875rem;
     height: 46px;
@@ -1948,7 +1844,7 @@ button{
     border-radius: 6px 0px 0px 6px;
 }
 
-.land4-email-submit button{
+.land4-email-submit button {
     width: 5.5rem;
     padding: 12px 18px;
     margin: 0;
@@ -1959,58 +1855,61 @@ button{
     margin-bottom: 5px;
 }
 
-.land4-product-des{
+.land4-product-des {
     margin: 64px 80px;
 
 }
 
-.land4-product-p{
+.land4-product-p {
     color: var(--gray_700);
     font-size: 1rem;
     font-weight: 500;
     line-height: 24px;
 }
+
 /********** landing4 hero base  *************/
 
 /********** landing4 page header  *************/
 
 /********** landing4 redfining product features  *************/
-.land4-content-div{
+.land4-content-div {
     margin-top: 64px;
     width: var(--width_1280px);
 }
-.land4-check-body{
+
+.land4-check-body {
     width: 36rem;
     margin: 93px 140px 93px 32px;
 }
+
 /********** landing4 redfining product features  *************/
 
 /********** landing4 what our customers say  *************/
-.land4-customers-section{
+.land4-customers-section {
     display: grid;
     place-items: center;
     background-color: var(--primary_blue_900);
     padding-bottom: 64px;
 }
 
-.land4-customers-head h2{
+.land4-customers-head h2 {
     color: white;
     line-height: 40px;
 }
 
-.land4-customers-head p{
+.land4-customers-head p {
     color: var(--primary_blue_200);
     line-height: 24px;
     font-family: 400;
 }
 
-.land4-eaiserCards{
+.land4-eaiserCards {
     margin: 0 96px;
     margin-bottom: 32px;
 }
 
 /***** customer review card  *****/
-.land4-eaiserCard{
+.land4-eaiserCard {
     margin-left: 16px;
     width: 280px;
     background-color: var(--primary_blue_700);
@@ -2018,24 +1917,24 @@ button{
     border-radius: 10px;
 }
 
-.land4-customers-details{
+.land4-customers-details {
     margin: 0;
     height: 42px;
     margin-bottom: 16px;
 }
 
-.land4-customers-img{
+.land4-customers-img {
     text-align: center;
     align-self: center;
 }
 
-.land4-customers-name{
+.land4-customers-name {
     margin: 0;
     margin-left: 10px;
     align-self: center;
 }
 
-.land4-customers-name h6{
+.land4-customers-name h6 {
     color: white;
     margin: 0;
     font-size: 15px;
@@ -2051,45 +1950,46 @@ button{
     line-height: 20px;
 }
 
-.land4-media-icon{
+.land4-media-icon {
     text-align: center;
     align-self: center;
 }
 
-.land4-customers-comment{
+.land4-customers-comment {
     color: white;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
 
-.land4-read-more{
+.land4-read-more {
     text-decoration: none;
     color: white;
     font-size: 15px;
     line-height: 22px;
     font-weight: 600;
 }
+
 /***** customer review card  *****/
 
 /********** landing4 what our customers say  *************/
 
 /********** landing4 footer section  *************/
-.land4-footer-section{
+.land4-footer-section {
     padding: 40px 0;
     background-color: var(--gray_950);
 }
 
-.land4-footer-content{
-    
+.land4-footer-content {
+
     margin: 0 80px 2rem 80px;
 }
 
-.land4-footer-links{
+.land4-footer-links {
     align-self: center;
 }
 
-.land4-footer-h6{
+.land4-footer-h6 {
     margin: 0;
     color: var(--neutral_800);
     font-weight: 500;
@@ -2097,14 +1997,15 @@ button{
     line-height: 24px;
 }
 
-.land4-copyright-div{
+.land4-copyright-div {
     margin: 0 80px;
     border-top: 1px solid var(--gray_300);
 }
 
-.land4-terms{
+.land4-terms {
     text-align: end;
 }
+
 /********** landing4 footer section  *************/
 
 
@@ -2113,25 +2014,25 @@ button{
 /****************************** about page 1 *********************************/
 
 /********** about page hero base  *************/
-.about1-head{
+.about1-head {
     width: 32.75rem;
     text-align: left;
 }
 
-.about1-head-h1{
+.about1-head-h1 {
     font-size: 52px;
     font-weight: 700;
     margin-bottom: 2rem;
 }
 
-.abt-hero-p{
+.abt-hero-p {
     margin-bottom: 48px;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
 }
 
-.abt-btn-contactUs{
+.abt-btn-contactUs {
     color: var(--primary_blue_600);
 }
 
@@ -2142,22 +2043,23 @@ button{
     transform: rotate(-10deg);
 }
 
-.following-section{
+.following-section {
     padding: 64px 0;
 }
 
-.following-section-row{
+.following-section-row {
     margin: 0 80px;
 }
+
 /********** about page hero base  *************/
 
 /********** about page our channels review  *************/
-.abt-channels-section{
+.abt-channels-section {
     background-color: var(--primary_blue_900);
     padding-bottom: 32px;
 }
 
-.abt-channelsOuter{
+.abt-channelsOuter {
     margin: 0 80px;
 }
 
@@ -2166,19 +2068,19 @@ button{
     padding: 64px 0;
 }
 
-.abt-channel-head h2{
+.abt-channel-head h2 {
     color: white;
 }
 
-.abt-channel-head p{
+.abt-channel-head p {
     color: var(--primary_blue_200);
 }
 
-.abt-channelCards{
+.abt-channelCards {
     margin: 0 2rem;
 }
 
-.abt-channelCard{
+.abt-channelCard {
     background-color: var(--primary_blue_700);
     width: 384px;
     border: none;
@@ -2188,7 +2090,7 @@ button{
     margin-left: 7.5px;
 }
 
-.abt-btn-showmore{
+.abt-btn-showmore {
     color: var(--primary_blue_600);
     font-size: 15px;
     font-weight: 600;
@@ -2197,7 +2099,7 @@ button{
     margin-left: 149px;
 }
 
-.abt-channelCard-h4{
+.abt-channelCard-h4 {
     color: white;
     font-size: 22px;
     font-weight: 600;
@@ -2205,34 +2107,35 @@ button{
     margin-top: 24px;
 }
 
-.abt-channelCard-p{
+.abt-channelCard-p {
     color: var(--primary_blue_200);
     line-height: 24px;
 }
+
 /********** about page our channels review  *************/
 
 /********** about page redefining product features  *************/
-.abt-redefining-section{
+.abt-redefining-section {
     padding: 64px 0;
     margin: 0 80px;
 }
 
 .abt-des-bodyout {
-   align-self: center;
+    align-self: center;
 }
 
-.abt-des-body{
+.abt-des-body {
     margin-left: 32px;
     margin-right: 110px;
 }
 
-.abt-des-imgout{
+.abt-des-imgout {
     text-align: end;
     padding: 0;
 }
 
-.btn-start-now{
-    color: white ;
+.btn-start-now {
+    color: white;
     background-color: var(--primary_blue_600);
     font-size: 15px;
     font-weight: 600;
@@ -2241,94 +2144,97 @@ button{
     height: 46px;
     margin-top: 40px;
 }
+
 /********** about page redefining product features  *************/
 
 /********** about page the core of our team  *************/
-.abt-core-section{
+.abt-core-section {
     padding: 64px 0;
 }
 
-.abt-core-team{
+.abt-core-team {
     margin: 0 80px;
 }
 
-.abt-head{
+.abt-head {
     text-align: center;
     margin: 0 240px;
 }
 
-.abt-title{
+.abt-title {
     margin-bottom: 16px;
 }
 
-.abt-p{
+.abt-p {
     margin-bottom: 64px;
 }
 
-.abt-core-members{
+.abt-core-members {
     padding: 0;
     padding-bottom: 64px;
 }
 
-.abt-members-img{
+.abt-members-img {
     text-align: center;
 }
 
-.abt-members-details{
+.abt-members-details {
     align-self: center;
 }
 
-.team-details-h4{
+.team-details-h4 {
     font-size: 22px;
     font-weight: 600;
     line-height: 30px;
 }
 
-.team-details-p1{
+.team-details-p1 {
     color: var(--primary_blue_600);
     line-height: 24px;
 }
+
 /********** about page the core of our team  *************/
 
 /********** about page frequently asked questions  *************/
-.abt-feq-ques{
+.abt-feq-ques {
     margin: 0 32px;
     border: 1px solid var(--neutral_600);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 5px;
 }
 
-.authentification-proflie-h5{
+.authentification-proflie-h5 {
     margin: 0;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
 }
 
-.authentification-proflie-p{
+.authentification-proflie-p {
     margin: 0;
 }
 
-.abt-qes-div{
+.abt-qes-div {
     border-bottom: 1px solid var(--neutral_600);
 }
 
-.ques-drop{
+.ques-drop {
     align-self: center;
     text-align: end;
 }
 
 
-.abt-ques-new{
+.abt-ques-new {
     margin: 20px 32px;
 }
 
-.abt-ques-h5{
+.abt-ques-h5 {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     margin: 28px 32px;
 }
+
 /********** about page frequently asked questions  *************/
 
 /********** about page sign up section  *************/
@@ -2356,7 +2262,7 @@ button{
     margin-bottom: 2rem;
 }
 
-.abt-btn-signup{
+.abt-btn-signup {
     width: 91px;
     height: 46px;
     font-size: 15px;
@@ -2364,7 +2270,7 @@ button{
     color: var(--primary_blue_600);
 }
 
-.abt-btn-login{
+.abt-btn-login {
     width: 91px;
     height: 46px;
     font-size: 15px;
@@ -2372,7 +2278,7 @@ button{
     margin-left: 16px;
 }
 
-.abt2-cmp-logos{
+.abt2-cmp-logos {
     padding-top: 128px;
 }
 
@@ -2385,6 +2291,7 @@ button{
     border-radius: 6px 0px 0px 6px;
     background-color: var(--gray_600);
 }
+
 /********** about page sign up section  *************/
 
 
@@ -2398,19 +2305,21 @@ button{
     text-align: center;
 }
 
-.abt2-head h1{
+.abt2-head h1 {
     font-size: 52px;
     line-height: 60px;
     margin: 16px 0;
 }
+
 /********** about page hero base  *************/
 
 /********** about page the core of our team *************/
-.abt2-members-outer{
+.abt2-members-outer {
     margin: 0;
     margin: 0 32px;
 }
-.abt2-members-img{
+
+.abt2-members-img {
     object-fit: cover;
     width: 384px;
     height: 348px;
@@ -2418,9 +2327,10 @@ button{
     border-radius: 5px;
 }
 
-.abt2-team-details{
+.abt2-team-details {
     margin: 0 7.86px;
 }
+
 /********** about page the core of our team *************/
 
 /****************************** about page 2 *********************************/
@@ -2428,18 +2338,18 @@ button{
 /****************************** pricing page 1 *********************************/
 
 /********** pricing section *************/
-.pricing1-section-in{
+.pricing1-section-in {
     margin: 0 80px;
 }
 
-.pricing1-option-out{
+.pricing1-option-out {
     margin-top: 48px;
     text-align: center;
     display: grid;
     justify-content: center;
 }
 
-.pricing1-option{
+.pricing1-option {
     padding: 4px;
     background-color: var(--neutral_300);
     border: 1px solid var(--neutral_600);
@@ -2447,15 +2357,16 @@ button{
     align-self: center;
 }
 
-.active{
+.active {
     background-color: white !important;
 }
 
-.current{
+.current {
     color: var(--primary_blue_600) !important;
 }
 
-.btn-monthly,.btn-yearly{
+.btn-monthly,
+.btn-yearly {
     width: 185px;
     height: 38px;
     border: none;
@@ -2464,11 +2375,11 @@ button{
     color: var(--gray_700);
 }
 
-.pricing1-plans-out{
+.pricing1-plans-out {
     padding-top: 64px;
 }
 
-.pricing1-plans-row{
+.pricing1-plans-row {
     margin: 0 32px;
 }
 
@@ -2481,46 +2392,46 @@ button{
     margin-left: 7.8px;
 }
 
-.pricing1-plan-price{
+.pricing1-plan-price {
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
     margin-bottom: 16px;
 }
 
-.plan-validity{
+.plan-validity {
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
 }
 
-.pricing1-plan-name{
+.pricing1-plan-name {
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
     margin-bottom: 8px;
 }
 
-.pricing1-plan-des{
+.pricing1-plan-des {
     margin-bottom: 24px;
 }
 
-.pricing1-hr{
+.pricing1-hr {
     border: 1px solid var(--neutral_600);
     margin-bottom: 24px;
     margin-top: 0;
 }
 
-.plan-details-outer{
+.plan-details-outer {
     margin-bottom: 32px;
 }
 
-.plan-details-ul{
+.plan-details-ul {
     list-style-type: none;
     padding: 0;
 }
 
-.plan-details-li{
+.plan-details-li {
     margin-bottom: 12px;
 }
 
@@ -2533,35 +2444,36 @@ button{
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
 }
+
 /**********  pricing section *************/
 
 /**********  Pricing that Adapts to You *************/
-.pricing1-adt-section{
+.pricing1-adt-section {
     padding: 64px 0;
     background-color: var(--gray_950);
     width: 100%;
 }
 
-.adapt-title{
+.adapt-title {
     margin-bottom: 16px;
     color: var(--neutral_200);
 }
 
-.adapt-p{
+.adapt-p {
     color: var(--neutral_800);
     margin-bottom: 64px;
 }
 
-.adapt-plan-outer{
+.adapt-plan-outer {
     margin: 0 32px;
 }
 
-.adapt-hr{
+.adapt-hr {
     border: 1px solid var(--gray_300);
     margin: 0;
 }
 
-.adapt-col-h6{
+.adapt-col-h6 {
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -2569,11 +2481,11 @@ button{
     margin: 16px 24px;
 }
 
-.adapt-price-des{
+.adapt-price-des {
     margin: 16px 24px;
 }
 
-.adapt-plan-price{
+.adapt-plan-price {
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
@@ -2581,37 +2493,37 @@ button{
     color: var(--neutral_200);
 }
 
-.adapt-plan-des{
-        color: var(--neutral_800);
-        margin:0;
-}
-    
- .adapt-designated-des{
-        color: var(--neutral_800);
-        margin: 19px 24px;
+.adapt-plan-des {
+    color: var(--neutral_800);
+    margin: 0;
 }
 
-.adapt-thrdots{
+.adapt-designated-des {
+    color: var(--neutral_800);
+    margin: 19px 24px;
+}
+
+.adapt-thrdots {
     margin-left: 73px;
 }
 
-.adapt-designated-thrdots{
+.adapt-designated-thrdots {
     margin-left: 33px;
 }
 
-.designated-success-des{
+.designated-success-des {
     margin: 6px 56px 16px 24px;
 }
 
-.adapt-empty-space{
+.adapt-empty-space {
     height: 204px;
 }
 
-.extra-margin-h6{
+.extra-margin-h6 {
     margin-bottom: 110px;
 }
 
-.adapt-empty-div{
+.adapt-empty-div {
     height: 56px;
 }
 
@@ -2623,20 +2535,20 @@ button{
 /**********  Pricing that Adapts to You *************/
 
 /********** customer review section *************/
-.pricing1-star-icon{
+.pricing1-star-icon {
     width: 24px;
     height: 24px;
 }
 
-.pricing1-customer-review{
+.pricing1-customer-review {
     margin: 32px 48px;
 }
 
-.pricing1--customer-avatar{
+.pricing1--customer-avatar {
     text-align: end;
 }
 
-.pricing1-customer-h1{
+.pricing1-customer-h1 {
     font-size: 28px;
     font-weight: 500;
     line-height: 38px;
@@ -2645,7 +2557,7 @@ button{
 
 }
 
-.customer-btn{
+.customer-btn {
     background-color: var(--primary_blue_600);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
@@ -2654,13 +2566,14 @@ button{
     margin-top: 32px;
 }
 
-.pricing1-avatar-img{
-        object-fit: cover;
-    }
+.pricing1-avatar-img {
+    object-fit: cover;
+}
+
 /********** customer review section *************/
 
 /********** frequently asked questions *************/
-.qes-arrow{
+.qes-arrow {
     width: 100%;
     padding: 12px 24px;
     border: 1px solid var(--neutral_700);
@@ -2668,11 +2581,11 @@ button{
     margin-bottom: 16px;
 }
 
-.pricing1-qes-div{
+.pricing1-qes-div {
     display: flex;
 }
 
-.feq-qes{
+.feq-qes {
     width: 520px;
     color: var(--gray_700);
     font-weight: 500;
@@ -2682,13 +2595,14 @@ button{
     text-align: left;
 }
 
-.down-arrow{
+.down-arrow {
     margin-left: 1rem;
 }
 
-.pricing1-footer-copyright{
+.pricing1-footer-copyright {
     text-align: center;
 }
+
 /********** frequently asked questions *************/
 
 /****************************** pricing page 1 *********************************/
@@ -2701,21 +2615,23 @@ button{
     background-color: var(--gray_950);
 }
 
-.pricing2-h1{
+.pricing2-h1 {
     color: var(--neutral_200);
 }
-.pricing2-option{
+
+.pricing2-option {
     background-color: var(--gray_600);
     border: none;
 }
 
-.pricing2-active{
+.pricing2-active {
 
     background-color: var(--gray_400);
     color: white !important;
 }
 
-.pricing2-btn-monthly, .pricing2-btn-yearly{
+.pricing2-btn-monthly,
+.pricing2-btn-yearly {
     color: var(--neutral_800);
     width: 185px;
     height: 38px;
@@ -2734,17 +2650,18 @@ button{
     margin-left: 7.8px;
 }
 
-.pricing2-eaiserCards{
+.pricing2-eaiserCards {
     padding-top: 64px;
     padding-bottom: 64px;
 }
+
 /********** page header*************/
 
 .pricing2-customer-review {
     margin: 0 48px 0 32px;
 }
 
-.pricing2-customers-say{
+.pricing2-customers-say {
     line-height: 40px;
 }
 
@@ -2770,14 +2687,14 @@ button{
     padding: 64px 0 0 0;
 }
 
-.pricing2-email-hr{
+.pricing2-email-hr {
     margin: 48px 80px 0 80px;
     border: 1px solid var(--gray_300);
 
 }
 
 .pricing2-email-head {
-    
+
     margin: 0 80px;
 }
 
@@ -2806,32 +2723,36 @@ button{
     font-weight: 600;
     color: var(--neutral_200);
 }
+
 /****************************** pricing page 2 *********************************/
 
 /****************************** help &support 1 *********************************/
 
-.help1-head{
+.help1-head {
     margin: 32px 112px;
 }
 
-.help1-avatar-outer{
+.help1-avatar-outer {
     margin-top: 32px;
 }
 
-.avatar-img-div{
+.avatar-img-div {
     width: 33px;
     height: 33px;
 }
 
-.help-avatar-del{
+.help-avatar-del {
     width: 105px;
 }
 
-.help-avatar-del,.help-avatar-date,.avatar-img-div,.help-avatar-del2{
+.help-avatar-del,
+.help-avatar-date,
+.avatar-img-div,
+.help-avatar-del2 {
     align-self: center;
 }
 
-.avatar-name{
+.avatar-name {
     margin: 0;
     font-size: 14px;
     font-weight: 500;
@@ -2839,52 +2760,53 @@ button{
 
 }
 
-.avatar-date{
+.avatar-date {
     margin: 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
 }
 
-.help1-support-des{
+.help1-support-des {
     margin: 24px 80px 0 80px;
 }
 
-.help1-details-h3{
+.help1-details-h3 {
     font-size: 22px;
     line-height: 30px;
     font-weight: 500;
     margin-bottom: 24px;
 }
 
-.help1-details-des{
-   margin-bottom: 24px;
+.help1-details-des {
+    margin-bottom: 24px;
 }
-.details-des-help1{
+
+.details-des-help1 {
     margin-bottom: 48px;
 }
 
-.help1-img{
+.help1-img {
     object-fit: cover;
     width: 840px;
     height: 328px;
 }
 
-.help1-img-outer{
+.help1-img-outer {
     text-align: center;
 }
 
-.help1-details-siddes{
+.help1-details-siddes {
     margin-top: 16px;
     margin-bottom: 24px;
 }
 
-.help1-review-out{
+.help1-review-out {
     display: flex;
     align-items: center;
 }
 
-.help1-review-des{
+.help1-review-des {
     width: 716px;
     font-size: 22px;
     font-weight: 400;
@@ -2892,7 +2814,8 @@ button{
     margin: 0;
 }
 
-.check-btn,.cross-btn{
+.check-btn,
+.cross-btn {
     margin-left: 16px;
     width: 46px;
     height: 46px;
@@ -2901,7 +2824,7 @@ button{
     border-radius: 6px;
 }
 
-.help1-card-category{
+.help1-card-category {
     width: 328px;
     margin: 0 32px 0 48px;
     border: 1px solid var(--neutral_600);
@@ -2909,24 +2832,26 @@ button{
     border-radius: 10px;
 }
 
-.help1-category{
+.help1-category {
     padding: 24px;
 }
 
-.help1-category-ul,.help1-others-ul{
+.help1-category-ul,
+.help1-others-ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-.help1-others-ul{
+.help1-others-ul {
     padding-top: 14px;
 }
 
-.help1-category-li,.help1-others-li{
+.help1-category-li,
+.help1-others-li {
     margin-bottom: 18px;
 }
 
-.category-links{
+.category-links {
     text-decoration: none;
     margin: 0;
     color: var(--gray_700);
@@ -2935,37 +2860,37 @@ button{
     line-height: 22px;
 }
 
-.category-links:hover{
+.category-links:hover {
     color: var(--primary_blue_600);
 }
 
-.help-category-title{
+.help-category-title {
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
 }
 
-.help-others-p{
+.help-others-p {
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
 }
 
-.view-more-out{
+.view-more-out {
     text-align: center;
     margin-top: 48px;
     margin-bottom: 64px;
 }
 
-.help1-assistance-div{
+.help1-assistance-div {
     margin: 0 80px;
 }
 
-.contact-info{
+.contact-info {
     padding-bottom: 64px;
 }
 
-.contact-phone{
+.contact-phone {
     text-align: center;
     margin: 0 32px;
     border: 1px solid var(--neutral_600);
@@ -2974,17 +2899,17 @@ button{
     padding: 32px;
 }
 
-.contact-del{
+.contact-del {
     font-weight: 600;
     font-size: 22px;
-    line-height: 30px; 
-    margin: 16px 0; 
+    line-height: 30px;
+    margin: 16px 0;
 }
 
 /****************************** help&support 1 *********************************/
 
 /****************************** help&support 2 *********************************/
-.avatar-img2-div{
+.avatar-img2-div {
     width: 83px;
     height: 83px;
     padding: 0;
@@ -2992,21 +2917,21 @@ button{
     margin-right: 32px;
 }
 
-.help2-avatar-name{
+.help2-avatar-name {
     margin: 0;
     font-weight: 600;
     font-size: 28px;
     line-height: 38px;
 }
 
-.help2-avatar-des{
+.help2-avatar-des {
     margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
 }
 
-.help2-profile-btn{
+.help2-profile-btn {
     background: var(--primary_blue_25);
     color: var(--primary_blue_600);
     border-radius: 5px;
@@ -3016,11 +2941,11 @@ button{
     margin: 32px;
 }
 
-.help2-authentification{
+.help2-authentification {
     margin-top: 64px;
 }
 
-.help2-eaiser{
+.help2-eaiser {
     text-align: center;
     margin: 0 10.5px;
     padding: 32px;
@@ -3028,28 +2953,30 @@ button{
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 5px;
 }
+
 /****************************** help&support 2 *********************************/
 
 /****************************** career page 1 *********************************/
-.ourteam-col,.ourteam-role-sec{
+.ourteam-col,
+.ourteam-role-sec {
     align-self: center;
 }
 
-.career1-ourteam-section{
+.career1-ourteam-section {
     background-color: var(--neutral_100);
     padding: 64px 0;
 }
 
-.career1-ourteam{
+.career1-ourteam {
     margin: 0 80px;
 }
 
-.career1-head-out{
+.career1-head-out {
     text-align: center;
     margin-bottom: 48px;
 }
 
-.career1-head-h2{
+.career1-head-h2 {
     margin: 0;
     margin-top: 8px;
     margin-bottom: 16px;
@@ -3058,23 +2985,23 @@ button{
     line-height: 40px;
 }
 
-.career1-ourteam-category{
+.career1-ourteam-category {
     margin: 0;
     padding-bottom: 32px;
 }
 
-.career1-ourteam-search{
+.career1-ourteam-search {
     margin: 0 32px;
 }
 
-.career1-role-p{
+.career1-role-p {
     color: var(--gray_700);
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 }
 
-.role-btn{
+.role-btn {
     display: flex;
     justify-content: space-between;
     width: 384px;
@@ -3087,22 +3014,24 @@ button{
     padding: 12px 16px;
 }
 
-.ourteam-organise{
+.ourteam-organise {
     margin: 0;
     padding: 20px 0;
 }
 
-.ourteam-org-h5,.ourteam-org-p,.ourteam-des-p{
+.ourteam-org-h5,
+.ourteam-org-p,
+.ourteam-des-p {
     margin: 0;
 }
 
-.ourteam-org-h5{
+.ourteam-org-h5 {
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
 }
 
-.ourteam-org-a{
+.ourteam-org-a {
     text-decoration: none;
     color: var(--primary_blue_600);
     font-weight: 500;
@@ -3110,32 +3039,32 @@ button{
     line-height: 20px;
 }
 
-.ourteam-table{
+.ourteam-table {
     background: white;
     border: 1px solid var(--neutral_600);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 5px;
 }
 
-.ourteam-sec-row{
+.ourteam-sec-row {
     padding: 20px 0;
     border-bottom: 1px solid var(--neutral_600);
 }
 
 
-.ourteam-individual-row{
+.ourteam-individual-row {
     padding: 16px 0;
     border-bottom: 1px solid var(--neutral_600);
 }
 
-.role-sec-h6{
+.role-sec-h6 {
     margin: 0 32px;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
 }
 
-.ourteam-individual-p{
+.ourteam-individual-p {
     margin: 0 32px;
     color: var(--gray_700);
     font-weight: 500;
@@ -3143,40 +3072,41 @@ button{
     line-height: 24px;
 }
 
-.ourteam-des-p{
+.ourteam-des-p {
     margin: 0 32px;
 }
 
-.career1-img2{
+.career1-img2 {
     object-fit: cover;
-     width: 1440px;
-    height: 546px; 
+    width: 1440px;
+    height: 546px;
 }
 
-.career1-customer-headout{
+.career1-customer-headout {
     text-align: center;
     margin: 0 240px;
 }
 
-.career1-img1-out{
+.career1-img1-out {
     text-align: center;
 }
 
-.career1-img1{
+.career1-img1 {
     object-fit: cover;
     width: 385px;
     height: 290px;
 }
 
-.career1-review-out{
+.career1-review-out {
     padding: 32px 32px 56px 32px;
 }
 
-.career1-cust1{
+.career1-cust1 {
     background-color: white;
 }
 
-.career1-cust-review,.career1-cust-num{
+.career1-cust-review,
+.career1-cust-num {
     margin: 0;
     margin-top: 8px;
     font-weight: 600;
@@ -3184,87 +3114,90 @@ button{
     line-height: 30px;
 }
 
-.career1-cust-num{
+.career1-cust-num {
     margin-top: 0;
     margin-bottom: 16px;
 }
 
-.career-cust-pst{
+.career-cust-pst {
     margin: 0;
     margin-top: 32px;
 }
 
-.career-num-pst{
+.career-num-pst {
     margin: 0;
     margin-bottom: 30px;
 }
 
-.career1-num-out{
+.career1-num-out {
     align-self: center;
 }
 
-.career1-review-num{
+.career1-review-num {
     border-left: 1px solid var(--neutral_600);
     padding: 0 32px;
 }
 
-.career1-cust-out{
+.career1-cust-out {
     margin-top: 64px;
 }
 
 /****************************** career page 1 *********************************/
 
 /****************************** career page 2 *********************************/
-.career2-description-section{
+.career2-description-section {
     padding: 48px 0;
     background-color: var(--neutral_50);
 }
 
-.career2-description-div{
+.career2-description-div {
     margin: 0 300px;
 }
 
-.description-head{
+.description-head {
     margin: 0;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 22px;
-    line-height: 30px; 
+    line-height: 30px;
 }
-.description-short-p{
+
+.description-short-p {
     margin: 0;
     margin-bottom: 16px;
 }
-.description-lg-p{
+
+.description-lg-p {
     margin: 0;
 }
 
-.description-quote{
+.description-quote {
     margin: 48px 0;
     font-weight: 500;
     font-size: 22px;
-    line-height: 30px; 
+    line-height: 30px;
 }
 
-.description-md-p{
+.description-md-p {
     margin-bottom: 48px;
 }
 
-.description-li{
+.description-li {
     margin: 0;
     margin-bottom: 16px;
 }
 
-.career2-form-section{
+.career2-form-section {
     background-color: var(--neutral_100);
-    padding-top: 64px ;
+    padding-top: 64px;
     padding-bottom: 128px;
 }
-.career2-form-div{
+
+.career2-form-div {
     margin: 0 300px;
 }
 
-.career2-form-head{
+.career2-form-head {
     margin: 0;
     margin-bottom: 48px;
     font-weight: 700;
@@ -3273,13 +3206,13 @@ button{
 }
 
 /********** career page 2 careers form *************/
-.career2-contact-form{
+.career2-contact-form {
     background-color: white;
     border-radius: 8px;
     padding: 32px;
 }
 
-.form-input-labels{
+.form-input-labels {
     text-align: left;
     padding: 0;
     margin: 0;
@@ -3291,7 +3224,8 @@ button{
     line-height: 20px;
 }
 
-.full-name,.email-input{
+.full-name,
+.email-input {
     padding: 12px 16px;
     width: 376px;
     height: 46px;
@@ -3302,7 +3236,7 @@ button{
     margin-bottom: 24px;
 }
 
-.input-group .resume-input{
+.input-group .resume-input {
     padding: 10px 16px;
     width: 288px;
     height: 46px;
@@ -3314,11 +3248,12 @@ button{
     flex: none;
     color: var(--gray_25);
 }
-.resume-input::file-selector-button{
+
+.resume-input::file-selector-button {
     display: none;
 }
 
-.upload-btn{
+.upload-btn {
     padding: 12px 18px;
     height: 46px;
     background-color: var(--neutral_300);
@@ -3326,9 +3261,9 @@ button{
     border-style: solid;
     border-color: var(--neutral_700);
     border-radius: 0 6px 6px 0;
-} 
+}
 
-.descript-input{
+.descript-input {
     padding: 12px 16px;
     width: 776px;
     height: 145px;
@@ -3337,13 +3272,13 @@ button{
     border-radius: 6px;
 }
 
-.career2-submit-div{
+.career2-submit-div {
     display: flex;
     margin-top: 24px;
     justify-content: space-between;
 }
 
-.career2-form-btn{
+.career2-form-btn {
     width: 88px;
     padding: 12px 18px;
     background-color: var(--primary_blue_600);
@@ -3352,21 +3287,22 @@ button{
     border-radius: 6px;
 }
 
-.submit-direction{
+.submit-direction {
     align-self: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 
 }
+
 /****************************** career page 2 *********************************/
 
 /****************************** blog page 1 *********************************/
-.blog-pg-section{
+.blog-pg-section {
     padding: 64px 0;
 }
 
-.blogs-pg-card-img{
+.blogs-pg-card-img {
     object-fit: cover;
     width: 24rem;
     height: 285px;
@@ -3374,7 +3310,7 @@ button{
     margin-bottom: 16px;
 }
 
-.blogs-pg-avatar-title{
+.blogs-pg-avatar-title {
     margin: 0;
     width: 90%;
     font-weight: 600;
@@ -3384,8 +3320,8 @@ button{
     margin-top: 8;
 }
 
-.blogs-pg-learn{
-    margin-top: 16px ;
+.blogs-pg-learn {
+    margin-top: 16px;
 }
 
 .blog-post1-head {
@@ -3395,12 +3331,12 @@ button{
 /****************************** blog page 1 *********************************/
 
 /****************************** blog page 2 *********************************/
-.blog-post-center{
+.blog-post-center {
     display: grid;
     justify-content: center;
 }
 
-.blogs-tag{
+.blogs-tag {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -3408,7 +3344,7 @@ button{
     margin-right: 16px;
 }
 
-.blogs-search-btn{
+.blogs-search-btn {
     width: 75px;
     padding: 4px 12px;
     font-weight: 500;
@@ -3421,16 +3357,16 @@ button{
 }
 
 
-.blog-post-search{
+.blog-post-search {
     padding: 32px 0;
     width: var(--width_1216px);
 }
 
-.blog-search-col{
+.blog-search-col {
     text-align: end;
 }
 
-.blog-search-form{
+.blog-search-form {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -3438,9 +3374,9 @@ button{
 
 .blogs-search-icon {
     position: relative;
-  }
-  
-  .blogs-search-icon:before {
+}
+
+.blogs-search-icon:before {
     content: "";
     position: absolute;
     left: 10px;
@@ -3448,9 +3384,9 @@ button{
     bottom: 0;
     width: 20px;
     background: url("../resources/icons/blog-search-icon-gray.png") center / contain no-repeat;
-  }
-  
-  .blogs-input-search {
+}
+
+.blogs-input-search {
     padding: 12px 12px 12px 38px;
     border: 1px solid var(--neutral_700);
     border-radius: 5px 0px 0px 5px;
@@ -3459,9 +3395,9 @@ button{
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;
-  }
+}
 
-  .btn-search-primary{
+.btn-search-primary {
     width: 87px;
     padding: 12px 18px;
     background-color: var(--primary_blue_600);
@@ -3471,18 +3407,18 @@ button{
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
-  }
+}
 
 /****************************** blog page 2 *********************************/
 
 /****************************** blog post page 1 *********************************/
-.blog-post-img1{
+.blog-post-img1 {
     object-fit: cover;
     width: 1100px;
     height: 279px;
 }
 
-.blog-post-imgdiv{
+.blog-post-imgdiv {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3490,32 +3426,34 @@ button{
     border-radius: 0 0 100% 100% / 0 0 6% 6%;
 }
 
-.blog-post-img2{
+.blog-post-img2 {
     object-fit: cover;
     width: 840px;
     height: 553px;
     margin-bottom: 16px;
 }
 
-.blog-post-desp{
+.blog-post-desp {
     color: var(--primary_blue_600);
     text-align: center;
 }
+
 /****************************** blog post page 1 *********************************/
 
 /****************************** blog post page 2 *********************************/
-.test1{
+.test1 {
     position: relative;
 }
 
-.blog-pst2-imgin{
+.blog-pst2-imgin {
     position: relative;
     text-align: center;
     height: 436px;
     margin: 0 112px;
     padding-bottom: 64px;
 }
-.blog-pst2-img1{
+
+.blog-pst2-img1 {
     position: absolute;
     top: -114px;
     left: 0;
@@ -3524,11 +3462,11 @@ button{
     border-radius: 5px;
 }
 
-.blog-pst2-desimg{
+.blog-pst2-desimg {
     height: 818px;
 }
 
-.blog-pst2-meaning{
+.blog-pst2-meaning {
     height: 386px;
 }
 
@@ -3540,57 +3478,58 @@ button{
     line-height: 38px;
 }
 
-.blogdescription-short-p{
+.blogdescription-short-p {
     margin-top: 48px;
 }
 
 
-.des-num-ul{
+.des-num-ul {
     list-style-type: decimal;
     margin: 32px 0;
-    padding-left:22px ;
+    padding-left: 22px;
 }
 
-.des-num-li{
+.des-num-li {
     margin: 0;
 }
 
-.blg-post2-supp{
+.blg-post2-supp {
     margin: 0;
     margin-left: 32px;
 }
 
-.blg2-email-label, .hint-text{
+.blg2-email-label,
+.hint-text {
     margin: 0 120px 8px 120px;
     display: block;
     text-align: left;
 }
 
-.blog2-post-btn{
+.blog2-post-btn {
     margin-top: 24px;
 }
 
-.iphone-image{
+.iphone-image {
     object-fit: cover;
     height: 246px;
 }
 
-.iphone-image-out{
+.iphone-image-out {
     text-align: center;
 }
 
-.blogpst2-email-section{
+.blogpst2-email-section {
     background-color: var(--gray_950);
     padding: 64px 112px;
 }
 
-.blogpst2-email-head{
+.blogpst2-email-head {
     margin: 0;
     background-color: var(--gray_900);
     padding-top: 66px;
 }
 
-.blogpst2-email-message{
+.blogpst2-email-message {
     padding: 0;
     padding-left: 49px;
 }
@@ -3598,26 +3537,26 @@ button{
 /****************************** blog post page 2 *********************************/
 
 /****************************** portfolio page 1 *********************************/
-.potfolio1-section-in{
+.potfolio1-section-in {
     margin: 0 104px;
 }
 
-.portfolio1-option-out{
+.portfolio1-option-out {
     margin-top: 32px;
 }
 
-.portfolio1-hr-neu600{
+.portfolio1-hr-neu600 {
     border: 1px solid var(--neutral_600);
     margin: 0;
     margin-top: 48px;
 }
 
-.portfolio-copyright-div{
+.portfolio-copyright-div {
     border-top: 1px solid var(--neutral_600);
     margin: 0;
 }
 
-.btn-prot1-proj{
+.btn-prot1-proj {
     padding: 9px 18px;
     border: none;
     font-size: 14px;
@@ -3626,86 +3565,88 @@ button{
     border-radius: 5px;
 }
 
-.protfolio1-project-gallery{
+.protfolio1-project-gallery {
     margin: 0;
     padding-top: 56px;
 }
 
-.prot1-proj1-images{
+.prot1-proj1-images {
     margin: 8px;
 }
 
-.protfolio1-col-gallery a{
+.protfolio1-col-gallery a {
     display: inline-block;
     text-decoration: none;
 }
 
-.protfolio1-project1-img{
+.protfolio1-project1-img {
     object-fit: cover;
     width: 395px;
     height: 412px;
 }
 
-.protfolio1-project2-img{
+.protfolio1-project2-img {
     object-fit: cover;
     width: 395px;
     height: 304px;
 }
 
-.protfolio1-project3-img{
+.protfolio1-project3-img {
     object-fit: cover;
     width: 395px;
     height: 567px;
 }
 
-.protfolio1-project4-img{
+.protfolio1-project4-img {
     object-fit: cover;
     width: 395px;
     height: 304px;
 }
 
-.protfolio1-project5-img{
+.protfolio1-project5-img {
     object-fit: cover;
     width: 395px;
     height: 548px;
 }
 
-.protfolio1-project6-img{
+.protfolio1-project6-img {
     object-fit: cover;
     width: 395px;
     height: 431px;
 }
 
-.protfolio1-project7-img{
+.protfolio1-project7-img {
     object-fit: cover;
     width: 395px;
     height: 548px;
 }
 
-.protfolio1-project8-img{
+.protfolio1-project8-img {
     object-fit: cover;
     width: 395px;
     height: 412px;
 }
 
-.protfolio1-project9-img{
+.protfolio1-project9-img {
     object-fit: cover;
     width: 395px;
     height: 322px;
 }
 
-.portfolio1-more-projects-out{
+.portfolio1-more-projects-out {
     padding: 40px 0 64px 0;
     text-align: center;
 }
-.portfolio1-more-projects{
+
+.portfolio1-more-projects {
     display: inline-flex;
-    
+
 }
 
-.leftarrow-circle-btn, .rightarrow-circle-btn{
+.leftarrow-circle-btn,
+.rightarrow-circle-btn {
     padding: 12px;
-    
+
     display: inline-flex;
     align-content: center;
     justify-content: center;
@@ -3714,16 +3655,19 @@ button{
     border-radius: 30px;
 }
 
-.prot1-proj1-pages{
+.prot1-proj1-pages {
     margin: 0 37.5px;
     align-self: center;
 }
 
-.prot1-proj1-pages,.port1-slide-num1,.port1-slide-num2{
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
+.prot1-proj1-pages,
+.port1-slide-num1,
+.port1-slide-num2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
 }
+
 /****************************** portfolio page 1 *********************************/
 
 /****************************** portfolio page 2 *********************************/
@@ -3732,21 +3676,21 @@ line-height: 20px;
     padding-top: 40px;
 }
 
-.protfolio2-projs-images{
+.protfolio2-projs-images {
     object-fit: cover;
     width: 384px;
     height: 427px;
 }
 
-.portfolio2-project-des{
+.portfolio2-project-des {
     margin: 16px 0 8px 16px;
-    
+
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 }
 
-.portfolio2-project-title{
+.portfolio2-project-title {
     margin: 0;
     margin-left: 16px;
     margin-bottom: 24px;
@@ -3755,7 +3699,7 @@ line-height: 20px;
     line-height: 30px;
 }
 
-.prot2-projs-images{
+.prot2-projs-images {
     margin: 24px 16px 0 16px;
 }
 
@@ -3767,10 +3711,11 @@ line-height: 20px;
     padding: 32px 0;
     text-align: center;
 }
+
 /****************************** portfolio page 2 *********************************/
 
 /****************************** contact page 1 *********************************/
-.contact1-channels-section{
+.contact1-channels-section {
     padding: 64px 0;
 }
 
@@ -3779,7 +3724,7 @@ line-height: 20px;
     padding-bottom: 128px;
 }
 
-.contact1-form-div{
+.contact1-form-div {
     margin: 0 112px;
 }
 
@@ -3789,7 +3734,10 @@ line-height: 20px;
     padding: 32px;
 }
 
-.contact1-full-name, .contact1-email-input, .phonenum-input, .contactres-input {
+.contact1-full-name,
+.contact1-email-input,
+.phonenum-input,
+.contactres-input {
     padding: 12px 16px;
     width: 564px;
     border: 1px solid var(--neutral_700);
@@ -3800,7 +3748,7 @@ line-height: 20px;
     margin-bottom: 24px;
 }
 
-.contactres-input{
+.contactres-input {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -3810,26 +3758,26 @@ line-height: 20px;
     width: 100%;
 }
 
-.contact1-form-col6{
+.contact1-form-col6 {
     text-align: center;
 }
 
-.contact1-input-labels{
+.contact1-input-labels {
     margin-left: 7px;
 }
 
-.contact1-checkbox{
+.contact1-checkbox {
     display: inline-flex;
     align-items: center;
     margin-top: 24px;
 }
 
-.contact1-checkbox-input{
+.contact1-checkbox-input {
     width: 20px;
     height: 24px;
 }
 
-.contact1-checkbox-label{
+.contact1-checkbox-label {
     color: var(--gray_700);
     font-weight: 500;
     font-size: 16px;
@@ -3837,31 +3785,32 @@ line-height: 20px;
     margin-left: 12px;
 }
 
-.contact1-redefining-section{
+.contact1-redefining-section {
     padding-top: 64px;
 }
 
-.contact2-form-h1{
+.contact2-form-h1 {
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
     text-align: center;
     margin-bottom: 48px;
 }
+
 /****************************** contact page 1 *********************************/
 
 /****************************** reset password page  *********************************/
-.reset-pass-col{
+.reset-pass-col {
     padding: 0;
     text-align: center;
     align-self: center;
 }
 
-.reset-pass-content{
+.reset-pass-content {
     display: inline-block;
 }
 
-.reset-pass-h1{
+.reset-pass-h1 {
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
@@ -3869,19 +3818,19 @@ line-height: 20px;
     margin-bottom: 8px;
 }
 
-.reset-pass-p{
+.reset-pass-p {
     font-size: 18px;
     line-height: 26px;
     margin: 0;
     margin-bottom: 32px;
 }
 
-.reset-email-form{
+.reset-email-form {
     width: 424px;
     text-align: left;
 }
 
-.reset-pass-email{
+.reset-pass-email {
     color: var(--gray_700);
     font-weight: 500;
     font-size: 14px;
@@ -3890,7 +3839,7 @@ line-height: 20px;
     margin-bottom: 8px;
 }
 
-.reset-pass-img{
+.reset-pass-img {
     object-fit: cover;
     width: 100%;
 }
@@ -3900,25 +3849,25 @@ line-height: 20px;
 }
 
 .email-input-icon:before {
-     content: "";
-     position: absolute;
-     right: 10px;
-     top: 0;
-     bottom: 25px;
-     width: 20px;
-     background: url("../resources/icons/email-icon-gray.svg") center / contain no-repeat;
- }
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 25px;
+    width: 20px;
+    background: url("../resources/icons/email-icon-gray.svg") center / contain no-repeat;
+}
 
- .reset-email-input{
+.reset-email-input {
     padding: 12px 16px;
     width: 424px;
     border: 1px solid var(--neutral_700);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
     margin-bottom: 24px;
- }
+}
 
- .reset-pass-continue{
+.reset-pass-continue {
     padding: 12px 18px;
     width: 424px;
     background-color: var(--primary_blue_600);
@@ -3929,20 +3878,21 @@ line-height: 20px;
     font-size: 15px;
     line-height: 22px;
     margin-bottom: 24px;
- }
+}
 
- .goto-signin-page{
+.goto-signin-page {
     text-decoration: none;
- }
+}
 
- .btn-lightIcon, .btn-darkIcon{
+.btn-lightIcon,
+.btn-darkIcon {
     background-color: white;
- }
+}
 
 /****************************** reset password page  *********************************/
 
 /****************************** sign up page  *********************************/
-.signup-google{
+.signup-google {
     padding: 12px 16px;
     width: 424px;
     background-color: white;
@@ -3953,8 +3903,8 @@ line-height: 20px;
 }
 
 
-.signup-google-txt{
-    display:inline-block;
+.signup-google-txt {
+    display: inline-block;
     color: var(--gray_700);
     font-weight: 600;
     font-size: 15px;
@@ -3969,52 +3919,55 @@ line-height: 20px;
     color: var(--gray_700);
     margin: 0;
     margin-bottom: 32px;
- }
- .signup-email-p:before,
- .signup-email-p:after {
+}
+
+.signup-email-p:before,
+.signup-email-p:after {
     content: "";
     flex: 1 1;
     border-bottom: 1px solid var(--neutral_600);
     margin: auto 12px;
- }     
+}
 
- .password-input-icon:before{
+.password-input-icon:before {
     content: "";
-     position: absolute;
-     right: 10px;
-     top: 0;
-     bottom: 25px;
-     width: 20px;
-     background: url("../resources/icons/eye-on-icon-gray.svg") center / contain no-repeat;
- }
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 25px;
+    width: 20px;
+    background: url("../resources/icons/eye-on-icon-gray.svg") center / contain no-repeat;
+}
 
- .forgot-pass-link{
+.forgot-pass-link {
     padding-left: 122px;
- }
+}
 
- .login-checkbox{
+.login-checkbox {
     margin-bottom: 32px;
- }
+}
+
 /****************************** sign up page  *********************************/
 
 /****************************** error pages  *********************************/
-.error-image{
+.error-image {
     object-fit: cover;
     width: 660px;
     height: 514px;
 }
 
-.error-message-404, .not-found404{
+.error-message-404,
+.not-found404 {
     text-align: center;
     align-self: center;
 }
 
-.not-found404{
-    padding: 64px ;
+.not-found404 {
+    padding: 64px;
 
 }
 
-.error-message-head{
+.error-message-head {
     padding-top: 48px;
     margin-bottom: 8px;
     color: var(--primary_blue_600);
@@ -4023,19 +3976,19 @@ line-height: 20px;
     line-height: 36px;
 }
 
-.reason-error{
+.reason-error {
     margin-bottom: 32px;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
 }
 
-.reason-des{
+.reason-des {
     font-weight: 500;
     margin-bottom: 32px;
 }
 
-.backToStart{
+.backToStart {
     padding: 12px 18px;
     width: 129px;
     background-color: var(--primary_blue_600);
@@ -4047,11 +4000,11 @@ line-height: 20px;
     line-height: 22px;
 }
 
-.error-root-links{
+.error-root-links {
     padding-top: 48px;
 }
 
-.default-links{
+.default-links {
     text-decoration: none;
     color: var(--gray_700);
     font-weight: 600;
@@ -4060,26 +4013,27 @@ line-height: 20px;
     margin-left: 32px;
 }
 
-.error2-message-head{
+.error2-message-head {
     font-size: 52px;
 }
 
-.reason2-error{
+.reason2-error {
     color: var(--gray_50);
     margin-bottom: 48px;
 }
 
-.error-search-input{
+.error-search-input {
     position: relative;
     justify-content: center;
 }
 
-.error2-search-input{
+.error2-search-input {
     padding: 18px 8px 18px 40px;
     width: 640px;
     border-radius: 100px;
 }
-.error2-search-btn{
+
+.error2-search-btn {
     margin: 8px 8px 8px 0;
     right: 0;
     position: absolute;
@@ -4088,16 +4042,16 @@ line-height: 20px;
     border-radius: 100px;
 }
 
-.error-root-cards{
+.error-root-cards {
     margin-top: 48px;
 }
 
-.error-root-col{
+.error-root-col {
     display: grid;
     justify-content: center;
 }
 
-.error-default-card{
+.error-default-card {
     display: block;
     padding: 48px 80px;
     width: 286px;
@@ -4108,18 +4062,19 @@ line-height: 20px;
     /* margin-left: 32px; */
 }
 
-.error-default-linkcard{
+.error-default-linkcard {
     display: block;
 }
+
 /****************************** error pages  *********************************/
 /****************************** onboarding pages  *********************************/
-.onboarding-outer{
+.onboarding-outer {
     display: grid;
     justify-items: center;
     margin: 6px 0;
 }
 
-.onboarding-inner{
+.onboarding-inner {
     width: 648px;
     border: 1px solid var(--neutral_700);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
@@ -4127,47 +4082,48 @@ line-height: 20px;
     margin-top: 16px;
 }
 
-.onboarding-map-div, .onboarding-map-names{
+.onboarding-map-div,
+.onboarding-map-names {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.onboarding-map-div{
+.onboarding-map-div {
     padding: 0 48px;
 }
 
-.onboard-map-names{
+.onboard-map-names {
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
 }
 
-.onboarding-map-names{
+.onboarding-map-names {
     margin-top: 8px;
     padding: 0 42px;
 }
 
-.hr-dottedline{
+.hr-dottedline {
     width: 113px;
     border: none;
     border-top: 3px dotted var(--neutral_700);
     color: var(--neutral_700);
 }
 
-.onboarding-map-order{
+.onboarding-map-order {
     background-color: var(--neutral_50);
-     padding: 24px 0;
+    padding: 24px 0;
 
- }
+}
 
-.onboarding-email-form{
+.onboarding-email-form {
     padding: 32px 48px;
     width: 648px;
     text-align: left;
 }
 
-.onboarding-pass-email{
+.onboarding-pass-email {
     color: var(--gray_700);
     font-weight: 500;
     font-size: 14px;
@@ -4176,7 +4132,7 @@ line-height: 20px;
     margin-bottom: 8px;
 }
 
-.warning-message-email{
+.warning-message-email {
     display: block;
     margin-bottom: 24px;
 }
@@ -4187,38 +4143,38 @@ line-height: 20px;
 }
 
 .onboarding-info-icon:before {
-     content: "";
-     position: absolute;
-     right: 10px;
-     top: 0;
-     bottom: 0;
-     width: 20px;
-     background: url("../resources/icons/information-icon-gray.svg") center / contain no-repeat;
- }
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: url("../resources/icons/information-icon-gray.svg") center / contain no-repeat;
+}
 
- .onboarding-name-input{
+.onboarding-name-input {
     margin-bottom: 24px;
- }
+}
 
- .onboarding-email-input{
+.onboarding-email-input {
     padding: 12px 16px;
     width: 552px;
     border: 1px solid var(--neutral_700);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
     border-radius: 6px;
- }
+}
 
- .onboarding-password-input{
+.onboarding-password-input {
     width: 268px;
- }
+}
 
- .onboarding-next-div{
+.onboarding-next-div {
     background-color: var(--neutral_50);
     padding: 16px 48px;
     text-align: end;
- }
+}
 
- .next-btn{
+.next-btn {
     padding: 12px 18px;
     width: 96px;
     background-color: var(--primary_blue_600);
@@ -4228,18 +4184,23 @@ line-height: 20px;
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
- }
+}
 
 /****************************** onboarding pages  *********************************/
 
 /************************ @media Queries **************************/
-@media screen and (max-width:220px){}
-@media screen and (max-width:480px){}
-@media screen and (max-width:600px){}
-@media screen and (max-width:768px){
+@media screen and (max-width:2480px) {}
 
-    
-    .display-mediaqer{
+@media screen and (max-width:1880px) {}
+
+@media screen and (max-width:1280px) {}
+
+@media screen and (max-width:920px) {}
+
+@media screen and (max-width:800px) {
+
+
+    .display-mediaqer {
         display: none;
     }
 
@@ -4249,119 +4210,134 @@ line-height: 20px;
     .nav-bar {
         padding: 20px 0;
     }
+
+    .canvas-btn {
+        visibility: visible;
+    }
+
     /********** navigation bar *************/
-    
+
     /********** hero base *************/
 
-    .heroBaseHead{
-        width: 672px ;
-        padding: 42px 0 42px 0 ;
+    .heroBaseHead {
+        width: 672px;
+        padding: 42px 0 42px 0;
     }
 
-    .heroBaseOuter div p{
-     width: 672px;
+    .heroBaseOuter div p {
+        width: 672px;
     }
 
-    .ourChannel-img{
+    .ourChannel-img {
         object-fit: contain;
         width: 656px;
         height: 292px;
-        border-radius: 0 0 100% 100% / 0 0 9% 9% ;
+        border-radius: 0 0 100% 100% / 0 0 9% 9%;
     }
+
     /********** hero base *************/
 
     /********** our channel review *************/
-    .channelCards{
+    .channelCards {
         width: var(--width_768px);
     }
-    .channelCard{
+
+    .channelCard {
         width: 340px;
-        margin: 12px 20px 12px 20px ;
-    
+        margin: 12px 20px 12px 20px;
+
     }
-    
+
     .channelCard .btn {
         margin-left: 37%;
     }
+
     /********** our channel review *************/
 
     /********** redefining product features *************/
-    .image4{
+    .image4 {
         display: none;
     }
-    .allHeads{
+
+    .allHeads {
         width: 672px;
-        padding: 40px 0 32px 0 ;
+        padding: 40px 0 32px 0;
     }
-    
-    .content-div{
+
+    .content-div {
         width: 44rem;
     }
 
-    .des-body{
+    .des-body {
         width: 44rem;
         padding-top: 5%;
         margin: 0;
     }
 
-    .redefining-p{
+    .redefining-p {
         padding-top: 5%;
     }
 
-    .des-img{
+    .des-img {
         width: 44rem;
     }
 
     /********** redefining product features *************/
 
     /********** latest blog posts *************/
-    .avatar-blogs{
+    .avatar-blogs {
         width: var(--width_768px);
     }
-    .avatar-card{
+
+    .avatar-card {
         width: 336px;
         margin: 0 24px;
     }
+
     /********** latest blog posts *************/
 
     /********** email section *************/
-    .email-section{
+    .email-section {
         padding: 40px 0;
     }
-    .email-head{
+
+    .email-head {
         width: 640px;
-    
+
     }
 
-    .email-content{
-        display: block ;
+    .email-content {
+        display: block;
         width: 704px;
         padding: 32px;
-        
+
     }
 
-    .email-submit{
+    .email-submit {
         width: 641px;
     }
 
-    .email-submit input{
+    .email-submit input {
         width: 552px;
     }
+
     /********** email section *************/
 
     /********** what our customers say *************/
-    .customers-review-section{
+    .customers-review-section {
         padding-bottom: 40px;
     }
-    .reviewer{
+
+    .reviewer {
         width: 210px;
         margin: 0;
     }
 
     /********** footer scetion *************/
-    .footer-section{
+    .footer-section {
         padding: 40px 32px;
     }
+
     /********** footer scetion *************/
 
     /********** landing page 1 *************/
@@ -4370,98 +4346,105 @@ line-height: 20px;
 
     /********** landing 2 navigation bar *************/
 
-    .land2-toggler-icon{
+    .land2-toggler-icon {
         background-color: white;
     }
 
-    .landing2_navbar{
-    padding: 20px 0;
+    .landing2_navbar {
+        padding: 20px 0;
     }
+
     /********** landing 2 navigation bar *************/
 
     /********** landing2 redefining product features  *************/
-    .image1{
-    display: none;
+    .image1 {
+        display: none;
     }
 
-    .image2{
-    display: block;
+    .image2 {
+        display: block;
     }
+
     /********** landing2 redefining product features  *************/
 
     /********** landing2 Work Easier Today *************/
 
-    .land2-eaiserCards{
+    .land2-eaiserCards {
         width: 100%;
     }
 
-    .land2-eaiserCard{
+    .land2-eaiserCard {
         width: 20rem;
-        margin:0 0 0 2rem;
+        margin: 0 0 0 2rem;
     }
 
-    .pricing-cards{
+    .pricing-cards {
         width: 100%;
     }
 
-    .pricing-section{
+    .pricing-section {
         padding: 0;
-        }
+    }
 
-    .price-btn{
+    .price-btn {
         width: 276px;
     }
+
     /********** landing2 Work Easier Today *************/
 
     /********** landing2 latest blog posts *************/
-    .land2-blog-section{
+    .land2-blog-section {
         padding-bottom: 16px;
     }
-    .land2-card{
+
+    .land2-card {
         margin-left: 1.56rem;
     }
 
-    .land2-avatar-blogs{
+    .land2-avatar-blogs {
         margin: 0 12px;
-    } 
+    }
 
-    .land2-blog1{
+    .land2-blog1 {
         margin-bottom: 2rem;
     }
 
-    .land2-blog2{
+    .land2-blog2 {
         margin-left: 39px;
     }
 
     /********** landing2 latest blog posts *************/
 
- 
+
     /********** landing2 email section *************/
-    .land2-email-section{
+    .land2-email-section {
         padding: 40px 0;
     }
-    .email-section{
+
+    .email-section {
         padding: 40px 0;
     }
-    .land2-email-head{
+
+    .land2-email-head {
         width: 640px;
-    
+
     }
 
-    .land2-email-content{
-        display: block ;
+    .land2-email-content {
+        display: block;
         width: 704px;
-        
+
     }
 
-    .land2-email-submit{
+    .land2-email-submit {
         margin-top: 2rem;
         width: 641px;
     }
 
-    .land2-email-submit input{
+    .land2-email-submit input {
         width: 552px;
     }
+
     /********** landing2 email section *************/
 
     /****************************** landing page 2 *********************************/
@@ -4469,21 +4452,23 @@ line-height: 20px;
     /****************************** landing page 3 *********************************/
 
     /********** landing3 Work Easier Today *************/
-    
-    .land3-eaiserCards{
+
+    .land3-eaiserCards {
         width: 704px;
     }
+
     /********** landing3 Work Easier Today *************/
 
-    
+
     /********** landing3 demonstrate branding *************/
-    .land3-thank-msg{
-        
+    .land3-thank-msg {
+
         padding: 16px 0;
         font-size: 22px;
         line-height: 30px;
         font-weight: 500;
     }
+
     /********** landing3 demonstrate branding *************/
 
     /********** landing3 demonstrate branding *************/
@@ -4491,16 +4476,17 @@ line-height: 20px;
         /* text-align: center; */
         width: 640px;
     }
+
     /********** landing3 demonstrate branding *************/
 
     /********** landing3 latest blog posts *************/
 
-    .land3-avatar-card{
+    .land3-avatar-card {
         margin: 0 1.5rem;
         width: 21rem;
     }
 
-    .land3-avatar-bg-img{
+    .land3-avatar-bg-img {
         width: 336px;
         height: 300px;
         border-radius: 0.8rem;
@@ -4509,25 +4495,29 @@ line-height: 20px;
     .land3-article-span {
         padding-left: 2rem;
     }
+
     /********** landing3 latest blog posts *************/
 
     /********** landing3 proud to be used by *************/
-    .text-align-end{
+    .text-align-end {
         text-align: end;
     }
-    .cp-img{
+
+    .cp-img {
         width: 704px;
     }
+
     /********** landing3 proud to be used by *************/
-    
+
     /********** landing3 footer section *************/
-    .land3-copyright-div{
+    .land3-copyright-div {
         width: 704px;
     }
 
     .land3-email-submit2 input {
-    width: 240px;
+        width: 240px;
     }
+
     /********** landing3 footer section *************/
 
     /****************************** landing page 3 *********************************/
@@ -4536,89 +4526,93 @@ line-height: 20px;
 
     /********** landing4 hero base *************/
 
-    .land4-hero-section{
+    .land4-hero-section {
         margin: 0 48px;
     }
 
-    .land4-hero-img{
+    .land4-hero-img {
         width: 672px;
         margin-bottom: 40px;
     }
+
     /********** landing4 hero base *************/
 
     /********** landing4 redefining product features *************/
 
-    .land4-branding-img{
+    .land4-branding-img {
         margin-left: 2rem;
         margin-bottom: 48px;
     }
+
     /********** landing4 redefining product features *************/
 
     /********** landing4 what our customers say  *************/
-    .land4-eaiserCards{
+    .land4-eaiserCards {
         margin: 0 20px;
     }
 
-    .land4-eaiserCard{
+    .land4-eaiserCard {
         margin-left: 12px;
         width: 340px;
     }
+
     /********** landing4 what our customers say  *************/
 
 
     /********** landing4 footer section *************/
-    .land4-check-body{
+    .land4-check-body {
         width: 704px;
         margin: 0 32px;
     }
 
-    .land4-content-div{
+    .land4-content-div {
         width: 100%;
     }
 
-    .land4-footer-content{
+    .land4-footer-content {
         margin: 0 2rem 2rem 2rem;
     }
 
-    .land4-copyright-div{
+    .land4-copyright-div {
         margin: 0 32px;
     }
+
     /********** landing4 footer section *************/
 
     /****************************** landing page 4 *********************************/
 
-    
+
     /****************************** about page 1 *********************************/
-    
+
     /********** about page sign up section  *************/
     .abt-email-head {
         margin: 0 16px;
     }
 
-    .about1-head{
+    .about1-head {
         width: 100%;
     }
 
-    .following-section{
+    .following-section {
         padding: 40px 0;
     }
-    
-    .following-section-row{
+
+    .following-section-row {
         margin: 0 32px;
     }
 
-    .abt1-btn-start{
+    .abt1-btn-start {
         margin-bottom: 48px;
     }
 
     /********** about page sign up section  *************/
-    
+
 
     /********** about page our channels review  *************/
-    
+
     .abt-channelCard {
         width: 340px;
-        margin-left: 5px; 
+        margin-left: 5px;
     }
 
     .abt-channelCards {
@@ -4628,14 +4622,16 @@ line-height: 20px;
     .abt-btn-showmore {
         margin-left: 105px;
     }
+
     /********** about page our channels review  *************/
 
     /********** about page our channels review  *************/
     .abt-channelsOuter {
         margin: 0 32px;
     }
+
     /********** about page our channels review  *************/
-    
+
     /********** about page redefining product features  *************/
     .abt-redefining-section {
         /* padding: 64px 0; */
@@ -4646,14 +4642,15 @@ line-height: 20px;
         text-align: center;
         padding-bottom: 48px;
     }
+
     /********** about page redefining product features  *************/
-    
+
     /********** about page the core of our team  *************/
     .abt-core-section {
         padding: 40px 0 8px 0;
     }
-    
-    
+
+
     .abt-core-team {
         margin: 0 32px;
     }
@@ -4662,21 +4659,23 @@ line-height: 20px;
         margin: 0;
     }
 
-    .abt-core-members{
+    .abt-core-members {
         padding-bottom: 32px;
     }
+
     /********** about page the core of our team  *************/
-    
+
     /********** about page frequently asked questions  *************/
     .abt-feq-ques {
         margin: 0;
     }
 
-    .abt1-input{
+    .abt1-input {
         width: 494px;
     }
+
     /********** about page frequently asked questions  *************/
-    
+
     /****************************** about page 1 *********************************/
 
     /****************************** about page 2 *********************************/
@@ -4684,15 +4683,16 @@ line-height: 20px;
     /********** about page hero base  *************/
 
     .abt2-head {
-    margin: 48px 48px 88px 48px;
-    text-align: center;
+        margin: 48px 48px 88px 48px;
+        text-align: center;
     }
 
-    .abt2-head h1{
-    font-size: 52px;
-    line-height: 60px;
-    margin: 16px 0;
+    .abt2-head h1 {
+        font-size: 52px;
+        line-height: 60px;
+        margin: 16px 0;
     }
+
     /********** about page hero base  *************/
     .abt2-members-outer {
         margin: 0;
@@ -4701,18 +4701,19 @@ line-height: 20px;
     .abt2-members-img {
         width: 336px;
         height: 285.5px;
-        
+
     }
 
-    .abt2-cmp-logos{
+    .abt2-cmp-logos {
         justify-content: center;
     }
 
-    .abt2-768-logo{
+    .abt2-768-logo {
         margin-top: 32px;
     }
+
     /****************************** about page 2 *********************************/
-    
+
     /****************************** pricing page 1 *********************************/
     /* .adapt-plan-outer{
     overflow: auto;
@@ -4720,15 +4721,17 @@ line-height: 20px;
     }
      */
 
-     .adapt-scroll-row{
+    .adapt-scroll-row {
         overflow: auto;
         white-space: nowrap;
-     }
-     .adapt-scroll-col{
+    }
+
+    .adapt-scroll-col {
         display: inline-block;
         float: none;
         /* white-space: normal; */
-     }
+    }
+
     /**********  Pricing that Adapts to You *************/
 
     /****************************** pricing page 1 *********************************/
@@ -4737,7 +4740,7 @@ line-height: 20px;
         margin-left: 0;
     }
 
-    .pricing1-avatar-img{
+    .pricing1-avatar-img {
         width: 336px;
         height: 464px;
         border-radius: 10px;
@@ -4748,10 +4751,11 @@ line-height: 20px;
         font-weight: 600;
         line-height: 30px;
     }
+
     /****************************** pricing page 1 *********************************/
 
     /****************************** pricing page 2 *********************************/
-    .pricing1-section-in{
+    .pricing1-section-in {
         margin: 0 32px;
     }
 
@@ -4761,37 +4765,37 @@ line-height: 20px;
     }
 
     .pricing1-plans-row {
-        margin: 0 ;
+        margin: 0;
     }
 
     .buynow-btn {
         width: 272px;
     }
 
-    .pricing2-plan-card2{
+    .pricing2-plan-card2 {
         margin-left: 1rem;
     }
 
     .pricing2-customer-review {
-       margin-top: 32px;
+        margin-top: 32px;
     }
 
     .pricing2-email-head {
         margin: 0 32px;
     }
 
-    .pricing2-avatar-row
-    {
+    .pricing2-avatar-row {
         width: 275px;
     }
 
-    .pricing2-email-h1{
+    .pricing2-email-h1 {
         margin-bottom: 32px;
     }
 
-    .pricing2-red-img{
+    .pricing2-red-img {
         margin-top: 48px;
     }
+
     /****************************** pricing page 2 *********************************/
 
     /****************************** help&support 1 *********************************/
@@ -4808,14 +4812,15 @@ line-height: 20px;
     .contact-phone {
         margin: 0 16px;
     }
+
     /****************************** help&support 1 *********************************/
 
     /****************************** help&support 2 *********************************/
-    .help1-head{
+    .help1-head {
         margin: 32px;
     }
 
-    .help2-authentification{
+    .help2-authentification {
         margin-top: 40px;
         margin-bottom: 40px;
     }
@@ -4823,6 +4828,7 @@ line-height: 20px;
     .help1-assistance-div {
         margin: 0 32px;
     }
+
     /****************************** help&support 2 *********************************/
 
     /****************************** career page 1 *********************************/
@@ -4843,7 +4849,7 @@ line-height: 20px;
     }
 
     .career1-customer-headout {
-        margin: 0 ;
+        margin: 0;
     }
 
     .career1-img1 {
@@ -4851,8 +4857,9 @@ line-height: 20px;
         height: 359px;
         border-radius: 5px;
     }
+
     /****************************** career page 1 *********************************/
-    
+
     /****************************** career page 2 *********************************/
     .career2-description-div {
         margin: 0 32px;
@@ -4862,100 +4869,113 @@ line-height: 20px;
         margin: 0 32px;
     }
 
-    .full-name, .email-input {
+    .full-name,
+    .email-input {
         width: 308px;
     }
 
-    .input-group .resume-input{
+    .input-group .resume-input {
         width: 220px;
     }
+
     /****************************** career page 2 *********************************/
 
     /****************************** blog page 1 *********************************/
-    
-    .blogs-pg-card-img{
+
+    .blogs-pg-card-img {
         width: 336px;
     }
-    
+
     /****************************** blog page 1 *********************************/
 
     /****************************** blog page 2  *********************************/
-    .blog-post-search{
+    .blog-post-search {
         width: 704px;
     }
 
     .blogs-input-search {
         width: 240px;
     }
+
     /****************************** blog page 2  *********************************/
 
-    
+
     /****************************** blog post page 1 *********************************/
-    .blog-post-img1{
+    .blog-post-img1 {
         object-fit: cover;
         width: 656px;
         height: 330px;
     }
 
-    .blog-post-img2{
+    .blog-post-img2 {
         width: 704px;
     }
+
     /****************************** blog post page 1 *********************************/
 
     /****************************** blog post page 2 *********************************/
-    
-    .blog-pst2-imgin{
+
+    .blog-pst2-imgin {
         height: 355px;
         margin: 0 32px;
     }
 
-    .blog-pst2-img1{
+    .blog-pst2-img1 {
         width: 704px;
         height: 355px;
     }
-    
-    .blogpst2-email-section{
+
+    .blogpst2-email-section {
         padding: 40px 32px;
     }
-    
-    .blogpst2-email-head{
+
+    .blogpst2-email-head {
         padding-top: 32px;
     }
-    
-    .blogpst2-email-message{
+
+    .blogpst2-email-message {
         padding-left: 32px;
     }
+
     /****************************** blog post page 2 *********************************/
 
     /****************************** portfolio page 1 *********************************/
-    .potfolio1-section-in{
+    .potfolio1-section-in {
         margin: 0 24px;
     }
 
-    .protfolio1-project-gallery{
+    .protfolio1-project-gallery {
         padding-top: 40px;
     }
-    
-    .protfolio1-project1-img, .protfolio1-project2-img, .protfolio1-project3-img, .protfolio1-project4-img, .protfolio1-project5-img, .protfolio1-project6-img, .protfolio1-project7-img, .protfolio1-project8-img, .protfolio1-project9-img
-    {
+
+    .protfolio1-project1-img,
+    .protfolio1-project2-img,
+    .protfolio1-project3-img,
+    .protfolio1-project4-img,
+    .protfolio1-project5-img,
+    .protfolio1-project6-img,
+    .protfolio1-project7-img,
+    .protfolio1-project8-img,
+    .protfolio1-project9-img {
         width: 224px;
     }
 
-    .protfolio1-project3-img{
+    .protfolio1-project3-img {
         height: 268px;
     }
 
-    .protfolio1-project5-img{
+    .protfolio1-project5-img {
         height: 249px;
     }
 
-    .protfolio1-project7-img{
+    .protfolio1-project7-img {
         height: 250px;
     }
 
-    .portfolio1-more-projects-out{
+    .portfolio1-more-projects-out {
         padding: 24px 0 48px 0;
     }
+
     /****************************** portfolio page 1 *********************************/
 
     /****************************** portfolio page 2 *********************************/
@@ -4963,7 +4983,7 @@ line-height: 20px;
         margin: 0 16px;
     }
 
-    .protfolio2-projs-images{
+    .protfolio2-projs-images {
         width: 336px;
         height: 348px;
     }
@@ -4972,11 +4992,11 @@ line-height: 20px;
         padding: 0;
     }
 
-    .prot2-projs-images{
+    .prot2-projs-images {
         margin: 48px 16px 0 16px;
     }
 
-    .portfolio2-project-title{
+    .portfolio2-project-title {
         margin-bottom: 16px;
     }
 
@@ -4985,6 +5005,7 @@ line-height: 20px;
     .portfolio2-more-projects-out {
         padding: 64px 0 32px 0;
     }
+
     /****************************** portfolio page 2 *********************************/
 
     /****************************** contact page 1 *********************************/
@@ -4992,161 +5013,236 @@ line-height: 20px;
         margin: 0 32px;
     }
 
-    .contact1-full-name, .contact1-email-input, .phonenum-input, .contactres-input {
+    .contact1-full-name,
+    .contact1-email-input,
+    .phonenum-input,
+    .contactres-input {
         width: 308px;
     }
 
-    .contact2-form-h1{
+    .contact2-form-h1 {
         margin-bottom: 32px;
     }
+
     /****************************** contact page 1 *********************************/
 
     /****************************** reset password page  *********************************/
-    .reset-pass-img{
+    .reset-pass-img {
         height: 836px;
     }
 
     /****************************** reset password page  *********************************/
 
     /****************************** error pages  *********************************/
-    .error2-search-input{
+    .error2-search-input {
         width: 640px;
     }
 
-    .error-default-card{
+    .error-default-card {
         margin-top: 24px;
     }
+
     /****************************** error pages  *********************************/
 
 }
-@media screen and (max-width:400px){
-    
-    .display-mediaqer{
+
+@media screen and (max-width:620px) {}
+
+@media screen and (max-width:520px) {}
+
+@media screen and (max-width:420px) {
+
+    .display-mediaqer {
         display: block;
     }
+
     /********** landing page 1 *************/
-    
+
     /********** navigation bar *************/
     /* .nav-bar {
         padding: 20px 0;
     } */
     /********** navigation bar *************/
-    
+
     /********** hero base *************/
 
-    .heroBaseHead{
+    .heroBaseHead {
         /* text-align: -webkit-center; */
         width: 21.438rem;
         padding: 24px 0;
     }
 
-    .heroBaseOuter div h1{
+    .heroBaseOuter div h1 {
         width: 343px;
         font-size: 36px;
         font-weight: 600;
         padding: 0;
     }
 
-    .heroBaseOuter div p{
-     width: 343px;
+    .heroBaseOuter div p {
+        width: 343px;
     }
 
-    .btn-getStarted{
-        width: 343px ;
+    .btn-getStarted {
+        width: 343px;
         margin-bottom: 24px;
     }
-    .btn-contactUs{
+
+    .btn-contactUs {
         width: 343px;
         margin-left: 0;
     }
 
-    .ourChannel-img{
+    .ourChannel-img {
         object-fit: contain;
         width: 375px;
         height: 173px;
     }
+
     /********** hero base *************/
 
     /********** our channel review *************/
-    .channelCards{
+    .channelCards {
         width: 23.438rem;
     }
 
-    .channelCard{
+    .channelCard {
         width: 340px;
         margin: 12px 20px 12px 20px;
-    
+
     }
 
-    .btn-reveal{
+    .btn-reveal {
         margin: 32px 0;
     }
+
     /********** our channel review *************/
 
     /********** redefining product features *************/
-    .redefining-section, .demonstrate-section, .check-section{
+    .redefining-section,
+    .demonstrate-section,
+    .check-section {
         padding: 32px 0;
     }
-    .allHeads{
+
+    .allHeads {
         width: 343px;
         padding: 32px 0 32px 0;
     }
-    
-    .content-div{
+
+    .content-div {
         max-width: 375px;
     }
 
-    .des-body{
+    .des-body {
         width: 343px;
         margin-left: 16px;
     }
 
-    .redefining-p{
+    .redefining-p {
         padding-top: 5%;
     }
 
-    .redefining-h2, .demonstrate-h2, .check-h2{
+    .redefining-h2,
+    .demonstrate-h2,
+    .check-h2 {
         font-size: 1.75rem;
         line-height: 36px;
     }
 
-    .des-img{
-                object-fit: cover;
-                width: 343px;
-                height: 343px;
-            }
-        
-            .des-btn{
-                padding: 12px 18px;
-                font-weight: 600;
-                margin-top: 32px;
-            }
-        
-            .check-body {
-                width: 343px;
-                margin: 32px 16px;
-                /* width: 44rem; */
-            }
+    .des-img {
+        object-fit: cover;
+        width: 343px;
+        height: 343px;
+    }
 
-    .land1-images-end,.land1-images-center{
+    .des-btn {
+        padding: 12px 18px;
+        font-weight: 600;
+        margin-top: 32px;
+    }
+
+    .check-body {
+        width: 343px;
+        margin: 32px 16px;
+        /* width: 44rem; */
+    }
+
+    .land1-images-end,
+    .land1-images-center {
         text-align: center;
     }
+
+    .profile-card-container {
+        width: 379px;
+        height: 343px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .land1-profile-status {
+        display: flex;
+        padding: 4px;
+        width: 328px;
+        border-radius: 20px;
+    }
+
+    .land1-profile-info p {
+        font-size: 11px;
+    }
+
+    .land1-profile-avatar {
+        width: 56px;
+        height: 56px;
+    }
+
+    .land1-images-center {
+        border-radius: 0px;
+    }
+
+    .center-icon i {
+        font-size: 50px;
+    }
+
+    .land1-images-1 {
+        width: 343px;
+    }
+
+    .land1-image-in-1-1,
+    .land1-image-in-1-2,
+    .land1-image-in-1-3,
+    .land1-image-in-1-4 {
+        width: 340px;
+        height: 225px;
+        margin: 5px;
+    }
+
+    .land1-checkus-out-image {
+        width: 350px;
+    }
+
+    .land1-image-end img {
+        width: 389px;
+        height: 395px;
+    }
+
     /********** redefining product features *************/
 
     /********** latest blog posts *************/
-    .blog-section{
+    .blog-section {
         padding: 32px 0;
     }
 
-    .avatar-blogs{
+    .avatar-blogs {
         width: 23.438rem;
     }
 
 
 
-    .avatar-card{
-       margin: 0 16px;
+    .avatar-card {
+        margin: 0 16px;
     }
+
     /********** latest blog posts *************/
 
     /********** email section *************/
@@ -5155,56 +5251,59 @@ line-height: 20px;
         line-height: 42px;
     }
 
-    .email-section{
+    .email-section {
         padding: 40px 0;
     }
-    .email-head{
+
+    .email-head {
         width: 311px;
-    
+
     }
 
-    .email-content{
+    .email-content {
         display: block;
         width: 343px;
         padding: 16px;
-        
+
     }
 
-    .email-submit{
+    .email-submit {
         width: 311px;
     }
 
-    
+
     .email-submit button {
         width: 311px;
         border-radius: 6px;
         margin-left: 0;
     }
 
-    .email-submit input{
+    .email-submit input {
         border-radius: 6px;
         width: 311px;
         margin-bottom: 5%;
     }
+
     /********** email section *************/
 
     /********** what our customers say *************/
-    .reviewer{
+    .reviewer {
         width: 343px;
     }
 
     /********** footer scetion *************/
-    .land1-content-div{
+    .land1-content-div {
         padding: 0 16px;
     }
 
-    .footer-section{
+    .footer-section {
         padding: 40px 0;
     }
 
-    .footer-div{
+    .footer-div {
         grid-template-columns: 448px 192px 192px 192px 192px;
     }
+
     /********** footer scetion *************/
     /********** landing page 1 *************/
 
@@ -5212,77 +5311,79 @@ line-height: 20px;
 
 
     /********** landing2 hero base  *************/
-    .landing2_head{
-            width: 21.438rem;
-            padding: 24px 0;
+    .landing2_head {
+        width: 21.438rem;
+        padding: 24px 0;
     }
 
-    .landing2_hero div h1{
+    .landing2_hero div h1 {
         width: 343px;
         font-size: 36px;
         font-weight: 600;
         padding: 0;
     }
 
-    .land2-btn-contactUs{
+    .land2-btn-contactUs {
         width: 343px;
         margin-left: 0;
     }
+
     /********** landing2 hero base  *************/
 
     /********** landing2 redefining product features  *************/
-    .image3{
+    .image3 {
         display: none;
     }
 
-    .image4{
+    .image4 {
         display: block;
     }
 
     /********** landing2 redefining product features  *************/
 
 
-    .land2-des-body-outer{
-    padding: 32px 0 0 0;
-}
+    .land2-des-body-outer {
+        padding: 32px 0 0 0;
+    }
 
-.land2-des-div{
-    width: 343px;
-    margin: 32px 16px;
-}
+    .land2-des-div {
+        width: 343px;
+        margin: 32px 16px;
+    }
 
-  .land2-card{
-    margin-left: 1.56rem;
-  }
+    .land2-card {
+        margin-left: 1.56rem;
+    }
 
-  
+
     /********** landing2 latest blog posts *************/
-    .land2-blog-section{
-    padding-bottom: 0;
-    }
-    .land2-card{
-    margin-left: 1.56rem;
+    .land2-blog-section {
+        padding-bottom: 0;
     }
 
-    .land2-blog1-main{
+    .land2-card {
+        margin-left: 1.56rem;
+    }
+
+    .land2-blog1-main {
         padding: 0;
     }
 
-    .land2-blogs-main2{
+    .land2-blogs-main2 {
         margin: 0;
     }
 
-  .land2-avatar-blogs{
-    margin: 0 16px;
-  } 
+    .land2-avatar-blogs {
+        margin: 0 16px;
+    }
 
-  .land2-blog-imgs {
-    margin-bottom: 24px;
-  }
+    .land2-blog-imgs {
+        margin-bottom: 24px;
+    }
 
-  .land2-blog2{
-    margin-left: 0;
-  }
+    .land2-blog2 {
+        margin-left: 0;
+    }
 
 
     /********** landing2 latest blog posts *************/
@@ -5293,135 +5394,142 @@ line-height: 20px;
         line-height: 42px;
     }
 
-    .land2-email-section{
+    .land2-email-section {
         padding: 40px 0;
     }
-    .land2-email-head{
+
+    .land2-email-head {
         width: 311px;
-    
+
     }
 
-    .land2-email-content{
+    .land2-email-content {
         display: block;
         width: 343px;
         padding: 16px;
-        
+
     }
 
-    .land2-email-submit{
+    .land2-email-submit {
         width: 311px;
     }
 
-    
+
     .land2-email-submit button {
         width: 311px;
         border-radius: 6px;
         margin-left: 0;
     }
 
-    .land2-email-submit input{
+    .land2-email-submit input {
         border-radius: 6px;
         width: 311px;
         margin-bottom: 5%;
     }
+
     /********** landing2 email section *************/
 
     /****************************** landing page 2 *********************************/
 
-    
+
     /****************************** landing page 3 *********************************/
 
-     /********** navigation bar *************/
+    /********** navigation bar *************/
     .land3-navbar {
         padding: 20px 0;
     }
+
     /********** navigation bar *************/
 
     /********** landing3 hero base  *************/
-    .land3-hero-section{
+    .land3-hero-section {
         margin: 0 16px;
     }
 
-    .hero-img{
+    .hero-img {
         background-image: url(../resources/land3-img3.png);
         object-fit: cover;
         background-repeat: no-repeat;
         height: 380px;
-    
+
     }
 
-    .hero-img-avatar{
+    .hero-img-avatar {
         position: relative;
         left: 5.5rem;
         top: 6.5rem;
     }
 
-    .land3-head{
+    .land3-head {
         width: 21.438rem;
         padding: 24px 0;
     }
 
-    .land3-head h1{
-    width: 343px;
-    font-size: 36px;
-    font-weight: 600;
-    padding: 0;
+    .land3-head h1 {
+        width: 343px;
+        font-size: 36px;
+        font-weight: 600;
+        padding: 0;
     }
 
-    .hero-supportus{
+    .hero-supportus {
         height: 104px;
         text-align: center;
     }
 
-    .hero-supportus p{
+    .hero-supportus p {
         text-align: left;
     }
-    .land3-supportus{
+
+    .land3-supportus {
         margin-left: 16px;
     }
-    
-/********** landing3 hero base  *************/
+
+    /********** landing3 hero base  *************/
 
     /********** landing3 Work Easier Today *************/
-    
-    .land3-eaiserCards{
+
+    .land3-eaiserCards {
         width: 339px;
     }
 
-    .land3-eaiserCard{
+    .land3-eaiserCard {
         padding: 0;
     }
+
     /********** landing3 Work Easier Today *************/
 
-    
+
     /********** landing3 demonstrate branding *************/
-    .land3-thank-msg{
+    .land3-thank-msg {
         font-size: 20px;
         line-height: 28px;
         font-weight: 600;
     }
+
     /********** landing3 demonstrate branding *************/
 
     /********** landing3 demonstrate branding *************/
     .land3-msg {
         width: 343px;
     }
+
     /********** landing3 demonstrate branding *************/
 
     /********** landing3 latest blog posts *************/
 
-    .land3-avatar-card{
+    .land3-avatar-card {
         margin: 0 0.9rem;
         width: 21.5rem;
     }
 
-    .land3-avatar-bg-img{
+    .land3-avatar-bg-img {
         width: 343px;
         height: 196px;
         border-radius: 0.8rem;
     }
 
-    .land3-avatar-title{
+    .land3-avatar-title {
         width: 100%;
         margin-top: 0;
         font-size: 20px
@@ -5430,13 +5538,14 @@ line-height: 20px;
     /********** landing3 latest blog posts  *************/
 
     /********** landing3 proud to be used by *************/
-    .cp-img{
+    .cp-img {
         width: 343px;
     }
 
-    .cp-div-img{
+    .cp-div-img {
         text-align: center;
     }
+
     /********** landing3 proud to be used by *************/
 
     /********** landing3 email section *************/
@@ -5444,59 +5553,61 @@ line-height: 20px;
         width: 375px;
     }
 
-    .land3-email-submit{
+    .land3-email-submit {
         margin-left: 1rem;
         width: 343px;
     }
 
-    
+
     .land3-email-submit button {
         width: 343px;
         border-radius: 6px;
         margin-left: 0;
     }
 
-    .land3-email-submit input{
+    .land3-email-submit input {
         border-radius: 6px;
         width: 343px;
         margin-bottom: 5%;
     }
+
     /********** landing3 email section *************/
-    
+
     /********** landing3 footer section *************/
-    .land3-copyright-div{
+    .land3-copyright-div {
         width: 343px;
     }
 
-    .land3-media-links{
+    .land3-media-links {
         text-align: center;
     }
 
-    .land3-media-links .btn{
+    .land3-media-links .btn {
         margin-right: 16px;
     }
 
-    .land3-email-submit2 input{
+    .land3-email-submit2 input {
         width: 255px;
     }
+
     /********** landing3 footer section *************/
 
     /****************************** landing page 3 *********************************/
 
     /****************************** landing page 4 *********************************/
-    .display-grid{
+    .display-grid {
         display: grid;
     }
 
     /********** landing4 hero base *************/
 
-    .land4-hero-section{
+    .land4-hero-section {
         margin: 0 4px;
     }
 
     .land4-head {
         width: 100%;
-        
+
     }
 
     .land4-head h1 {
@@ -5509,7 +5620,7 @@ line-height: 20px;
         text-align: center;
     }
 
-    .land4-hero-img{
+    .land4-hero-img {
         width: 343px;
         margin-bottom: 32px;
     }
@@ -5530,80 +5641,85 @@ line-height: 20px;
         margin: 32px 16px 0 16px;
     }
 
-    .justify-normal{
+    .justify-normal {
         justify-content: normal !important;
         align-self: center;
         margin-bottom: 2rem;
     }
 
-    .icon-centering{
+    .icon-centering {
         padding: 0;
         align-self: center;
         text-align: center;
     }
+
     /********** landing4 hero base *************/
 
     /********** landing4 redefining product features *************/
 
-    .land4-branding-img{
+    .land4-branding-img {
         object-fit: cover;
         width: 343px;
         height: 343px;
         margin-left: 16px;
     }
 
-    .land4-check-body{
+    .land4-check-body {
         width: 343px;
         margin: 0 16px;
     }
+
     /********** landing4 redefining product features *************/
 
     /********** landing4 what our customers say  *************/
-    .land4-eaiserCards{
+    .land4-eaiserCards {
         margin: 0 16px;
     }
 
-    .land4-eaiserCard{
+    .land4-eaiserCard {
         margin-left: 0;
         width: 343px;
     }
 
-    .land4-media-icon{
+    .land4-media-icon {
         margin-left: 15px;
     }
+
     /********** landing4 what our customers say  *************/
 
 
     /********** landing4 footer section *************/
-    .land4-footer-links{
+    .land4-footer-links {
         text-align: center;
         margin-bottom: 24px;
     }
-    .land4-footer-abtus{
+
+    .land4-footer-abtus {
         padding: 0 !important;
     }
 
-    .land4-footer-content{
+    .land4-footer-content {
         margin: 0 1rem 24px 1rem;
     }
 
-    .land4-copyright-div{
+    .land4-copyright-div {
         margin: 0 1rem 2rem 1rem;
     }
 
     .land4-terms {
         text-align: left;
     }
+
     /********** landing4 footer section *************/
 
     /****************************** landing page 4 *********************************/
 
-    
+
     /****************************** about page 1 *********************************/
-    .about1-head{
+    .about1-head {
         padding: 32px 8px;
     }
-    
+
     .about1-head-h1 {
         font-size: 36px;
         font-weight: 600;
@@ -5616,20 +5732,20 @@ line-height: 20px;
     }
 
     .abt-hero-img {
-        object-fit:contain;
+        object-fit: contain;
         width: 310px;
         margin-top: 30px;
     }
 
-    .abt-des-img{
+    .abt-des-img {
         margin: 0;
     }
 
-    .following-section{
+    .following-section {
         padding: 32px 0;
     }
-    
-    .following-section-row{
+
+    .following-section-row {
         margin: 0 16px;
     }
 
@@ -5655,14 +5771,14 @@ line-height: 20px;
     }
 
     .abt-des-body {
-        margin:0;
+        margin: 0;
     }
 
     .abt-core-team {
         margin: 0 16px;
     }
 
-    .core-members-img{
+    .core-members-img {
         object-fit: cover;
         width: 343px;
         height: 308px;
@@ -5674,66 +5790,71 @@ line-height: 20px;
         margin: 28px 0;
     }
 
-    .abt-footer{
+    .abt-footer {
         padding-bottom: 32px;
     }
 
-    .abt-content-div{
+    .abt-content-div {
         max-width: 343px;
     }
 
-    .abt1-input{
+    .abt1-input {
         width: 255px;
     }
+
     /****************************** about page 1 *********************************/
 
-     /********** about page hero base  *************/
-     .abt2-head {
+    /********** about page hero base  *************/
+    .abt2-head {
         margin: 32px 16px 40px 16px;
         text-align: center;
-        }
-    
-        .abt2-head h1{
+    }
+
+    .abt2-head h1 {
         font-size: 36px;
         line-height: 44px;
         margin: 16px 0;
         font-weight: 600;
-        }
-        /********** about page hero base  *************/
-        .abt-email-section {
-            
-            padding: 32px 0;
-        }
+    }
 
-        .abt2-cmp-outer {
-            text-align: center;
-        }
+    /********** about page hero base  *************/
+    .abt-email-section {
 
-        .abt2-cmp-logos{
-            padding: 32px 16px;
-        }
+        padding: 32px 0;
+    }
 
-        .abt2-cmp-logo{
-            margin-bottom: 32px;
-        }
+    .abt2-cmp-outer {
+        text-align: center;
+    }
 
-        .abt2-768-logo{
-            margin-top: 0;
-        }
+    .abt2-cmp-logos {
+        padding: 32px 16px;
+    }
 
-        .abt-btn-signup,.abt-btn-login{
-            width: 343px;   
-        }
+    .abt2-cmp-logo {
+        margin-bottom: 32px;
+    }
 
-        .abt-btn-login{
-            margin: 0;
-            margin-top: 16px ;
-        }
-        /****************************** about page 2 *********************************/
+    .abt2-768-logo {
+        margin-top: 0;
+    }
+
+    .abt-btn-signup,
+    .abt-btn-login {
+        width: 343px;
+    }
+
+    .abt-btn-login {
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    /****************************** about page 2 *********************************/
 
     /****************************** pricing page 1 *********************************/
-    .btn-monthly, .btn-yearly {
-    width: 164.5px;
+    .btn-monthly,
+    .btn-yearly {
+        width: 164.5px;
     }
 
     .pricing1-customer-review {
@@ -5741,18 +5862,20 @@ line-height: 20px;
         margin: 0;
     }
 
-    .stars-div{
+    .stars-div {
         margin-top: 12px;
     }
+
     /****************************** pricing page 1 *********************************/
-    
+
     /****************************** pricing page 2 *********************************/
 
-    .pricing2-btn-monthly, .pricing2-btn-yearly {
+    .pricing2-btn-monthly,
+    .pricing2-btn-yearly {
         width: 164.5px;
     }
 
-    .pricing1-section-in{
+    .pricing1-section-in {
         margin: 0 16px;
     }
 
@@ -5764,7 +5887,7 @@ line-height: 20px;
         width: 295px;
     }
 
-    .pricing2-plan-card2{
+    .pricing2-plan-card2 {
         margin-left: 0;
     }
 
@@ -5774,22 +5897,24 @@ line-height: 20px;
 
     .pricing2-customer-review {
         margin: 0;
-       margin-bottom: 40px;
+        margin-bottom: 40px;
     }
 
     .pricing2-email-head {
         margin: 0 16px;
     }
-    .pricing2-btn-signup,.pricing2-btn-login {
+
+    .pricing2-btn-signup,
+    .pricing2-btn-login {
         width: 343px;
     }
 
-    .pricing2-btn-login{
+    .pricing2-btn-login {
         margin: 0;
         margin-top: 1rem;
     }
 
-    .pricing2-footer{
+    .pricing2-footer {
         padding: 0 16px;
     }
 
@@ -5797,11 +5922,11 @@ line-height: 20px;
         text-align: center;
     }
 
-    
+
     /****************************** pricing page 2 *********************************/
 
-     /****************************** help&support 1 *********************************/
-     .help1-support-des {
+    /****************************** help&support 1 *********************************/
+    .help1-support-des {
         margin: 24px 16px 0 16px;
     }
 
@@ -5811,27 +5936,28 @@ line-height: 20px;
 
     .contact-phone {
         margin: 0 16px;
-        margin-bottom:16px;
+        margin-bottom: 16px;
     }
 
-    .help1-head-help1{
+    .help1-head-help1 {
         margin: 32px 16px;
     }
 
     .contact-info {
         padding-bottom: 16px;
     }
+
     /****************************** help&support 1 *********************************/
 
     /****************************** help & support page 2 *********************************/
-    .abt-ques{
+    .abt-ques {
         margin: 0 32px;
     }
-    
+
     .ques-drop {
         text-align: center;
     }
-    
+
     .help2-profile-btn {
         margin: 32px 0;
     }
@@ -5844,6 +5970,7 @@ line-height: 20px;
         margin: 0;
         padding: 16px;
     }
+
     /****************************** help & support page 2 *********************************/
 
     /****************************** career page 1 *********************************/
@@ -5859,7 +5986,7 @@ line-height: 20px;
         margin: 0 16px;
     }
 
-    .role-sec-h6{
+    .role-sec-h6 {
         margin: 0 16px;
     }
 
@@ -5870,7 +5997,8 @@ line-height: 20px;
         border-bottom-right-radius: 0;
     }
 
-    .ourteam-individual-p,.ourteam-des-p {
+    .ourteam-individual-p,
+    .ourteam-des-p {
         margin: 0 16px;
     }
 
@@ -5883,20 +6011,21 @@ line-height: 20px;
         line-height: 32px;
     }
 
-    .career1-cust1{
+    .career1-cust1 {
         border: 1px solid var(--neutral_600);
         box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
         border-radius: 10px;
 
     }
+
     /****************************** career page 1 *********************************/
 
     /****************************** career page 2 *********************************/
     .career2-form-section {
-       padding: 40px 0;
+        padding: 40px 0;
     }
 
-    .career2-description-section{
+    .career2-description-section {
         padding: 32px 0;
     }
 
@@ -5908,11 +6037,12 @@ line-height: 20px;
         margin: 0 16px;
     }
 
-    .full-name, .email-input {
+    .full-name,
+    .email-input {
         width: 295px;
     }
 
-    .input-group .resume-input{
+    .input-group .resume-input {
         width: 207px;
     }
 
@@ -5920,30 +6050,31 @@ line-height: 20px;
         padding: 16px;
     }
 
-    .career2-submit-div{
+    .career2-submit-div {
         padding: 0;
         display: grid;
         text-align: center;
         justify-items: center;
     }
 
-    .career2-form-btn{
+    .career2-form-btn {
         width: 295px;
         margin-bottom: 16px;
     }
+
     /****************************** career page 2 *********************************/
 
     /****************************** blog page 1 *********************************/
 
-    .blogs-pg-card-img{
+    .blogs-pg-card-img {
         width: 343px;
         height: 185px;
     }
 
     /****************************** blog page 1 *********************************/
 
-     /****************************** blog page 2  *********************************/
-     .blog-post-search{
+    /****************************** blog page 2  *********************************/
+    .blog-post-search {
         padding: 16px 0;
         width: 343px;
     }
@@ -5951,130 +6082,142 @@ line-height: 20px;
     .blogs-input-search {
         width: 256px;
     }
-    
-    .blog-search-form{
+
+    .blog-search-form {
         margin: 24px 0 16px 0;
 
     }
+
     /****************************** blog page 2  *********************************/
 
     /****************************** blog post page 1 *********************************/
-    .blog-post-img1{
+    .blog-post-img1 {
         width: 343px;
         height: 129px;
     }
 
-    .blog-post-img2{
+    .blog-post-img2 {
         width: 343px;
         height: 313px;
     }
+
     /****************************** blog post page 1 *********************************/
 
-      /****************************** blog post page 2 *********************************/
+    /****************************** blog post page 2 *********************************/
 
-      .test1{
+    .test1 {
         height: 584px;
-      }
-    
-      .blog-pst2-imgin{
+    }
+
+    .blog-pst2-imgin {
         height: 310px;
         margin: 0 16px;
         padding-bottom: 24px;
     }
 
-    .blog-pst2-img1{
+    .blog-pst2-img1 {
         top: -140px;
         width: 343px;
         height: 426px;
     }
 
-    .blogpst2-email-section{
+    .blogpst2-email-section {
         padding: 32px 16px;
     }
-    
-    .blogpst2-email-head{
+
+    .blogpst2-email-head {
         padding-top: 16px;
     }
-    
-    .blogpst2-email-message{
+
+    .blogpst2-email-message {
         padding: 16px;
     }
 
-    .blog2-post-btn{
+    .blog2-post-btn {
         width: 311px;
     }
 
-    .iphone-image{
+    .iphone-image {
         margin-top: 18px;
     }
 
-    .iphone-image-out{
+    .iphone-image-out {
         margin: 0 16px;
     }
+
     /****************************** blog post page 2 *********************************/
 
     /****************************** portfolio page 1 *********************************/
-    .potfolio1-section-in{
+    .potfolio1-section-in {
         margin: 0 12px;
     }
 
-    .prot1-proj1-images{
+    .prot1-proj1-images {
         margin: 4px;
     }
 
-    .protfolio1-project-gallery{
+    .protfolio1-project-gallery {
         padding-top: 40px;
     }
-    
-    .protfolio1-project1-img, .protfolio1-project2-img, .protfolio1-project3-img, .protfolio1-project4-img, .protfolio1-project5-img, .protfolio1-project6-img, .protfolio1-project7-img, .protfolio1-project8-img, .protfolio1-project9-img
-    {
+
+    .protfolio1-project1-img,
+    .protfolio1-project2-img,
+    .protfolio1-project3-img,
+    .protfolio1-project4-img,
+    .protfolio1-project5-img,
+    .protfolio1-project6-img,
+    .protfolio1-project7-img,
+    .protfolio1-project8-img,
+    .protfolio1-project9-img {
         width: 109px;
     }
 
-    .protfolio1-project1-img{
+    .protfolio1-project1-img {
         height: 198.65px;
     }
 
-    .protfolio1-project2-img, .protfolio1-project4-img{
+    .protfolio1-project2-img,
+    .protfolio1-project4-img {
         height: 182px;
     }
 
-    .protfolio1-project3-img{
+    .protfolio1-project3-img {
         height: 248.35px;
     }
 
-    .protfolio1-project5-img{
+    .protfolio1-project5-img {
         height: 196.19px;
     }
 
-    .protfolio1-project6-img{
+    .protfolio1-project6-img {
         height: 250.82px;
     }
 
-    .protfolio1-project7-img{
+    .protfolio1-project7-img {
         height: 189.58px;
     }
 
-    .protfolio1-project8-img{
+    .protfolio1-project8-img {
         height: 246.65px;
     }
 
-    .protfolio1-project9-img{
+    .protfolio1-project9-img {
         height: 192.77px;
     }
 
-    .portfolio1-more-projects-out{
+    .portfolio1-more-projects-out {
         padding: 20px 0 32px 0;
     }
 
-    .prot1-proj1-pages{
+    .prot1-proj1-pages {
         margin: 0 79px;
     }
+
     /****************************** portfolio page 1 *********************************/
 
     /****************************** portfolio page 2 *********************************/
 
-    .protfolio2-projs-images{
+    .protfolio2-projs-images {
         width: 343px;
         height: 393px;
     }
@@ -6083,7 +6226,7 @@ line-height: 20px;
         padding: 0;
     }
 
-    .prot2-projs-images{
+    .prot2-projs-images {
         margin: 32px 0 0 0;
     }
 
@@ -6091,7 +6234,7 @@ line-height: 20px;
         margin-left: 0;
     }
 
-    .portfolio2-project-title{
+    .portfolio2-project-title {
         margin-left: 0;
         margin-bottom: 0;
     }
@@ -6101,6 +6244,7 @@ line-height: 20px;
     .portfolio2-more-projects-out {
         padding: 64px 0 32px 0;
     }
+
     /****************************** portfolio page 2 *********************************/
 
     /****************************** contact page 1 *********************************/
@@ -6112,55 +6256,60 @@ line-height: 20px;
         padding: 40px 0;
     }
 
-    .contact1-checkbox{
+    .contact1-checkbox {
         padding: 0;
     }
 
-    .contact2-form-h1{
+    .contact2-form-h1 {
         margin-bottom: 48px;
         font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
+        font-size: 24px;
+        line-height: 32px;
     }
+
     /****************************** contact page 1 *********************************/
 
     /****************************** reset password page  *********************************/
 
-    .reset-email-input, .reset-pass-continue, .reset-email-form, .signup-google{
+    .reset-email-input,
+    .reset-pass-continue,
+    .reset-email-form,
+    .signup-google {
         width: 327px;
-     }
+    }
 
-     .reset-pass-content {
+    .reset-pass-content {
         margin: 211px 0;
     }
+
     /****************************** reset password page  *********************************/
 
     /****************************** sign up page  *********************************/
-    .forgot-pass-link{
+    .forgot-pass-link {
         padding-left: 9px;
     }
 
-    .error-image{
-    width: 315.42px;
-    height: 245.65px;
+    .error-image {
+        width: 315.42px;
+        height: 245.65px;
     }
 
-    .not-found404{
+    .not-found404 {
         padding: 16px;
     }
 
     /****************************** sign up page  *********************************/
 
-     /****************************** error pages  *********************************/
-     .error-default-card{
+    /****************************** error pages  *********************************/
+    .error-default-card {
         width: 163.5px;
-     }
+    }
 
-     .error2-search-input{
+    .error2-search-input {
         width: 343px;
     }
 
-    .error-default-card{
+    .error-default-card {
         padding: 40px;
         margin-top: 16px;
     }
@@ -6169,33 +6318,32 @@ line-height: 20px;
         font-size: 36px;
     }
 
-    .onboarding-password-input, .onboarding-email-input{
+    .onboarding-password-input,
+    .onboarding-email-input {
         width: 295px;
-     }
-     
-     .onboarding-email-form{
+    }
+
+    .onboarding-email-form {
         padding: 24px;
         width: 343px;
-     }
+    }
 
-     .onboarding-inner{
+    .onboarding-inner {
         margin: 0 16px;
         width: 343px;
-     }
+    }
 
-     .hr-dottedline{
+    .hr-dottedline {
         width: 47px;
-     }
+    }
 
-     .onboarding-map-names {
+    .onboarding-map-names {
         padding: 0 21px 0 29px;
     }
+
     /****************************** error pages  *********************************/
 }
-@media screen and (max-width:900px){}
-@media screen and (max-width:1200px){}
-@media screen and (max-width:1800px){}
-@media screen and (max-width:2400px){}
+
+@media screen and (max-width:280px) {}
+
 /************************ @media Queries *************************/
-
-
