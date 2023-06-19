@@ -6344,6 +6344,1298 @@ button{
     /****************************** error pages  *********************************/
 }
 
-@media screen and (max-width:280px) {}
+@media screen and (max-width:280px) {
+    
+    .display-mediaqer {
+        display: block;
+    }
+
+    /********** landing page 1 *************/
+
+    /********** navigation bar *************/
+    /* .nav-bar {
+        padding: 20px 0;
+    } */
+    /********** navigation bar *************/
+
+    /********** hero base *************/
+
+    .heroBaseHead {
+        /* text-align: -webkit-center; */
+        width: 21.438rem;
+        padding: 24px 0;
+    }
+
+    .heroBaseOuter div h1 {
+        width: 343px;
+        font-size: 36px;
+        font-weight: 600;
+        padding: 0;
+    }
+
+    .heroBaseOuter div p {
+        width: 343px;
+    }
+
+    .btn-getStarted {
+        width: 343px;
+        margin-bottom: 24px;
+    }
+
+    .btn-contactUs {
+        width: 343px;
+        margin-left: 0;
+    }
+
+    .ourChannel-img {
+        object-fit: contain;
+        width: 375px;
+        height: 173px;
+    }
+
+    /********** hero base *************/
+
+    /********** our channel review *************/
+    .channelCards {
+        width: 23.438rem;
+    }
+
+    .channelCard {
+        width: 340px;
+        margin: 12px 20px 12px 20px;
+
+    }
+
+    .btn-reveal {
+        margin: 32px 0;
+    }
+
+    /********** our channel review *************/
+
+    /********** redefining product features *************/
+    .redefining-section,
+    .demonstrate-section,
+    .check-section {
+        padding: 32px 0;
+    }
+
+    .allHeads {
+        width: 343px;
+        padding: 32px 0 32px 0;
+    }
+
+    .content-div {
+        max-width: 375px;
+    }
+
+    .des-body {
+        width: 343px;
+        margin-left: 16px;
+    }
+
+    .redefining-p {
+        padding-top: 5%;
+    }
+
+    .redefining-h2,
+    .demonstrate-h2,
+    .check-h2 {
+        font-size: 1.75rem;
+        line-height: 36px;
+    }
+
+    .des-img {
+        object-fit: cover;
+        width: 343px;
+        height: 343px;
+    }
+
+    .des-btn {
+        padding: 12px 18px;
+        font-weight: 600;
+        margin-top: 32px;
+    }
+
+    .check-body {
+        width: 343px;
+        margin: 32px 16px;
+        /* width: 44rem; */
+    }
+
+    .land1-images-end,
+    .land1-images-center {
+        text-align: center;
+    }
+
+    .profile-card-container {
+        width: 379px;
+        height: 343px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .land1-profile-status {
+        display: flex;
+        padding: 4px;
+        width: 328px;
+        border-radius: 20px;
+    }
+
+    .land1-profile-info p {
+        font-size: 11px;
+    }
+
+    .land1-profile-avatar {
+        width: 56px;
+        height: 56px;
+    }
+
+    .land1-images-center {
+        border-radius: 0px;
+    }
+
+    .center-icon i {
+        font-size: 50px;
+    }
+
+    .land1-images-1 {
+        width: 343px;
+    }
+
+    .land1-image-in-1-1,
+    .land1-image-in-1-2,
+    .land1-image-in-1-3,
+    .land1-image-in-1-4 {
+        width: 340px;
+        height: 225px;
+        margin: 5px;
+    }
+
+    .land1-checkus-out-image {
+        width: 350px;
+    }
+
+    .land1-image-end img {
+        width: 389px;
+        height: 395px;
+    }
+
+    /********** redefining product features *************/
+
+    /********** latest blog posts *************/
+    .blog-section {
+        padding: 32px 0;
+    }
+
+    .avatar-blogs {
+        width: 23.438rem;
+    }
+
+
+
+    .avatar-card {
+        margin: 0 16px;
+    }
+
+    /********** latest blog posts *************/
+
+    /********** email section *************/
+    .email-head h1 {
+        font-size: 1.625rem;
+        line-height: 42px;
+    }
+
+    .email-section {
+        padding: 40px 0;
+    }
+
+    .email-head {
+        width: 311px;
+
+    }
+
+    .email-content {
+        display: block;
+        width: 343px;
+        padding: 16px;
+
+    }
+
+    .email-submit {
+        width: 311px;
+    }
+
+
+    .email-submit button {
+        width: 311px;
+        border-radius: 6px;
+        margin-left: 0;
+    }
+
+    .email-submit input {
+        border-radius: 6px;
+        width: 311px;
+        margin-bottom: 5%;
+    }
+
+    /********** email section *************/
+
+    /********** what our customers say *************/
+    .reviewer {
+        width: 343px;
+    }
+
+    /********** footer scetion *************/
+    .land1-content-div {
+        padding: 0 16px;
+    }
+
+    .footer-section {
+        padding: 40px 0;
+    }
+
+    .footer-div {
+        grid-template-columns: 448px 192px 192px 192px 192px;
+    }
+
+    /********** footer scetion *************/
+    /********** landing page 1 *************/
+
+    /****************************** landing page 2 *********************************/
+
+
+    /********** landing2 hero base  *************/
+    .landing2_head {
+        width: 21.438rem;
+        padding: 24px 0;
+    }
+
+    .landing2_hero div h1 {
+        width: 343px;
+        font-size: 36px;
+        font-weight: 600;
+        padding: 0;
+    }
+
+    .land2-btn-contactUs {
+        width: 343px;
+        margin-left: 0;
+    }
+
+    /********** landing2 hero base  *************/
+
+    /********** landing2 redefining product features  *************/
+    .image3 {
+        display: none;
+    }
+
+    .image4 {
+        display: block;
+    }
+
+    /********** landing2 redefining product features  *************/
+
+
+    .land2-des-body-outer {
+        padding: 32px 0 0 0;
+    }
+
+    .land2-des-div {
+        width: 343px;
+        margin: 32px 16px;
+    }
+
+    .land2-card {
+        margin-left: 1.56rem;
+    }
+
+
+    /********** landing2 latest blog posts *************/
+    .land2-blog-section {
+        padding-bottom: 0;
+    }
+
+    .land2-card {
+        margin-left: 1.56rem;
+    }
+
+    .land2-blog1-main {
+        padding: 0;
+    }
+
+    .land2-blogs-main2 {
+        margin: 0;
+    }
+
+    .land2-avatar-blogs {
+        margin: 0 16px;
+    }
+
+    .land2-blog-imgs {
+        margin-bottom: 24px;
+    }
+
+    .land2-blog2 {
+        margin-left: 0;
+    }
+
+
+    /********** landing2 latest blog posts *************/
+
+    /********** landing2 email section *************/
+    .land2-email-head h1 {
+        font-size: 1.625rem;
+        line-height: 42px;
+    }
+
+    .land2-email-section {
+        padding: 40px 0;
+    }
+
+    .land2-email-head {
+        width: 311px;
+
+    }
+
+    .land2-email-content {
+        display: block;
+        width: 343px;
+        padding: 16px;
+
+    }
+
+    .land2-email-submit {
+        width: 311px;
+    }
+
+
+    .land2-email-submit button {
+        width: 311px;
+        border-radius: 6px;
+        margin-left: 0;
+    }
+
+    .land2-email-submit input {
+        border-radius: 6px;
+        width: 311px;
+        margin-bottom: 5%;
+    }
+
+    /********** landing2 email section *************/
+
+    /****************************** landing page 2 *********************************/
+
+
+    /****************************** landing page 3 *********************************/
+
+    /********** navigation bar *************/
+    .land3-navbar {
+        padding: 20px 0;
+    }
+
+    /********** navigation bar *************/
+
+    /********** landing3 hero base  *************/
+    .land3-hero-section {
+        margin: 0 16px;
+    }
+
+    .hero-img {
+        background-image: url(../resources/land3-img3.png);
+        object-fit: cover;
+        background-repeat: no-repeat;
+        height: 380px;
+
+    }
+
+    .hero-img-avatar {
+        position: relative;
+        left: 5.5rem;
+        top: 6.5rem;
+    }
+
+    .land3-head {
+        width: 21.438rem;
+        padding: 24px 0;
+    }
+
+    .land3-head h1 {
+        width: 343px;
+        font-size: 36px;
+        font-weight: 600;
+        padding: 0;
+    }
+
+    .hero-supportus {
+        height: 104px;
+        text-align: center;
+    }
+
+    .hero-supportus p {
+        text-align: left;
+    }
+
+    .land3-supportus {
+        margin-left: 16px;
+    }
+
+    /********** landing3 hero base  *************/
+
+    /********** landing3 Work Easier Today *************/
+
+    .land3-eaiserCards {
+        width: 339px;
+    }
+
+    .land3-eaiserCard {
+        padding: 0;
+    }
+
+    /********** landing3 Work Easier Today *************/
+
+
+    /********** landing3 demonstrate branding *************/
+    .land3-thank-msg {
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 600;
+    }
+
+    /********** landing3 demonstrate branding *************/
+
+    /********** landing3 demonstrate branding *************/
+    .land3-msg {
+        width: 343px;
+    }
+
+    /********** landing3 demonstrate branding *************/
+
+    /********** landing3 latest blog posts *************/
+
+    .land3-avatar-card {
+        margin: 0 0.9rem;
+        width: 21.5rem;
+    }
+
+    .land3-avatar-bg-img {
+        width: 343px;
+        height: 196px;
+        border-radius: 0.8rem;
+    }
+
+    .land3-avatar-title {
+        width: 100%;
+        margin-top: 0;
+        font-size: 20px
+    }
+
+    /********** landing3 latest blog posts  *************/
+
+    /********** landing3 proud to be used by *************/
+    .cp-img {
+        width: 343px;
+    }
+
+    .cp-div-img {
+        text-align: center;
+    }
+
+    /********** landing3 proud to be used by *************/
+
+    /********** landing3 email section *************/
+    .land3-email-head {
+        width: 375px;
+    }
+
+    .land3-email-submit {
+        margin-left: 1rem;
+        width: 343px;
+    }
+
+
+    .land3-email-submit button {
+        width: 343px;
+        border-radius: 6px;
+        margin-left: 0;
+    }
+
+    .land3-email-submit input {
+        border-radius: 6px;
+        width: 343px;
+        margin-bottom: 5%;
+    }
+
+    /********** landing3 email section *************/
+
+    /********** landing3 footer section *************/
+    .land3-copyright-div {
+        width: 343px;
+    }
+
+    .land3-media-links {
+        text-align: center;
+    }
+
+    .land3-media-links .btn {
+        margin-right: 16px;
+    }
+
+    .land3-email-submit2 input {
+        width: 255px;
+    }
+
+    /********** landing3 footer section *************/
+
+    /****************************** landing page 3 *********************************/
+
+    /****************************** landing page 4 *********************************/
+    .display-grid {
+        display: grid;
+    }
+
+    /********** landing4 hero base *************/
+
+    .land4-hero-section {
+        margin: 0 4px;
+    }
+
+    .land4-head {
+        width: 100%;
+
+    }
+
+    .land4-head h1 {
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+
+    .land4-hero-imgdiv {
+        text-align: center;
+    }
+
+    .land4-hero-img {
+        width: 343px;
+        margin-bottom: 32px;
+    }
+
+    .land4-email-submit input {
+        border-radius: 6px;
+        width: 343px;
+        margin-bottom: 5%;
+    }
+
+    .land4-email-submit button {
+        width: 343px;
+        border-radius: 6px;
+        margin-left: 0;
+    }
+
+    .land4-product-des {
+        margin: 32px 16px 0 16px;
+    }
+
+    .justify-normal {
+        justify-content: normal !important;
+        align-self: center;
+        margin-bottom: 2rem;
+    }
+
+    .icon-centering {
+        padding: 0;
+        align-self: center;
+        text-align: center;
+    }
+
+    /********** landing4 hero base *************/
+
+    /********** landing4 redefining product features *************/
+
+    .land4-branding-img {
+        object-fit: cover;
+        width: 343px;
+        height: 343px;
+        margin-left: 16px;
+    }
+
+    .land4-check-body {
+        width: 343px;
+        margin: 0 16px;
+    }
+
+    /********** landing4 redefining product features *************/
+
+    /********** landing4 what our customers say  *************/
+    .land4-eaiserCards {
+        margin: 0 16px;
+    }
+
+    .land4-eaiserCard {
+        margin-left: 0;
+        width: 343px;
+    }
+
+    .land4-media-icon {
+        margin-left: 15px;
+    }
+
+    /********** landing4 what our customers say  *************/
+
+
+    /********** landing4 footer section *************/
+    .land4-footer-links {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .land4-footer-abtus {
+        padding: 0 !important;
+    }
+
+    .land4-footer-content {
+        margin: 0 1rem 24px 1rem;
+    }
+
+    .land4-copyright-div {
+        margin: 0 1rem 2rem 1rem;
+    }
+
+    .land4-terms {
+        text-align: left;
+    }
+
+    /********** landing4 footer section *************/
+
+    /****************************** landing page 4 *********************************/
+
+
+    /****************************** about page 1 *********************************/
+    .about1-head {
+        padding: 32px 8px;
+    }
+
+    .about1-head-h1 {
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+
+    .abt-btn-contactUs {
+        width: 343px;
+        margin-bottom: 24px;
+    }
+
+    .abt-hero-img {
+        object-fit: contain;
+        width: 310px;
+        margin-top: 30px;
+    }
+
+    .abt-des-img {
+        margin: 0;
+    }
+
+    .following-section {
+        padding: 32px 0;
+    }
+
+    .following-section-row {
+        margin: 0 16px;
+    }
+
+    .abt-channelsOuter {
+        margin: 0 16px;
+    }
+
+    .abt-channelCard {
+        margin-left: 0;
+    }
+
+    .abt-redefining-section {
+        padding: 32px 0;
+        margin: 0 16px;
+    }
+
+    .abt-des-img {
+        padding-bottom: 32px;
+    }
+
+    .abt-des-imgout {
+        padding-bottom: 0;
+    }
+
+    .abt-des-body {
+        margin: 0;
+    }
+
+    .abt-core-team {
+        margin: 0 16px;
+    }
+
+    .core-members-img {
+        object-fit: cover;
+        width: 343px;
+        height: 308px;
+        border-radius: 5px;
+        margin-bottom: 16px;
+    }
+
+    .abt-ques-h5 {
+        margin: 28px 0;
+    }
+
+    .abt-footer {
+        padding-bottom: 32px;
+    }
+
+    .abt-content-div {
+        max-width: 343px;
+    }
+
+    .abt1-input {
+        width: 255px;
+    }
+
+    /****************************** about page 1 *********************************/
+
+    /********** about page hero base  *************/
+    .abt2-head {
+        margin: 32px 16px 40px 16px;
+        text-align: center;
+    }
+
+    .abt2-head h1 {
+        font-size: 36px;
+        line-height: 44px;
+        margin: 16px 0;
+        font-weight: 600;
+    }
+
+    /********** about page hero base  *************/
+    .abt-email-section {
+
+        padding: 32px 0;
+    }
+
+    .abt2-cmp-outer {
+        text-align: center;
+    }
+
+    .abt2-cmp-logos {
+        padding: 32px 16px;
+    }
+
+    .abt2-cmp-logo {
+        margin-bottom: 32px;
+    }
+
+    .abt2-768-logo {
+        margin-top: 0;
+    }
+
+    .abt-btn-signup,
+    .abt-btn-login {
+        width: 343px;
+    }
+
+    .abt-btn-login {
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    /****************************** about page 2 *********************************/
+
+    /****************************** pricing page 1 *********************************/
+    .btn-monthly,
+    .btn-yearly {
+        width: 164.5px;
+    }
+
+    .pricing1-customer-review {
+        text-align: center;
+        margin: 0;
+    }
+
+    .stars-div {
+        margin-top: 12px;
+    }
+
+    /****************************** pricing page 1 *********************************/
+
+    /****************************** pricing page 2 *********************************/
+
+    .pricing2-btn-monthly,
+    .pricing2-btn-yearly {
+        width: 164.5px;
+    }
+
+    .pricing1-section-in {
+        margin: 0 16px;
+    }
+
+    .pricing2-plan-card {
+        width: 343px;
+    }
+
+    .buynow-btn {
+        width: 295px;
+    }
+
+    .pricing2-plan-card2 {
+        margin-left: 0;
+    }
+
+    .redefining-img-position {
+        text-align: center;
+    }
+
+    .pricing2-customer-review {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .pricing2-email-head {
+        margin: 0 16px;
+    }
+
+    .pricing2-btn-signup,
+    .pricing2-btn-login {
+        width: 343px;
+    }
+
+    .pricing2-btn-login {
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .pricing2-footer {
+        padding: 0 16px;
+    }
+
+    .pricing1--customer-avatar {
+        text-align: center;
+    }
+
+
+    /****************************** pricing page 2 *********************************/
+
+    /****************************** help&support 1 *********************************/
+    .help1-support-des {
+        margin: 24px 16px 0 16px;
+    }
+
+    .help1-img {
+        width: 343px;
+    }
+
+    .contact-phone {
+        margin: 0 16px;
+        margin-bottom: 16px;
+    }
+
+    .help1-head-help1 {
+        margin: 32px 16px;
+    }
+
+    .contact-info {
+        padding-bottom: 16px;
+    }
+
+    /****************************** help&support 1 *********************************/
+
+    /****************************** help & support page 2 *********************************/
+    .abt-ques {
+        margin: 0 32px;
+    }
+
+    .ques-drop {
+        text-align: center;
+    }
+
+    .help2-profile-btn {
+        margin: 32px 0;
+    }
+
+    .help1-assistance-div {
+        margin: 0 16px;
+    }
+
+    .help2-eaiser {
+        margin: 0;
+        padding: 16px;
+    }
+
+    /****************************** help & support page 2 *********************************/
+
+    /****************************** career page 1 *********************************/
+    .career1-img2 {
+        width: 375px;
+    }
+
+    .role-btn {
+        width: 311px;
+    }
+
+    .career1-ourteam {
+        margin: 0 16px;
+    }
+
+    .role-sec-h6 {
+        margin: 0 16px;
+    }
+
+    .career1-img1 {
+        width: 343px;
+        height: 343px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .ourteam-individual-p,
+    .ourteam-des-p {
+        margin: 0 16px;
+    }
+
+    .career1-ourteam-category {
+        margin: 0 16px;
+    }
+
+    .career1-head-h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .career1-cust1 {
+        border: 1px solid var(--neutral_600);
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+        border-radius: 10px;
+
+    }
+
+    /****************************** career page 1 *********************************/
+
+    /****************************** career page 2 *********************************/
+    .career2-form-section {
+        padding: 40px 0;
+    }
+
+    .career2-description-section {
+        padding: 32px 0;
+    }
+
+    .career2-description-div {
+        margin: 0 16px;
+    }
+
+    .career2-form-div {
+        margin: 0 16px;
+    }
+
+    .full-name,
+    .email-input {
+        width: 295px;
+    }
+
+    .input-group .resume-input {
+        width: 207px;
+    }
+
+    .career2-contact-form {
+        padding: 16px;
+    }
+
+    .career2-submit-div {
+        padding: 0;
+        display: grid;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .career2-form-btn {
+        width: 295px;
+        margin-bottom: 16px;
+    }
+
+    /****************************** career page 2 *********************************/
+
+    /****************************** blog page 1 *********************************/
+
+    .blogs-pg-card-img {
+        width: 343px;
+        height: 185px;
+    }
+
+    /****************************** blog page 1 *********************************/
+
+    /****************************** blog page 2  *********************************/
+    .blog-post-search {
+        padding: 16px 0;
+        width: 343px;
+    }
+
+    .blogs-input-search {
+        width: 256px;
+    }
+
+    .blog-search-form {
+        margin: 24px 0 16px 0;
+
+    }
+
+    /****************************** blog page 2  *********************************/
+
+    /****************************** blog post page 1 *********************************/
+    .blog-post-img1 {
+        width: 343px;
+        height: 129px;
+    }
+
+    .blog-post-img2 {
+        width: 343px;
+        height: 313px;
+    }
+
+    /****************************** blog post page 1 *********************************/
+
+    /****************************** blog post page 2 *********************************/
+
+    .test1 {
+        height: 584px;
+    }
+
+    .blog-pst2-imgin {
+        height: 310px;
+        margin: 0 16px;
+        padding-bottom: 24px;
+    }
+
+    .blog-pst2-img1 {
+        top: -140px;
+        width: 343px;
+        height: 426px;
+    }
+
+    .blogpst2-email-section {
+        padding: 32px 16px;
+    }
+
+    .blogpst2-email-head {
+        padding-top: 16px;
+    }
+
+    .blogpst2-email-message {
+        padding: 16px;
+    }
+
+    .blog2-post-btn {
+        width: 311px;
+    }
+
+    .iphone-image {
+        margin-top: 18px;
+    }
+
+    .iphone-image-out {
+        margin: 0 16px;
+    }
+
+    /****************************** blog post page 2 *********************************/
+
+    /****************************** portfolio page 1 *********************************/
+    .potfolio1-section-in {
+        margin: 0 12px;
+    }
+
+    .prot1-proj1-images {
+        margin: 4px;
+    }
+
+    .protfolio1-project-gallery {
+        padding-top: 40px;
+    }
+
+    .protfolio1-project1-img,
+    .protfolio1-project2-img,
+    .protfolio1-project3-img,
+    .protfolio1-project4-img,
+    .protfolio1-project5-img,
+    .protfolio1-project6-img,
+    .protfolio1-project7-img,
+    .protfolio1-project8-img,
+    .protfolio1-project9-img {
+        width: 109px;
+    }
+
+    .protfolio1-project1-img {
+        height: 198.65px;
+    }
+
+    .protfolio1-project2-img,
+    .protfolio1-project4-img {
+        height: 182px;
+    }
+
+    .protfolio1-project3-img {
+        height: 248.35px;
+    }
+
+    .protfolio1-project5-img {
+        height: 196.19px;
+    }
+
+    .protfolio1-project6-img {
+        height: 250.82px;
+    }
+
+    .protfolio1-project7-img {
+        height: 189.58px;
+    }
+
+    .protfolio1-project8-img {
+        height: 246.65px;
+    }
+
+    .protfolio1-project9-img {
+        height: 192.77px;
+    }
+
+    .portfolio1-more-projects-out {
+        padding: 20px 0 32px 0;
+    }
+
+    .prot1-proj1-pages {
+        margin: 0 79px;
+    }
+
+    /****************************** portfolio page 1 *********************************/
+
+    /****************************** portfolio page 2 *********************************/
+
+    .protfolio2-projs-images {
+        width: 343px;
+        height: 393px;
+    }
+
+    .protfolio2-project-gallery {
+        padding: 0;
+    }
+
+    .prot2-projs-images {
+        margin: 32px 0 0 0;
+    }
+
+    .portfolio2-project-des {
+        margin-left: 0;
+    }
+
+    .portfolio2-project-title {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+
+
+    .portfolio2-more-projects-out {
+        padding: 64px 0 32px 0;
+    }
+
+    /****************************** portfolio page 2 *********************************/
+
+    /****************************** contact page 1 *********************************/
+    .contact1-form-div {
+        margin: 0;
+    }
+
+    .contact1-form-section {
+        padding: 40px 0;
+    }
+
+    .contact1-checkbox {
+        padding: 0;
+    }
+
+    .contact2-form-h1 {
+        margin-bottom: 48px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /****************************** contact page 1 *********************************/
+
+    /****************************** reset password page  *********************************/
+
+    .reset-email-input,
+    .reset-pass-continue,
+    .reset-email-form,
+    .signup-google {
+        width: 327px;
+    }
+
+    .reset-pass-content {
+        margin: 211px 0;
+    }
+
+    /****************************** reset password page  *********************************/
+
+    /****************************** sign up page  *********************************/
+    .forgot-pass-link {
+        padding-left: 9px;
+    }
+
+    .error-image {
+        width: 315.42px;
+        height: 245.65px;
+    }
+
+    .not-found404 {
+        padding: 16px;
+    }
+
+    /****************************** sign up page  *********************************/
+
+    /****************************** error pages  *********************************/
+    .error-default-card {
+        width: 163.5px;
+    }
+
+    .error2-search-input {
+        width: 343px;
+    }
+
+    .error-default-card {
+        padding: 40px;
+        margin-top: 16px;
+    }
+
+    .error2-message-head {
+        font-size: 36px;
+    }
+
+    .onboarding-password-input,
+    .onboarding-email-input {
+        width: 295px;
+    }
+
+    .onboarding-email-form {
+        padding: 24px;
+        width: 343px;
+    }
+
+    .onboarding-inner {
+        margin: 0 16px;
+        width: 343px;
+    }
+
+    .hr-dottedline {
+        width: 47px;
+    }
+
+    .onboarding-map-names {
+        padding: 0 21px 0 29px;
+    }
+
+    /****************************** error pages  *********************************/
+}
 
 /************************ @media Queries *************************/
